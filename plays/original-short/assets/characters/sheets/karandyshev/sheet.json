@@ -1,0 +1,19 @@
+{
+  "entity_id": "Карандышев",
+  "profile": "zhestokiy-romans-watercolor-v1",
+  "version": 1,
+  "image": "sheet.png",
+  "sources": [
+    "wiki/protagonists/Карандышев.bespridannica.md",
+    "source/bespridannica/bychapter/section-02#^b0005"
+  ],
+  "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+  "prompt_file": "prompt.txt",
+  "reference_files": [
+    "assets/references/c039-Лариса Огудалова.bespridannica.charsheet.png"
+  ],
+  "artistic_choices": [
+    "Молодой небогатый чиновник; очки и скромный костюм — визуальная интерпретация.",
+    "Самолюбие и напряжённость переданы позой, без превращения в пожилого человека."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "entity_id": "Лариса Огудалова",
+  "profile": "zhestokiy-romans-watercolor-v1",
+  "version": 1,
+  "image": "sheet.png",
+  "sources": [
+    "wiki/protagonists/Лариса Огудалова.bespridannica.md",
+    "source/bespridannica/bychapter/section-02#^b0002"
+  ],
+  "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+  "prompt_file": "prompt.txt",
+  "reference_files": [
+    "assets/references/c000-larisa-film.jpg"
+  ],
+  "artistic_choices": [
+    "Молодая незамужняя девушка; в тексте сказано «одета богато, но скромно».",
+    "Тёмные косы, светлое платье и общая пластика — художественная отсылка к фильму «Жестокий романс» (1984), не книжная реконструкция."
+  ]
+}

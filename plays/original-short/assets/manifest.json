@@ -1,0 +1,1618 @@
+{
+  "version": 1,
+  "fonts": {
+    "regular": "assets/fonts/PT_Sans-Web-Regular.ttf",
+    "bold": "assets/fonts/PT_Sans-Web-Bold.ttf",
+    "license": "assets/fonts/OFL.txt"
+  },
+  "assets": {
+    "larisa-neutral": {
+      "file": "assets/characters/larisa/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/larisa/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/larisa/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Лариса Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/larisa-neutral.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "465541ae65423ba0713c3cb0b1a56b6dd9e9b83695a9aa19cd5a7d1183b88270",
+      "bounds": [
+        167,
+        16,
+        345,
+        498
+      ]
+    },
+    "larisa-happy": {
+      "file": "assets/characters/larisa/happy.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/larisa/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/larisa/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Лариса Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/larisa-happy.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "71d96187bf63a5af0a301eb234ba7b7af3cc0792018f7fa5675608b62f906350",
+      "bounds": [
+        167,
+        16,
+        346,
+        497
+      ]
+    },
+    "larisa-sad": {
+      "file": "assets/characters/larisa/sad.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/larisa/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/larisa/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Лариса Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/larisa-sad.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "2568bd83b44c2f1fcc555c75dd00a8a097fdf7943e9345bd23036cd90362a624",
+      "bounds": [
+        168,
+        16,
+        346,
+        498
+      ]
+    },
+    "larisa-surprised": {
+      "file": "assets/characters/larisa/surprised.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/larisa/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/larisa/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Лариса Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/larisa-surprised.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "5859f3e792c76c394f8c32048442ac0ab9a8d952259a8541917054ca6f8f4f05",
+      "bounds": [
+        167,
+        16,
+        345,
+        498
+      ]
+    },
+    "larisa-angry": {
+      "file": "assets/characters/larisa/angry.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/larisa/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/larisa/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Лариса Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/larisa-angry.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "214694f5a859aef165d6ddcf69748a3f030baba34f0879831cb66f4b4b99b646",
+      "bounds": [
+        167,
+        16,
+        346,
+        498
+      ]
+    },
+    "larisa-disgusted": {
+      "file": "assets/characters/larisa/disgusted.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/larisa/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/larisa/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Лариса Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/larisa-disgusted.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "9c935fd85479c310d941a624b630bc403898c5fdaa3efd6ce410e1222fdcb79b",
+      "bounds": [
+        168,
+        15,
+        346,
+        498
+      ]
+    },
+    "harita-neutral": {
+      "file": "assets/characters/harita/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/harita/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/harita/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Харита Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/harita-neutral.txt",
+        "references": [
+          "assets/characters/sheets/harita/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "f39911375fbeca79386ba0faa73b03b6d82668c0f72a205ca50ac6cacf727264",
+      "bounds": [
+        169,
+        10,
+        350,
+        503
+      ]
+    },
+    "harita-happy": {
+      "file": "assets/characters/harita/happy.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/harita/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/harita/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Харита Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/harita-happy.txt",
+        "references": [
+          "assets/characters/sheets/harita/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "0afbbdfbed6484100b79e3e977dcffa9dde73df7a9d27a1086ae7c9c5d237e94",
+      "bounds": [
+        168,
+        10,
+        351,
+        503
+      ]
+    },
+    "harita-sad": {
+      "file": "assets/characters/harita/sad.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/harita/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/harita/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Харита Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/harita-sad.txt",
+        "references": [
+          "assets/characters/sheets/harita/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "92fb395b88264c45ae850e5ccfa80858deb8f9b6982ace137f91a334b6794bcc",
+      "bounds": [
+        166,
+        11,
+        348,
+        503
+      ]
+    },
+    "harita-surprised": {
+      "file": "assets/characters/harita/surprised.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/harita/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/harita/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Харита Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/harita-surprised.txt",
+        "references": [
+          "assets/characters/sheets/harita/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "e3ad8cc39fcdbf6741c82bf21c7970307475b33bbd2d125e7730d2730d29f491",
+      "bounds": [
+        165,
+        9,
+        352,
+        503
+      ]
+    },
+    "harita-angry": {
+      "file": "assets/characters/harita/angry.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/harita/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/harita/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Харита Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/harita-angry.txt",
+        "references": [
+          "assets/characters/sheets/harita/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "0a1f6eebbc4dce6f1f16f94dc83a1e08f07ebe08b643767132260b2fd534089d",
+      "bounds": [
+        167,
+        8,
+        352,
+        503
+      ]
+    },
+    "harita-disgusted": {
+      "file": "assets/characters/harita/disgusted.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/harita/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/harita/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Харита Огудалова",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/harita-disgusted.txt",
+        "references": [
+          "assets/characters/sheets/harita/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "9313f64fc24b630a1a533a59adf2acaa2b4a164e4de73428f41834ebd3790bd6",
+      "bounds": [
+        170,
+        10,
+        351,
+        503
+      ]
+    },
+    "paratov-neutral": {
+      "file": "assets/characters/paratov/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/paratov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/paratov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Паратов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/paratov-neutral.txt",
+        "references": [
+          "assets/characters/sheets/paratov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "ad5ac88a09e040dd661b311f407e5a8e9b7986e4f3a95bec5ede61273175d49b",
+      "bounds": [
+        174,
+        11,
+        340,
+        500
+      ]
+    },
+    "paratov-happy": {
+      "file": "assets/characters/paratov/happy.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/paratov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/paratov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Паратов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/paratov-happy.txt",
+        "references": [
+          "assets/characters/sheets/paratov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "29738ba488c28116e9da95e9df24da4b4b73b656b831975a9596bc1b553abf49",
+      "bounds": [
+        174,
+        11,
+        341,
+        500
+      ]
+    },
+    "paratov-sad": {
+      "file": "assets/characters/paratov/sad.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/paratov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/paratov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Паратов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/paratov-sad.txt",
+        "references": [
+          "assets/characters/sheets/paratov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "e8fe99855106c1d76a78685590c43d161e6c4438e7ebb8a6718d0bd39c212ddc",
+      "bounds": [
+        175,
+        11,
+        342,
+        500
+      ]
+    },
+    "paratov-surprised": {
+      "file": "assets/characters/paratov/surprised.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/paratov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/paratov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Паратов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/paratov-surprised.txt",
+        "references": [
+          "assets/characters/sheets/paratov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "5c3b851be134615be0858ed57d2e708cfddb4ade5d02ed61b4d6dd670919a1a5",
+      "bounds": [
+        174,
+        8,
+        340,
+        500
+      ]
+    },
+    "paratov-angry": {
+      "file": "assets/characters/paratov/angry.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/paratov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/paratov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Паратов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/paratov-angry.txt",
+        "references": [
+          "assets/characters/sheets/paratov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "c8ea90c5e425528e55cba2d06df98b646cce1f9f19c28f71147e302295bf89f4",
+      "bounds": [
+        175,
+        8,
+        341,
+        500
+      ]
+    },
+    "paratov-disgusted": {
+      "file": "assets/characters/paratov/disgusted.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/paratov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/paratov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Паратов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/paratov-disgusted.txt",
+        "references": [
+          "assets/characters/sheets/paratov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "97872ebd37c9d58fd8eda015291e18788ba3c9096793a618f200605a46ec381d",
+      "bounds": [
+        176,
+        8,
+        340,
+        500
+      ]
+    },
+    "karandyshev-neutral": {
+      "file": "assets/characters/karandyshev/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/karandyshev/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/karandyshev/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Карандышев",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-neutral.txt",
+        "references": [
+          "assets/characters/sheets/karandyshev/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "0ee300ee646230824b0f4358b9509b8f8ce6243ee2efdf1bf9acba38b00abc72",
+      "bounds": [
+        185,
+        16,
+        328,
+        500
+      ]
+    },
+    "karandyshev-happy": {
+      "file": "assets/characters/karandyshev/happy.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/karandyshev/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/karandyshev/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Карандышев",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-happy.txt",
+        "references": [
+          "assets/characters/sheets/karandyshev/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "ede17210215f50bad05f36069c87b080ebf4ded5c305768a4636d8e974c266a0",
+      "bounds": [
+        185,
+        21,
+        327,
+        501
+      ]
+    },
+    "karandyshev-sad": {
+      "file": "assets/characters/karandyshev/sad.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/karandyshev/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/karandyshev/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Карандышев",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-sad.txt",
+        "references": [
+          "assets/characters/sheets/karandyshev/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "cd0171af783d24d0ebe80dc7f966a4f082851b256e8ad00e6104768151768d64",
+      "bounds": [
+        185,
+        21,
+        326,
+        500
+      ]
+    },
+    "karandyshev-surprised": {
+      "file": "assets/characters/karandyshev/surprised.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/karandyshev/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/karandyshev/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Карандышев",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-surprised.txt",
+        "references": [
+          "assets/characters/sheets/karandyshev/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "38f2ce05520aa73082d488b4009c62d1c84862ca866e5c12260995c5fb5a3d79",
+      "bounds": [
+        182,
+        15,
+        329,
+        501
+      ]
+    },
+    "karandyshev-angry": {
+      "file": "assets/characters/karandyshev/angry.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/karandyshev/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/karandyshev/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Карандышев",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-angry.txt",
+        "references": [
+          "assets/characters/sheets/karandyshev/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "dc314f0eae6e4da04f1d8618c6497cf48481a8d2fa934e81be8b53757e5e37fa",
+      "bounds": [
+        184,
+        18,
+        329,
+        500
+      ]
+    },
+    "karandyshev-disgusted": {
+      "file": "assets/characters/karandyshev/disgusted.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/karandyshev/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/karandyshev/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Карандышев",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-disgusted.txt",
+        "references": [
+          "assets/characters/sheets/karandyshev/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "88823ec7d38f21a0926f4b37acc9919a781d5b6535cf62778b42a1902bc9f0af",
+      "bounds": [
+        185,
+        16,
+        328,
+        500
+      ]
+    },
+    "knurov-neutral": {
+      "file": "assets/characters/knurov/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/knurov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/knurov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Кнуров",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/knurov-neutral.txt",
+        "references": [
+          "assets/characters/sheets/knurov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "c539dce43c9e4b029e5a97679c0f7e0881bb5d9b1a4d28cd2e0d2fb819edf61e",
+      "bounds": [
+        153,
+        17,
+        361,
+        502
+      ]
+    },
+    "knurov-happy": {
+      "file": "assets/characters/knurov/happy.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/knurov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/knurov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Кнуров",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/knurov-happy.txt",
+        "references": [
+          "assets/characters/sheets/knurov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "bee880363d63f0e794d267b24c409c0c316dd2351ef82b85fb8c8270b6f703f8",
+      "bounds": [
+        152,
+        17,
+        360,
+        502
+      ]
+    },
+    "knurov-sad": {
+      "file": "assets/characters/knurov/sad.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/knurov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/knurov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Кнуров",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/knurov-sad.txt",
+        "references": [
+          "assets/characters/sheets/knurov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "4fd4496d235fffa47bafb6925e99928fdde47cc64064ec276a91df92cb9dfe21",
+      "bounds": [
+        158,
+        23,
+        366,
+        502
+      ]
+    },
+    "knurov-surprised": {
+      "file": "assets/characters/knurov/surprised.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/knurov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/knurov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Кнуров",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/knurov-surprised.txt",
+        "references": [
+          "assets/characters/sheets/knurov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "0c74f0cd7b8b52b7ef09a2f8381641f153d4d01dc72f2a02570245fb4042c694",
+      "bounds": [
+        153,
+        17,
+        364,
+        502
+      ]
+    },
+    "knurov-angry": {
+      "file": "assets/characters/knurov/angry.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/knurov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/knurov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Кнуров",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/knurov-angry.txt",
+        "references": [
+          "assets/characters/sheets/knurov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "c35935e0217e42f4a421a8f096a15eb2bd5bf03cdf538c6811e6e9d4b7243238",
+      "bounds": [
+        150,
+        16,
+        364,
+        501
+      ]
+    },
+    "knurov-disgusted": {
+      "file": "assets/characters/knurov/disgusted.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/knurov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/knurov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Кнуров",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/knurov-disgusted.txt",
+        "references": [
+          "assets/characters/sheets/knurov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "ab4f2cd4b46d6f5b7d43949387c3b233344c56255ceacfa31faa64fc3f81b7b5",
+      "bounds": [
+        151,
+        19,
+        362,
+        502
+      ]
+    },
+    "vozhevatov-neutral": {
+      "file": "assets/characters/vozhevatov/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/vozhevatov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/vozhevatov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Вожеватов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/vozhevatov-neutral.txt",
+        "references": [
+          "assets/characters/sheets/vozhevatov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "c5d38be80416f3747cc607513e0706f4f8aeb55a34601c607ed2859a8723981b",
+      "bounds": [
+        184,
+        15,
+        329,
+        497
+      ]
+    },
+    "vozhevatov-happy": {
+      "file": "assets/characters/vozhevatov/happy.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/vozhevatov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/vozhevatov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Вожеватов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/vozhevatov-happy.txt",
+        "references": [
+          "assets/characters/sheets/vozhevatov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "f17bb71b40a2996236ac51a25da979b476af97cebf789edfac6b9e8cd1d3d708",
+      "bounds": [
+        184,
+        15,
+        329,
+        497
+      ]
+    },
+    "vozhevatov-sad": {
+      "file": "assets/characters/vozhevatov/sad.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/vozhevatov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/vozhevatov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Вожеватов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/vozhevatov-sad.txt",
+        "references": [
+          "assets/characters/sheets/vozhevatov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "46a88e668a9e0db0603c53f8dc6dda1508a58e1333a1f2494554378c950d05d0",
+      "bounds": [
+        184,
+        16,
+        330,
+        497
+      ]
+    },
+    "vozhevatov-surprised": {
+      "file": "assets/characters/vozhevatov/surprised.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/vozhevatov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/vozhevatov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Вожеватов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/vozhevatov-surprised.txt",
+        "references": [
+          "assets/characters/sheets/vozhevatov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "4c3057c370c2ba576dd614145f6e1cd53403ac33d4fe88b36fd5ec560368939b",
+      "bounds": [
+        184,
+        16,
+        329,
+        498
+      ]
+    },
+    "vozhevatov-angry": {
+      "file": "assets/characters/vozhevatov/angry.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/vozhevatov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/vozhevatov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Вожеватов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/vozhevatov-angry.txt",
+        "references": [
+          "assets/characters/sheets/vozhevatov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "4583736ebb63ed2f66407a3357cfce0f3b6ca4c06082a6dfae2b7537ac1153b0",
+      "bounds": [
+        184,
+        16,
+        330,
+        497
+      ]
+    },
+    "vozhevatov-disgusted": {
+      "file": "assets/characters/vozhevatov/disgusted.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/vozhevatov/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/vozhevatov/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Вожеватов",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/vozhevatov-disgusted.txt",
+        "references": [
+          "assets/characters/sheets/vozhevatov/sheet.png"
+        ]
+      },
+      "size": [
+        512,
+        512
+      ],
+      "sha256": "b268ae8e1ac6b6458696ee2c4d1cf0bcef5b68eb075dc552ff7d90b6d90e5d62",
+      "bounds": [
+        184,
+        16,
+        330,
+        498
+      ]
+    },
+    "robinson-neutral": {
+      "file": "assets/characters/robinson/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/robinson/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/robinson/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Робинзон",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Робинзон.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/robinson-neutral.txt",
+        "references": [
+          "assets/characters/sheets/robinson/sheet.png"
+        ]
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "9024e7ad0b594bfa67df77a3e56211e407660ba61072be4f7e156c38a9a4196c",
+      "bounds": [
+        192,
+        24,
+        546,
+        1006
+      ]
+    },
+    "ilya-neutral": {
+      "file": "assets/characters/ilya/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/ilya/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/ilya/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Илья",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Илья.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/ilya-neutral.txt",
+        "references": [
+          "assets/characters/sheets/ilya/sheet.png"
+        ]
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "102db9fc1910f10885e8665a5faa4c7ec282dd54baa96db199d6bbf0249f1502",
+      "bounds": [
+        219,
+        21,
+        524,
+        1003
+      ]
+    },
+    "gavrilo-neutral": {
+      "file": "assets/characters/gavrilo/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/gavrilo/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/gavrilo/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Гаврило",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Гаврило.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/gavrilo-neutral.txt",
+        "references": [
+          "assets/characters/sheets/gavrilo/sheet.png"
+        ]
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "4e9a9b55bf7f114e84784c526b4122df3eba6090dfa25f3775f3768758bedfd4",
+      "bounds": [
+        170,
+        23,
+        534,
+        1010
+      ]
+    },
+    "ivan-neutral": {
+      "file": "assets/characters/ivan/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/ivan/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/ivan/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Иван",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Иван.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/ivan-neutral.txt",
+        "references": [
+          "assets/characters/sheets/ivan/sheet.png"
+        ]
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "9278158138b1c8ff8f1f1cc7667bc7db221c0bfda49a7300ad068ba7ce757819",
+      "bounds": [
+        237,
+        34,
+        520,
+        972
+      ]
+    },
+    "boulevard-day": {
+      "file": "assets/backgrounds/boulevard-day.png",
+      "kind": "background",
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/boulevard-day.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        1664,
+        936
+      ],
+      "sha256": "7ad86d325475bdffc69aaa48fca7f453c8e2ae47c826fa0862492b7854c25a19",
+      "bounds": [
+        0,
+        0,
+        1664,
+        936
+      ]
+    },
+    "boulevard-evening": {
+      "file": "assets/backgrounds/boulevard-evening.png",
+      "kind": "background",
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/boulevard-evening.txt",
+        "references": [
+          "assets/references/p159-Бульвар Бряхимова.bespridannica.day.png"
+        ]
+      },
+      "size": [
+        1664,
+        936
+      ],
+      "sha256": "0eabec486e27acbba64e17a07d2d6e8eeb44e17b7804d3b449a6c308ae601518",
+      "bounds": [
+        0,
+        0,
+        1664,
+        936
+      ]
+    },
+    "ogudalova-day": {
+      "file": "assets/backgrounds/ogudalova-day.png",
+      "kind": "background",
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/ogudalova-day.txt",
+        "references": [
+          "assets/characters/sheets/larisa/sheet.png"
+        ]
+      },
+      "size": [
+        1664,
+        936
+      ],
+      "sha256": "cc2d6f6a61671f85521f8fee89820c8be34c25496ab16b899c80dc10e0af7b16",
+      "bounds": [
+        0,
+        0,
+        1664,
+        936
+      ]
+    },
+    "karandyshev-evening": {
+      "file": "assets/backgrounds/karandyshev-evening.png",
+      "kind": "background",
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/karandyshev-evening.txt",
+        "references": [
+          "assets/references/p173-Квартира Карандышева.bespridannica.day.png"
+        ]
+      },
+      "size": [
+        1664,
+        936
+      ],
+      "sha256": "d5f4b7d69621065ec3e71fde5b04b13dc55521a7ba9350a9493a889672c6d3ca",
+      "bounds": [
+        0,
+        0,
+        1664,
+        936
+      ]
+    }
+  }
+}

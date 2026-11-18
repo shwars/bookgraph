@@ -1,0 +1,19 @@
+{
+  "entity_id": "Гаврило",
+  "profile": "zhestokiy-romans-watercolor-v1",
+  "version": 1,
+  "image": "sheet.png",
+  "sources": [
+    "wiki/protagonists/Гаврило.bespridannica.md",
+    "source/bespridannica/bychapter/section-02#^b0008"
+  ],
+  "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+  "prompt_file": "prompt.txt",
+  "reference_files": [
+    "assets/references/c039-Лариса Огудалова.bespridannica.charsheet.png"
+  ],
+  "artistic_choices": [
+    "Содержатель кофейной; костюм служит роли.",
+    "Точный возраст книгой не задан."
+  ]
+}

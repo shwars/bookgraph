@@ -1,0 +1,19 @@
+{
+  "entity_id": "Илья",
+  "profile": "zhestokiy-romans-watercolor-v1",
+  "version": 1,
+  "image": "sheet.png",
+  "sources": [
+    "wiki/protagonists/Илья.bespridannica.md",
+    "source/bespridannica/bychapter/section-22#^b0010"
+  ],
+  "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+  "prompt_file": "prompt.txt",
+  "reference_files": [
+    "assets/references/c039-Лариса Огудалова.bespridannica.charsheet.png"
+  ],
+  "artistic_choices": [
+    "Музыкант с гитарой; возраст и орнаменты одежды — визуальная интерпретация.",
+    "Точного описания внешности в тексте нет."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "entity_id": "Харита Огудалова",
+  "profile": "zhestokiy-romans-watercolor-v1",
+  "version": 1,
+  "image": "sheet.png",
+  "sources": [
+    "wiki/protagonists/Харита Огудалова.bespridannica.md",
+    "source/bespridannica/bychapter/section-02#^b0001"
+  ],
+  "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+  "prompt_file": "prompt.txt",
+  "reference_files": [
+    "assets/references/c039-kharita-film-aif.webp",
+    "assets/references/c039-Лариса Огудалова.bespridannica.charsheet.png"
+  ],
+  "artistic_choices": [
+    "Вдова средних лет, мать взрослой дочери; выглядит заметно старше Ларисы.",
+    "Возраст около 50–55 — художественный выбор, не точная дата из текста."
+  ]
+}
