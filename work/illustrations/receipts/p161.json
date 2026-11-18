@@ -1,0 +1,14 @@
+{
+  "id": "p161",
+  "entity": "Волга",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-e266c933-4701-48a0-b30f-98039243a375.png",
+  "atlas": "work\\illustrations\\atlases\\p161.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Волга.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

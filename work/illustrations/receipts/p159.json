@@ -1,0 +1,14 @@
+{
+  "id": "p159",
+  "entity": "Бульвар Бряхимова",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-2852f130-c47a-49e4-90cb-65242328d1df.png",
+  "atlas": "work\\illustrations\\atlases\\p159.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Бульвар Бряхимова.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

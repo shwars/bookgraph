@@ -1,0 +1,19 @@
+{
+  "id": "c091-neutral",
+  "entity": "Гаврило",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-61a4035d-5099-45cb-9b71-482c0a5945b9.png",
+  "atlas": "work\\illustrations\\atlases\\c091-neutral.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "c104-neutral",
+  "entity": "Иван",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-e6476f7b-b184-44c3-9e05-677a912f3596.png",
+  "atlas": "work\\illustrations\\atlases\\c104-neutral.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024
+    }
+  ]
+}

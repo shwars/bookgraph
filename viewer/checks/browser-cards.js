@@ -1,0 +1,37 @@
+async page => {
+ await page.getByRole('link',{name:'На главную карту',exact:true}).click();
+ const checks=[]; const check=(value,label)=>{if(!value)throw new Error(label);checks.push(label);};
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ check(page.url().startsWith('file:'),'file protocol');
+ check(await page.locator('#graph .node').count()===13,'13 default cast nodes');
+ await page.locator('#graph [data-id="Лариса Огудалова"]').click();
+ await page.locator('#graph [data-id="Паратов"]').hover();
+ check(await page.locator('#card-content h2').textContent()==='Лариса Огудалова','pinned card survives hover');
+ await page.getByRole('button',{name:'Закреплено · снять',exact:true}).click();
+ await page.locator('#graph [data-id="Паратов"]').hover();
+ check(await page.locator('#card-content h2').textContent()==='Паратов','unpin restores hover');
+ await page.locator('#graph [data-id="Лариса Огудалова"]').click();
+ await page.screenshot({path:'output/playwright/larisa-offline.png'});
+ await page.getByRole('button',{name:'Полная wiki-карточка ↗',exact:true}).click();
+ check(await page.locator('#document-dialog').isVisible(),'full wiki inside app');
+ check((await page.locator('#document-body').textContent()).includes('дочь Хариты'),'full wiki prose');
+ await page.locator('#document-body a[data-target="source/bespridannica/bychapter/section-02#^b0002"]').first().click();
+ check(await page.locator('#document-body #block-b0002.highlight').count()===1,'source block exact anchor');
+ await page.getByRole('button',{name:'Примечания и переводы',exact:true}).click();
+ check((await page.locator('#block-note6').textContent()).includes('Перевод автора'),'author translation kept');
+ check(!(await page.locator('#block-note9').textContent()).includes('Перевод автора'),'editorial translation not attributed');
+ await page.getByRole('button',{name:'Закрыть чтение',exact:true}).click();
+ await page.getByRole('searchbox').fill('Счастливцев');
+ await page.locator('[data-search-id="Робинзон"]').click();
+ check(await page.locator('#card-content h2').textContent()==='Робинзон','alias search');
+ await page.getByRole('searchbox').fill('Карандышев стреляет');
+ await page.locator('[data-search-id="Карандышев стреляет в Ларису"]').click();
+ check((await page.locator('#view-title').textContent()).includes('Хронология'),'event search switches mode');
+ check(await page.locator('#graph [data-id="Карандышев стреляет в Ларису"]').count()===1,'single event node');
+ await page.getByRole('button',{name:'Читать фрагмент ↗',exact:true}).click();
+ check(await page.locator('#document-body #block-b0027.highlight').count()===1,'event reader source block');
+ check((await page.locator('#document-body').textContent()).includes('Стреляет в нее'),'complete scene, not excerpt');
+ await page.getByRole('button',{name:'Закрыть чтение',exact:true}).click();
+ check(errors.length===0,'no JavaScript errors');
+ return {checks,errors};
+}

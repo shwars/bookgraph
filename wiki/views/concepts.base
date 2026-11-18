@@ -1,0 +1,25 @@
+filters:
+  and:
+  - file.inFolder("wiki")
+  - note.entity_id != null
+views:
+- type: table
+  name: Все концепты
+  order:
+  - file.name
+  - note.entity_id
+  - note.type
+  - note.book_ids
+  - note.source_kinds
+  - note.related_events
+- type: table
+  name: События
+  filters:
+    and:
+    - note.type == "event"
+  order:
+  - file.name
+  - note.date_text
+  - note.date_precision
+  - note.event_status
+  - note.participants

@@ -1,0 +1,792 @@
+{
+  "expected": 130,
+  "ready": 130,
+  "characters": 12,
+  "character_files": 96,
+  "place_pairs": 17,
+  "place_files": 34,
+  "minimum_side": 512,
+  "errors": [],
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024,
+      "mode": "RGBA"
+    },
+    {
+      "path": "wiki/places/images/Бряхимов.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Бряхимов.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Бульвар Бряхимова.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Бульвар Бряхимова.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Волга.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Волга.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Деревня Карандышева.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Деревня Карандышева.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Дом Огудаловых.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Дом Огудаловых.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Заболотье.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Заболотье.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Италия.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Италия.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Кавказ.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Кавказ.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Квартира Карандышева.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Квартира Карандышева.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Кофейная Гаврилы.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Кофейная Гаврилы.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Москва.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Москва.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Нижний.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Нижний.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Остров Робинзона.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Остров Робинзона.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Париж.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Париж.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Петербург.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Петербург.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Трактир Париж.bespridannica.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Трактир Париж.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Щелыково.hist.day.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    },
+    {
+      "path": "wiki/places/images/Щелыково.hist.evening.png",
+      "width": 1664,
+      "height": 936,
+      "mode": "RGB"
+    }
+  ]
+}

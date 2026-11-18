@@ -1,0 +1,14 @@
+{
+  "id": "p182",
+  "entity": "Париж",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-a95e076a-4f73-483f-ba94-71f8631cc53c.png",
+  "atlas": "work\\illustrations\\atlases\\p182.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Париж.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

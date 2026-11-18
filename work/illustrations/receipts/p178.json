@@ -1,0 +1,14 @@
+{
+  "id": "p178",
+  "entity": "Нижний",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-ec79a400-1421-474e-b8e8-7b967652df5d.png",
+  "atlas": "work\\illustrations\\atlases\\p178.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Нижний.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

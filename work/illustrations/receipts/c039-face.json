@@ -1,0 +1,39 @@
+{
+  "id": "c039-face",
+  "entity": "Харита Огудалова",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-2d47c1b5-2594-491b-86f8-bd1bc9cfbd1b.png",
+  "atlas": "work\\illustrations\\atlases\\c039-face.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

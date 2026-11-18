@@ -1,0 +1,14 @@
+{
+  "id": "p173",
+  "entity": "Квартира Карандышева",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-8d9a43ea-bf66-4a6d-bbf6-5a324324991b.png",
+  "atlas": "work\\illustrations\\atlases\\p173.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Квартира Карандышева.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

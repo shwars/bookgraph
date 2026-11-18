@@ -1,0 +1,14 @@
+{
+  "id": "c104",
+  "entity": "Иван",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-f166dac4-f911-4f21-baac-0b8af96fceb6.png",
+  "atlas": "work\\illustrations\\atlases\\c104.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

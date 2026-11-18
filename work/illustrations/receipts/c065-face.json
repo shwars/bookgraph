@@ -1,0 +1,39 @@
+{
+  "id": "c065-face",
+  "entity": "Вожеватов",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-bcf5993b-16c5-4366-9644-6d3803fa5917.png",
+  "atlas": "work\\illustrations\\atlases\\c065-face.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

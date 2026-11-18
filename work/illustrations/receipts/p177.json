@@ -1,0 +1,14 @@
+{
+  "id": "p177",
+  "entity": "Москва",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-710c4b4e-0d05-47dd-a7e6-ca649ffdd68a.png",
+  "atlas": "work\\illustrations\\atlases\\p177.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Москва.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

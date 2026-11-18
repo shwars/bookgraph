@@ -1,0 +1,14 @@
+{
+  "id": "p169",
+  "entity": "Италия",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-a19b4567-eee6-4caa-be3c-0cd493bd8e33.png",
+  "atlas": "work\\illustrations\\atlases\\p169.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Италия.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

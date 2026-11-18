@@ -1,0 +1,14 @@
+{
+  "id": "p186",
+  "entity": "Трактир Париж",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-af0465dd-5873-4db5-8347-a5b9eb5bc6d6.png",
+  "atlas": "work\\illustrations\\atlases\\p186.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Трактир Париж.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

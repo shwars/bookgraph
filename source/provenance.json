@@ -1,0 +1,67 @@
+{
+  "archive": "raw/bespridannica.zip",
+  "archive_sha256": "1eb6b721b7d3991ee4aa43ffa6635668e48f16eae4a338cb6dfde21cb9ed2d27",
+  "archive_member": "Ostrovskiy_Bespridannica.alRtrQ.76248.fb2",
+  "fb2": "source/bespridannica.fb2",
+  "fb2_sha256": "a36172e3fdd66d9801983723fbaac6c0ec4be100e0634dc366c73a4fe8f46c1c",
+  "edition": "А. Н. Островский. Полное собрание сочинений в 16 томах. Том 8. Москва: Гослитиздат, 1950.",
+  "fb2_document_date": "2006-04-07",
+  "source_policy": "Только предоставленное издание; внешние сведения не проверялись.",
+  "fb2_metadata": {
+    "title-info": {
+      "genre": [
+        "dramaturgy"
+      ],
+      "author": [
+        "Александр Николаевич Островский"
+      ],
+      "book-title": [
+        "Бесприданница"
+      ],
+      "date": [
+        "1878"
+      ],
+      "lang": [
+        "ru"
+      ]
+    },
+    "document-info": {
+      "author": [
+        "glassy"
+      ],
+      "program-used": [
+        "FB Tools"
+      ],
+      "date": [
+        "2006-04-07"
+      ],
+      "src-url": [
+        "http://az.lib.ru/o/ostrowskij_a_n/text_0190.shtml"
+      ],
+      "src-ocr": [
+        "Бычков М.Н."
+      ],
+      "id": [
+        "22B40016-E1F1-428A-8839-8A754D5B2AC5"
+      ],
+      "version": [
+        "1.0"
+      ]
+    },
+    "publish-info": {
+      "book-name": [
+        "Полное собрание сочинений в шестнадцати томах. Том 8"
+      ],
+      "publisher": [
+        "Государственное издательство Художественной литературы"
+      ],
+      "city": [
+        "Москва"
+      ],
+      "year": [
+        "1950"
+      ]
+    }
+  },
+  "source_url_policy": "URL в document-info — происхождение, заявленное составителем FB2; содержимое сайта не запрашивалось и не используется как дополнительное доказательство."
+}

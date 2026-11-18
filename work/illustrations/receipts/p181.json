@@ -1,0 +1,14 @@
+{
+  "id": "p181",
+  "entity": "Остров Робинзона",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-0efd32bb-d51c-4a8d-b643-8af51d84119c.png",
+  "atlas": "work\\illustrations\\atlases\\p181.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Остров Робинзона.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

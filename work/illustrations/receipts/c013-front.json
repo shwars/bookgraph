@@ -1,0 +1,39 @@
+{
+  "id": "c013-front",
+  "entity": "Карандышев",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-6c7a6cdf-6c46-4333-9d66-0cef8f35e4da.png",
+  "atlas": "work\\illustrations\\atlases\\c013-front.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

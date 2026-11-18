@@ -1,0 +1,14 @@
+{
+  "id": "p174",
+  "entity": "Кофейная Гаврилы",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-3ec6bc5c-3f99-467f-aaed-b4a1644ba3ee.png",
+  "atlas": "work\\illustrations\\atlases\\p174.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Кофейная Гаврилы.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "c052-face",
+  "entity": "Кнуров",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-e5fb3c03-7d10-4b63-b9e2-b8e67fbb8cf0.png",
+  "atlas": "work\\illustrations\\atlases\\c052-face.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_neutral.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_happy.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_sad.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_surprised.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_angry.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_disgusted.png",
+      "width": 512,
+      "height": 512
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-13T11:35:10+03:00",
+  "source": "provided edition only",
+  "semantic": {
+    "units": 50,
+    "notes": 11,
+    "method": "Полное чтение, затем отдельное полное повторное чтение с сопоставлением карточек и поздних раскрытий; аппарат и примечания отдельно",
+    "new_facts": 57,
+    "remaining_questions": "wiki/audit.bespridannica.md"
+  },
+  "structure": {
+    "cards": 246,
+    "facts": 951,
+    "edges": 608,
+    "occurrences": 138,
+    "checked_links": 8132,
+    "errors": 0,
+    "warnings": 0,
+    "byte_stable": true,
+    "authored_text_preserved": true
+  },
+  "viewer": {
+    "projection_checks": 13,
+    "browser_assertions": 38,
+    "browser": "Chromium / Chrome",
+    "protocol": "file://",
+    "offline": true,
+    "http_resources": 0,
+    "page_errors": 0,
+    "viewports": [
+      [
+        1520,
+        1020
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "scripts": [
+      "checks/browser-cards.js",
+      "checks/browser-graphs.js",
+      "checks/browser-offline.js"
+    ]
+  }
+}

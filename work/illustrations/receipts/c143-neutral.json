@@ -1,0 +1,19 @@
+{
+  "id": "c143-neutral",
+  "entity": "Голос с улицы — зовущий Илью",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-8da2cf60-a8d3-47c4-8731-161c8ebeb77a.png",
+  "atlas": "work\\illustrations\\atlases\\c143-neutral.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024
+    }
+  ]
+}

@@ -1,0 +1,1035 @@
+[
+  {
+    "id": "c000",
+    "entity": "Лариса Огудалова",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Larisa Ogudalova, recognizably portrayed by Larisa Guzeeva at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). young adult woman, oval face, large gray-blue eyes, dark eyebrows, dark center-parted braided updo; pale sage-blue full-length 1870s dress, white ruffled lace collar and cuffs, small pale flower at chest.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe poses: front neutral, three-quarter conversational gesture, expressive sorrowful gesture; plus six distinct close-up head expressions: neutral, happy, sad, surprised, angry, disgusted. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. Small emotion labels permitted. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/work/illustrations/references/larisa-film.jpg"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c013",
+    "entity": "Карандышев",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Yuly Karandyshev, recognizably portrayed by Andrey Myagkov at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). slender awkward man in his thirties, recognizable gentle Myagkov face, receding curly light-brown hair, small round wire spectacles, short moustache; modest light beige three-piece 1870s suit, dark waistcoat and tie, black boots.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe poses: front neutral, three-quarter conversational gesture, expressive sorrowful gesture; plus six distinct close-up head expressions: neutral, happy, sad, surprised, angry, disgusted. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. Small emotion labels permitted. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c026",
+    "entity": "Паратов",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Sergey Paratov, recognizably portrayed by Nikita Mikhalkov at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). confident handsome broad-shouldered man in his thirties, recognizable young Mikhalkov face, receding light-brown hair, thick light moustache; immaculate ivory-white three-piece 1870s suit, waistcoat, white peaked cap, dark tie and polished black boots.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe poses: front neutral, three-quarter conversational gesture, expressive sorrowful gesture; plus six distinct close-up head expressions: neutral, happy, sad, surprised, angry, disgusted. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. Small emotion labels permitted. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c039",
+    "entity": "Харита Огудалова",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Kharita Ogudalova, recognizably portrayed by Alisa Freindlich at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). mature middle-aged widow visibly around 55, mother of an adult daughter, distinctly recognizable mature Alisa Freindlich face and striking eyes, visible fine forehead lines, eye wrinkles, nasolabial folds, mature jaw and neck, graying auburn-brown hair in elaborate high period updo; elegant boldly fashionable burgundy/plum full-length 1870s gown, fitted bodice, restrained lace, cameo brooch. She is resourceful, socially practiced and shrewd, NOT a young pretty woman, NOT Larisa with different clothes.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe poses: front neutral, three-quarter conversational gesture, expressive sorrowful gesture; plus six distinct close-up head expressions: neutral, happy, sad, surprised, angry, disgusted. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. Small emotion labels permitted. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here. Input 1 is the exact mature Freindlich FACE reference; Input 2 is watercolor STYLE only, ignore its younger face. Emphasize 55-year-old mother with mature eyes, visible age lines, strong character, tasteful bold elegance. Do not smooth her into a young woman.",
+    "refs": [
+      "D:/GIT/bookgraph/work/illustrations/references/kharita-film-aif.webp",
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c052",
+    "entity": "Кнуров",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Moky Knurov, recognizably portrayed by Alexey Petrenko at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). wealthy older stout man, recognizable broad Petrenko face, heavy brows, gray-brown beard and moustache; dark charcoal 1870s frock coat and waistcoat, watch chain, white shirt, dark tie, black boots.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe poses: front neutral, three-quarter conversational gesture, expressive sorrowful gesture; plus six distinct close-up head expressions: neutral, happy, sad, surprised, angry, disgusted. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. Small emotion labels permitted. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c065",
+    "entity": "Вожеватов",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Vasily Vozhevatov, recognizably portrayed by Viktor Proskurin at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). young slim businessman, recognizable young Proskurin face, narrow lively eyes and angular nose, tidy dark-brown period hair and small moustache; smart dark olive-gray European 1870s three-piece suit, bow tie, watch chain, black boots.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe poses: front neutral, three-quarter conversational gesture, expressive sorrowful gesture; plus six distinct close-up head expressions: neutral, happy, sad, surprised, angry, disgusted. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. Small emotion labels permitted. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c078",
+    "entity": "Робинзон",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Робинзон.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Arkady Schastlivtsev nicknamed Robinson, recognizably portrayed by Georgy Burkov at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). middle-aged dishevelled provincial actor, recognizable Burkov face with fleshy cheeks, slightly drooping eyelids and shaggy brown hair; worn brown checked period suit under a travel cloak, battered soft high hat, frayed cuffs, black boots.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe neutral poses: front, three-quarter and side; plus one large neutral head portrait. ONLY neutral expression, no emotional variants. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. No text or labels. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c091",
+    "entity": "Гаврило",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Гаврило.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Gavrilo the cafe proprietor, recognizably portrayed by Alexander Pyatkov at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). stout broad-faced cafe proprietor, recognizable young Pyatkov face and light-brown hair, modest moustache; 1870s white shirt, dark waistcoat, dark trousers, long off-white service apron, black shoes.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe neutral poses: front, three-quarter and side; plus one large neutral head portrait. ONLY neutral expression, no emotional variants. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. No text or labels. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c104",
+    "entity": "Иван",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Иван.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Ivan the cafe servant, recognizably portrayed by Borislav Brondukov at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). small wiry adult servant, recognizable Brondukov face, pointed nose, expressive eyes, thin moustache and short dark hair; plain white high-collared shirt, dark service waistcoat, dark trousers and black shoes.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe neutral poses: front, three-quarter and side; plus one large neutral head portrait. ONLY neutral expression, no emotional variants. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. No text or labels. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c117",
+    "entity": "Илья",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Илья.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Ilya the Romani musician, recognizably portrayed by Dmitry Buzylyov-Kretso at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). adult Romani musician, recognizable Buzylyov face, dark curly hair, expressive dark eyes and small dark moustache; dark 1870s caftan over deep red shirt, narrow sash and black boots; guitar can be held close without obscuring the face.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe neutral poses: front, three-quarter and side; plus one large neutral head portrait. ONLY neutral expression, no emotional variants. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. No text or labels. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c130",
+    "entity": "Евфросинья Потаповна",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Efrosinya Potapovna, recognizably portrayed by Tatyana Pankova at the time of the 1984 Soviet film A Cruel Romance (Жестокий романс). elderly practical aunt, recognizable Pankova face, small wrinkled features and gray hair under a modest dark kerchief; simple full-length dark-brown 1870s house dress with gray apron, worn black shoes.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe neutral poses: front, three-quarter and side; plus one large neutral head portrait. ONLY neutral expression, no emotional variants. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. No text or labels. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c143",
+    "entity": "Голос с улицы — зовущий Илью",
+    "type": "copy",
+    "targets": [
+      "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.charsheet.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Unnamed street caller summoning Ilya. No verified film casting; this design is expressly an artistic interpretation. original artistic interpretation of an unnamed adult male street caller, medium build, chestnut hair and moustache, modest ochre 1870s shirt, dark waistcoat, brown trousers, black boots. His age, facial details and costume are artistic invention because the play gives only a voice; do not claim a verified movie actor for this figure.  Create ONE opaque warm ivory watercolor-paper character design sheet, landscape. Three complete head-to-toe neutral poses: front, three-quarter and side; plus one large neutral head portrait. ONLY neutral expression, no emotional variants. Consistent actor likeness and costume, no other people, no environmental scene. Keep shoes, hands and hats completely inside frame. Generous spacing, no overlap. No text or labels. Input sheet, if supplied, is STYLE REFERENCE ONLY: do not copy its female subject, use the actor and costume specified here.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "c000-front",
+    "entity": "Лариса Огудалова",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_happy.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_sad.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_surprised.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_angry.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Larisa Ogudalova; Larisa Guzeeva as in A Cruel Romance (1984). young adult woman, oval face, large gray-blue eyes, dark eyebrows, dark center-parted braided updo; pale sage-blue full-length 1870s dress, white ruffled lace collar and cuffs, small pale flower at chest. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE FRONT-FACING COMPLETE HEAD-TO-TOE standing adult figure with both hands, feet, shoes and hat fully visible and a clear 8 percent margin inside its cell. NO additional portrait or second figure within a cell. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c000"
+    ]
+  },
+  {
+    "id": "c000-face",
+    "entity": "Лариса Огудалова",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_neutral.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_happy.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_sad.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_surprised.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_angry.png",
+      "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Larisa Ogudalova; Larisa Guzeeva as in A Cruel Romance (1984). young adult woman, oval face, large gray-blue eyes, dark eyebrows, dark center-parted braided updo; pale sage-blue full-length 1870s dress, white ruffled lace collar and cuffs, small pale flower at chest. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE large front-facing HEAD AND SHOULDERS PORTRAIT, complete hair and hat inside its cell, face large and centered. NO whole body or second face. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c000"
+    ]
+  },
+  {
+    "id": "c013-front",
+    "entity": "Карандышев",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Карандышев.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.front_happy.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.front_sad.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.front_surprised.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.front_angry.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.front_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Yuly Karandyshev; Andrey Myagkov as in A Cruel Romance (1984). slender awkward man in his thirties, recognizable gentle Myagkov face, receding curly light-brown hair, small round wire spectacles, short moustache; modest light beige three-piece 1870s suit, dark waistcoat and tie, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE FRONT-FACING COMPLETE HEAD-TO-TOE standing adult figure with both hands, feet, shoes and hat fully visible and a clear 8 percent margin inside its cell. NO additional portrait or second figure within a cell. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c013"
+    ]
+  },
+  {
+    "id": "c013-face",
+    "entity": "Карандышев",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Карандышев.bespridannica.face_neutral.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.face_happy.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.face_sad.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.face_surprised.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.face_angry.png",
+      "wiki/protagonists/images/Карандышев.bespridannica.face_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Yuly Karandyshev; Andrey Myagkov as in A Cruel Romance (1984). slender awkward man in his thirties, recognizable gentle Myagkov face, receding curly light-brown hair, small round wire spectacles, short moustache; modest light beige three-piece 1870s suit, dark waistcoat and tie, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE large front-facing HEAD AND SHOULDERS PORTRAIT, complete hair and hat inside its cell, face large and centered. NO whole body or second face. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Карандышев.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c013"
+    ]
+  },
+  {
+    "id": "c026-front",
+    "entity": "Паратов",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Паратов.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Паратов.bespridannica.front_happy.png",
+      "wiki/protagonists/images/Паратов.bespridannica.front_sad.png",
+      "wiki/protagonists/images/Паратов.bespridannica.front_surprised.png",
+      "wiki/protagonists/images/Паратов.bespridannica.front_angry.png",
+      "wiki/protagonists/images/Паратов.bespridannica.front_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Sergey Paratov; Nikita Mikhalkov as in A Cruel Romance (1984). confident handsome broad-shouldered man in his thirties, recognizable young Mikhalkov face, receding light-brown hair, thick light moustache; immaculate ivory-white three-piece 1870s suit, waistcoat, white peaked cap, dark tie and polished black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE FRONT-FACING COMPLETE HEAD-TO-TOE standing adult figure with both hands, feet, shoes and hat fully visible and a clear 8 percent margin inside its cell. NO additional portrait or second figure within a cell. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c026"
+    ]
+  },
+  {
+    "id": "c026-face",
+    "entity": "Паратов",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Паратов.bespridannica.face_neutral.png",
+      "wiki/protagonists/images/Паратов.bespridannica.face_happy.png",
+      "wiki/protagonists/images/Паратов.bespridannica.face_sad.png",
+      "wiki/protagonists/images/Паратов.bespridannica.face_surprised.png",
+      "wiki/protagonists/images/Паратов.bespridannica.face_angry.png",
+      "wiki/protagonists/images/Паратов.bespridannica.face_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Sergey Paratov; Nikita Mikhalkov as in A Cruel Romance (1984). confident handsome broad-shouldered man in his thirties, recognizable young Mikhalkov face, receding light-brown hair, thick light moustache; immaculate ivory-white three-piece 1870s suit, waistcoat, white peaked cap, dark tie and polished black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE large front-facing HEAD AND SHOULDERS PORTRAIT, complete hair and hat inside its cell, face large and centered. NO whole body or second face. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Паратов.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c026"
+    ]
+  },
+  {
+    "id": "c039-front",
+    "entity": "Харита Огудалова",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.front_happy.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.front_sad.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.front_surprised.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.front_angry.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.front_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Kharita Ogudalova; Alisa Freindlich as in A Cruel Romance (1984). mature middle-aged widow visibly around 55, mother of an adult daughter, distinctly recognizable mature Alisa Freindlich face and striking eyes, visible fine forehead lines, eye wrinkles, nasolabial folds, mature jaw and neck, graying auburn-brown hair in elaborate high period updo; elegant boldly fashionable burgundy/plum full-length 1870s gown, fitted bodice, restrained lace, cameo brooch. She is resourceful, socially practiced and shrewd, NOT a young pretty woman, NOT Larisa with different clothes. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE FRONT-FACING COMPLETE HEAD-TO-TOE standing adult figure with both hands, feet, shoes and hat fully visible and a clear 8 percent margin inside its cell. NO additional portrait or second figure within a cell. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c039"
+    ]
+  },
+  {
+    "id": "c039-face",
+    "entity": "Харита Огудалова",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.face_neutral.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.face_happy.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.face_sad.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.face_surprised.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.face_angry.png",
+      "wiki/protagonists/images/Харита Огудалова.bespridannica.face_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Kharita Ogudalova; Alisa Freindlich as in A Cruel Romance (1984). mature middle-aged widow visibly around 55, mother of an adult daughter, distinctly recognizable mature Alisa Freindlich face and striking eyes, visible fine forehead lines, eye wrinkles, nasolabial folds, mature jaw and neck, graying auburn-brown hair in elaborate high period updo; elegant boldly fashionable burgundy/plum full-length 1870s gown, fitted bodice, restrained lace, cameo brooch. She is resourceful, socially practiced and shrewd, NOT a young pretty woman, NOT Larisa with different clothes. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE large front-facing HEAD AND SHOULDERS PORTRAIT, complete hair and hat inside its cell, face large and centered. NO whole body or second face. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Харита Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c039"
+    ]
+  },
+  {
+    "id": "c052-front",
+    "entity": "Кнуров",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Кнуров.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.front_happy.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.front_sad.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.front_surprised.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.front_angry.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.front_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Moky Knurov; Alexey Petrenko as in A Cruel Romance (1984). wealthy older stout man, recognizable broad Petrenko face, heavy brows, gray-brown beard and moustache; dark charcoal 1870s frock coat and waistcoat, watch chain, white shirt, dark tie, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE FRONT-FACING COMPLETE HEAD-TO-TOE standing adult figure with both hands, feet, shoes and hat fully visible and a clear 8 percent margin inside its cell. NO additional portrait or second figure within a cell. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c052"
+    ]
+  },
+  {
+    "id": "c052-face",
+    "entity": "Кнуров",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Кнуров.bespridannica.face_neutral.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.face_happy.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.face_sad.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.face_surprised.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.face_angry.png",
+      "wiki/protagonists/images/Кнуров.bespridannica.face_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Moky Knurov; Alexey Petrenko as in A Cruel Romance (1984). wealthy older stout man, recognizable broad Petrenko face, heavy brows, gray-brown beard and moustache; dark charcoal 1870s frock coat and waistcoat, watch chain, white shirt, dark tie, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE large front-facing HEAD AND SHOULDERS PORTRAIT, complete hair and hat inside its cell, face large and centered. NO whole body or second face. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Кнуров.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c052"
+    ]
+  },
+  {
+    "id": "c065-front",
+    "entity": "Вожеватов",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Вожеватов.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.front_happy.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.front_sad.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.front_surprised.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.front_angry.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.front_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Vasily Vozhevatov; Viktor Proskurin as in A Cruel Romance (1984). young slim businessman, recognizable young Proskurin face, narrow lively eyes and angular nose, tidy dark-brown period hair and small moustache; smart dark olive-gray European 1870s three-piece suit, bow tie, watch chain, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE FRONT-FACING COMPLETE HEAD-TO-TOE standing adult figure with both hands, feet, shoes and hat fully visible and a clear 8 percent margin inside its cell. NO additional portrait or second figure within a cell. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c065"
+    ]
+  },
+  {
+    "id": "c065-face",
+    "entity": "Вожеватов",
+    "type": "grid6",
+    "targets": [
+      "wiki/protagonists/images/Вожеватов.bespridannica.face_neutral.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.face_happy.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.face_sad.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.face_surprised.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.face_angry.png",
+      "wiki/protagonists/images/Вожеватов.bespridannica.face_disgusted.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Vasily Vozhevatov; Viktor Proskurin as in A Cruel Romance (1984). young slim businessman, recognizable young Proskurin face, narrow lively eyes and angular nose, tidy dark-brown period hair and small moustache; smart dark olive-gray European 1870s three-piece suit, bow tie, watch chain, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE production SPRITE ATLAS, landscape canvas ideally 3072x2048, or at least 1536x1024. EXACTLY THREE EQUAL COLUMNS and TWO EQUAL ROWS, six invisible identical rectangular cells occupying the full canvas. DO NOT TRIM CANVAS. Each cell contains exactly ONE large front-facing HEAD AND SHOULDERS PORTRAIT, complete hair and hat inside its cell, face large and centered. NO whole body or second face. Cells must NEVER overlap. Row-major emotion order is top-left NEUTRAL calm; top-middle HAPPY smiling; top-right SAD sorrowful; bottom-left SURPRISED; bottom-middle ANGRY controlled anger; bottom-right DISGUSTED restrained distaste. This is one and the same person six times, same age and costume. Every subject fully isolated in its own cell, no lines or dividers. Actual transparent alpha background across the WHOLE canvas and between cells; watercolor texture ONLY INSIDE the subject. Absolutely no cream paper, rectangular glow, halo, vignette, shadows, floor, checkerboard, text, emotion labels or decorative marks. Each figure at least 400 pixels tall, each cell at least 500 pixels wide. Natural mature expressions matching the character, no comic exaggeration.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Вожеватов.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c065"
+    ]
+  },
+  {
+    "id": "c078-neutral",
+    "entity": "Робинзон",
+    "type": "grid2",
+    "targets": [
+      "wiki/protagonists/images/Робинзон.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Робинзон.bespridannica.face_neutral.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Arkady Schastlivtsev nicknamed Robinson; Georgy Burkov as in A Cruel Romance (1984). middle-aged dishevelled provincial actor, recognizable Burkov face with fleshy cheeks, slightly drooping eyelids and shaggy brown hair; worn brown checked period suit under a travel cloak, battered soft high hat, frayed cuffs, black boots. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE transparent sprite ATLAS in exactly TWO EQUAL COLUMNS, ONE ROW, landscape canvas at least 1536x1024. LEFT HALF: exactly one complete FRONT-FACING HEAD-TO-TOE neutral standing figure, all hair/hat, hands, feet and shoes inside the half with 8 percent margin. RIGHT HALF: exactly one large front-facing neutral HEAD AND SHOULDERS portrait of the same person. Keep the halves separate with generous transparent spacing and no overlap. Only neutral expression, no other moods. TRUE transparent alpha background everywhere outside subjects; no paper, no glow, no halo, no shadow, no labels, no lines, no checkerboard. Preserve the full canvas dimensions; DO NOT TRIM. Each half at least 600px wide and 800px high.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Робинзон.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c078"
+    ]
+  },
+  {
+    "id": "c091-neutral",
+    "entity": "Гаврило",
+    "type": "grid2",
+    "targets": [
+      "wiki/protagonists/images/Гаврило.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Гаврило.bespridannica.face_neutral.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Gavrilo the cafe proprietor; Alexander Pyatkov as in A Cruel Romance (1984). stout broad-faced cafe proprietor, recognizable young Pyatkov face and light-brown hair, modest moustache; 1870s white shirt, dark waistcoat, dark trousers, long off-white service apron, black shoes. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE transparent sprite ATLAS in exactly TWO EQUAL COLUMNS, ONE ROW, landscape canvas at least 1536x1024. LEFT HALF: exactly one complete FRONT-FACING HEAD-TO-TOE neutral standing figure, all hair/hat, hands, feet and shoes inside the half with 8 percent margin. RIGHT HALF: exactly one large front-facing neutral HEAD AND SHOULDERS portrait of the same person. Keep the halves separate with generous transparent spacing and no overlap. Only neutral expression, no other moods. TRUE transparent alpha background everywhere outside subjects; no paper, no glow, no halo, no shadow, no labels, no lines, no checkerboard. Preserve the full canvas dimensions; DO NOT TRIM. Each half at least 600px wide and 800px high.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Гаврило.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c091"
+    ]
+  },
+  {
+    "id": "c104-neutral",
+    "entity": "Иван",
+    "type": "grid2",
+    "targets": [
+      "wiki/protagonists/images/Иван.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Иван.bespridannica.face_neutral.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Ivan the cafe servant; Borislav Brondukov as in A Cruel Romance (1984). small wiry adult servant, recognizable Brondukov face, pointed nose, expressive eyes, thin moustache and short dark hair; plain white high-collared shirt, dark service waistcoat, dark trousers and black shoes. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE transparent sprite ATLAS in exactly TWO EQUAL COLUMNS, ONE ROW, landscape canvas at least 1536x1024. LEFT HALF: exactly one complete FRONT-FACING HEAD-TO-TOE neutral standing figure, all hair/hat, hands, feet and shoes inside the half with 8 percent margin. RIGHT HALF: exactly one large front-facing neutral HEAD AND SHOULDERS portrait of the same person. Keep the halves separate with generous transparent spacing and no overlap. Only neutral expression, no other moods. TRUE transparent alpha background everywhere outside subjects; no paper, no glow, no halo, no shadow, no labels, no lines, no checkerboard. Preserve the full canvas dimensions; DO NOT TRIM. Each half at least 600px wide and 800px high.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Иван.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c104"
+    ]
+  },
+  {
+    "id": "c117-neutral",
+    "entity": "Илья",
+    "type": "grid2",
+    "targets": [
+      "wiki/protagonists/images/Илья.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Илья.bespridannica.face_neutral.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Ilya the Romani musician; Dmitry Buzylyov-Kretso as in A Cruel Romance (1984). adult Romani musician, recognizable Buzylyov face, dark curly hair, expressive dark eyes and small dark moustache; dark 1870s caftan over deep red shirt, narrow sash and black boots; guitar can be held close without obscuring the face. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE transparent sprite ATLAS in exactly TWO EQUAL COLUMNS, ONE ROW, landscape canvas at least 1536x1024. LEFT HALF: exactly one complete FRONT-FACING HEAD-TO-TOE neutral standing figure, all hair/hat, hands, feet and shoes inside the half with 8 percent margin. RIGHT HALF: exactly one large front-facing neutral HEAD AND SHOULDERS portrait of the same person. Keep the halves separate with generous transparent spacing and no overlap. Only neutral expression, no other moods. TRUE transparent alpha background everywhere outside subjects; no paper, no glow, no halo, no shadow, no labels, no lines, no checkerboard. Preserve the full canvas dimensions; DO NOT TRIM. Each half at least 600px wide and 800px high.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Илья.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c117"
+    ]
+  },
+  {
+    "id": "c130-neutral",
+    "entity": "Евфросинья Потаповна",
+    "type": "grid2",
+    "targets": [
+      "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.face_neutral.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Efrosinya Potapovna; Tatyana Pankova as in A Cruel Romance (1984). elderly practical aunt, recognizable Pankova face, small wrinkled features and gray hair under a modest dark kerchief; simple full-length dark-brown 1870s house dress with gray apron, worn black shoes. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE transparent sprite ATLAS in exactly TWO EQUAL COLUMNS, ONE ROW, landscape canvas at least 1536x1024. LEFT HALF: exactly one complete FRONT-FACING HEAD-TO-TOE neutral standing figure, all hair/hat, hands, feet and shoes inside the half with 8 percent margin. RIGHT HALF: exactly one large front-facing neutral HEAD AND SHOULDERS portrait of the same person. Keep the halves separate with generous transparent spacing and no overlap. Only neutral expression, no other moods. TRUE transparent alpha background everywhere outside subjects; no paper, no glow, no halo, no shadow, no labels, no lines, no checkerboard. Preserve the full canvas dimensions; DO NOT TRIM. Each half at least 600px wide and 800px high.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Евфросинья Потаповна.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c130"
+    ]
+  },
+  {
+    "id": "c143-neutral",
+    "entity": "Голос с улицы — зовущий Илью",
+    "type": "grid2",
+    "targets": [
+      "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.front_neutral.png",
+      "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.face_neutral.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Unnamed street caller summoning Ilya. Artistic interpretation of an unnamed book voice. original artistic interpretation of an unnamed adult male street caller, medium build, chestnut hair and moustache, modest ochre 1870s shirt, dark waistcoat, brown trousers, black boots. His age, facial details and costume are artistic invention because the play gives only a voice; do not claim a verified movie actor for this figure. Use the reference sheet as the EXACT identity, age, face, costume and watercolor-style anchor. Preserve identity across every cell. Create ONE transparent sprite ATLAS in exactly TWO EQUAL COLUMNS, ONE ROW, landscape canvas at least 1536x1024. LEFT HALF: exactly one complete FRONT-FACING HEAD-TO-TOE neutral standing figure, all hair/hat, hands, feet and shoes inside the half with 8 percent margin. RIGHT HALF: exactly one large front-facing neutral HEAD AND SHOULDERS portrait of the same person. Keep the halves separate with generous transparent spacing and no overlap. Only neutral expression, no other moods. TRUE transparent alpha background everywhere outside subjects; no paper, no glow, no halo, no shadow, no labels, no lines, no checkerboard. Preserve the full canvas dimensions; DO NOT TRIM. Each half at least 600px wide and 800px high.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.charsheet.png"
+    ],
+    "transparent": true,
+    "deps": [
+      "c143"
+    ]
+  },
+  {
+    "id": "p156",
+    "entity": "Бряхимов",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Бряхимов.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Wide establishing view of a fictional 1870s Russian merchant town on the high Volga bank, inspired by old Kostroma seen in the film: white stucco merchant houses, pale ochre facades, pitched roofs, small church domes and wooden river piers. This is a fictional town interpretation, no exact historical reconstruction. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p157",
+    "entity": "Бряхимов",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Бряхимов.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Wide establishing view of a fictional 1870s Russian merchant town on the high Volga bank, inspired by old Kostroma seen in the film: white stucco merchant houses, pale ochre facades, pitched roofs, small church domes and wooden river piers. This is a fictional town interpretation, no exact historical reconstruction. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Бряхимов.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p156"
+    ]
+  },
+  {
+    "id": "p158",
+    "entity": "Бульвар Бряхимова",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Бульвар Бряхимова.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable theatrical background on a high Volga-bank boulevard, wrought-iron low railing in the back, vast river and far forests beyond, leafy trees on the left, cafe entrance on the right, two small outdoor tables at the sides, empty central acting space. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p159",
+    "entity": "Бульвар Бряхимова",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Бульвар Бряхимова.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable theatrical background on a high Volga-bank boulevard, wrought-iron low railing in the back, vast river and far forests beyond, leafy trees on the left, cafe entrance on the right, two small outdoor tables at the sides, empty central acting space. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Бульвар Бряхимова.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p158"
+    ]
+  },
+  {
+    "id": "p160",
+    "entity": "Волга",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Волга.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Wide Volga river landscape near an 1870s provincial merchant town, low mist, remote wooded shore and simple wooden piers near the lower edges, water and sky dominate, no readable ship names, open staging space. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p161",
+    "entity": "Волга",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Волга.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Wide Volga river landscape near an 1870s provincial merchant town, low mist, remote wooded shore and simple wooden piers near the lower edges, water and sky dominate, no readable ship names, open staging space. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Волга.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p160"
+    ]
+  },
+  {
+    "id": "p162",
+    "entity": "Деревня Карандышева",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Деревня Карандышева.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Imagined modest Russian country estate and village in the 1870s, small timber manor, birch grove, rough country lane, meadow and wooden fence; quiet unpretentious rural refuge, no claim that this imagined visit occurred. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p163",
+    "entity": "Деревня Карандышева",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Деревня Карандышева.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Imagined modest Russian country estate and village in the 1870s, small timber manor, birch grove, rough country lane, meadow and wooden fence; quiet unpretentious rural refuge, no claim that this imagined visit occurred. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Деревня Карандышева.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p162"
+    ]
+  },
+  {
+    "id": "p164",
+    "entity": "Дом Огудаловых",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Дом Огудаловых.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable interior of the Ogudalov drawing room, two doors with one centered in back and one on the left, tall window on right, respectable but slightly worn period furniture, upright piano with guitar nearby, pale floral wallpaper and restrained lace curtains. Empty central acting space. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p165",
+    "entity": "Дом Огудаловых",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Дом Огудаловых.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable interior of the Ogudalov drawing room, two doors with one centered in back and one on the left, tall window on right, respectable but slightly worn period furniture, upright piano with guitar nearby, pale floral wallpaper and restrained lace curtains. Empty central acting space. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Дом Огудаловых.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p164"
+    ]
+  },
+  {
+    "id": "p166",
+    "entity": "Заболотье",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Заболотье.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Imagined remote wooded Russian district of Zabolotye, dirt lane past modest wooden houses into deep forest, grassy clearing in front and birches, no identifiable real location, 1870s atmosphere. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p167",
+    "entity": "Заболотье",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Заболотье.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Imagined remote wooded Russian district of Zabolotye, dirt lane past modest wooden houses into deep forest, grassy clearing in front and birches, no identifiable real location, 1870s atmosphere. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Заболотье.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p166"
+    ]
+  },
+  {
+    "id": "p168",
+    "entity": "Италия",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Италия.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Imagined late-19th-century Italian landscape used as an evocative contrast to the Russian countryside: sun-washed stucco villa, cypress trees, distant warm hills, stone terrace with open foreground. No characters and no modern objects. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p169",
+    "entity": "Италия",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Италия.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Imagined late-19th-century Italian landscape used as an evocative contrast to the Russian countryside: sun-washed stucco villa, cypress trees, distant warm hills, stone terrace with open foreground. No characters and no modern objects. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Италия.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p168"
+    ]
+  },
+  {
+    "id": "p170",
+    "entity": "Кавказ",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Кавказ.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative late-19th-century Caucasus mountain-road landscape, rocky winding path, distant blue mountain ridges and sparse stone buildings. No wedding, crime or persons: the book gives only a mentioned destination, not an exact location. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p171",
+    "entity": "Кавказ",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Кавказ.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative late-19th-century Caucasus mountain-road landscape, rocky winding path, distant blue mountain ridges and sparse stone buildings. No wedding, crime or persons: the book gives only a mentioned destination, not an exact location. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Кавказ.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p170"
+    ]
+  },
+  {
+    "id": "p172",
+    "entity": "Квартира Карандышева",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Квартира Карандышева.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable modest pretentious 1870s study, inexpensive carpet hung over sofa with antique pistols and daggers displayed on it, mismatched ambitious furniture, three doors, cheap decorative objects, empty central acting floor. Mood of aspiration and awkward thrift. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p173",
+    "entity": "Квартира Карандышева",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Квартира Карандышева.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable modest pretentious 1870s study, inexpensive carpet hung over sofa with antique pistols and daggers displayed on it, mismatched ambitious furniture, three doors, cheap decorative objects, empty central acting floor. Mood of aspiration and awkward thrift. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Квартира Карандышева.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p172"
+    ]
+  },
+  {
+    "id": "p174",
+    "entity": "Кофейная Гаврилы",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Кофейная Гаврилы.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable provincial 1870s cafe interior adjoining a Volga boulevard, wooden counter, shelves of bottles and porcelain teapots, plain small tables set to edges, door and tall windows facing river, timber floor and empty central foreground. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p175",
+    "entity": "Кофейная Гаврилы",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Кофейная Гаврилы.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable provincial 1870s cafe interior adjoining a Volga boulevard, wooden counter, shelves of bottles and porcelain teapots, plain small tables set to edges, door and tall windows facing river, timber floor and empty central foreground. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Кофейная Гаврилы.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p174"
+    ]
+  },
+  {
+    "id": "p176",
+    "entity": "Москва",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Москва.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Moscow street with low merchant houses and distant old church domes, stone pavement, no modern vehicles, period gas lanterns and ample empty foreground. General historical artistic setting, no specific unverified address. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p177",
+    "entity": "Москва",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Москва.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Moscow street with low merchant houses and distant old church domes, stone pavement, no modern vehicles, period gas lanterns and ample empty foreground. General historical artistic setting, no specific unverified address. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Москва.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p176"
+    ]
+  },
+  {
+    "id": "p178",
+    "entity": "Нижний",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Нижний.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Nizhny fair riverside, merchant fair arcades, wooden piers and remote confluence landscape, no modern signage or vehicles, open foreground. A mentioned destination rather than an enacted book scene. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p179",
+    "entity": "Нижний",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Нижний.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Nizhny fair riverside, merchant fair arcades, wooden piers and remote confluence landscape, no modern signage or vehicles, open foreground. A mentioned destination rather than an enacted book scene. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Нижний.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p178"
+    ]
+  },
+  {
+    "id": "p180",
+    "entity": "Остров Робинзона",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Остров Робинзона.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Small empty island in a wide Russian river, sandy shore, willow thicket, driftwood and distant wooded bank, usable clear foreground. No shipwreck or ocean: the play describes a river island, not a tropical Robinson Crusoe island. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p181",
+    "entity": "Остров Робинзона",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Остров Робинзона.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Small empty island in a wide Russian river, sandy shore, willow thicket, driftwood and distant wooded bank, usable clear foreground. No shipwreck or ocean: the play describes a river island, not a tropical Robinson Crusoe island. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Остров Робинзона.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p180"
+    ]
+  },
+  {
+    "id": "p182",
+    "entity": "Париж",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Париж.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative Paris in the 1870s, elegant boulevard, cream stone Haussmann facades and gas street lamps, leafy promenade and open foreground. Absolutely NO Eiffel Tower, automobiles or electric advertising; no specific fair buildings claimed. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p183",
+    "entity": "Париж",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Париж.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative Paris in the 1870s, elegant boulevard, cream stone Haussmann facades and gas street lamps, leafy promenade and open foreground. Absolutely NO Eiffel Tower, automobiles or electric advertising; no specific fair buildings claimed. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Париж.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p182"
+    ]
+  },
+  {
+    "id": "p184",
+    "entity": "Петербург",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Петербург.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Saint Petersburg embankment, broad Neva water, granite parapet and classical facades, old gas lamps, no modern vehicles or skyline additions, empty foreground. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p185",
+    "entity": "Петербург",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Петербург.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Saint Petersburg embankment, broad Neva water, granite parapet and classical facades, old gas lamps, no modern vehicles or skyline additions, empty foreground. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Петербург.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p184"
+    ]
+  },
+  {
+    "id": "p186",
+    "entity": "Трактир Париж",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Трактир Париж.bespridannica.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable interior of a modest provincial Russian 1870s tavern named Paris, simple wooden tables at sides, worn plaster, bar counter and samovar, gas lamps, empty central space. This is NOT the city of Paris. Do not paint readable lettering. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p187",
+    "entity": "Трактир Париж",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Трактир Париж.bespridannica.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Playable interior of a modest provincial Russian 1870s tavern named Paris, simple wooden tables at sides, worn plaster, bar counter and samovar, gas lamps, empty central space. This is NOT the city of Paris. Do not paint readable lettering. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Трактир Париж.bespridannica.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p186"
+    ]
+  },
+  {
+    "id": "p188",
+    "entity": "Щелыково",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Щелыково.hist.day.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Russian wooden country manor in a leafy park, pale timber facade, modest porch with columns, birches and garden path, open foreground. An artistic editorial setting for Ostrovsky writing, not a fictional scene with book characters. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. DAY version: soft clear summer daylight, subtle warm shadows, quiet natural colors. Establish a fixed layout for a matching evening version. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/protagonists/images/Лариса Огудалова.bespridannica.charsheet.png"
+    ],
+    "transparent": false,
+    "deps": []
+  },
+  {
+    "id": "p189",
+    "entity": "Щелыково",
+    "type": "background",
+    "targets": [
+      "wiki/places/images/Щелыково.hist.evening.png"
+    ],
+    "prompt": "Traditional finely painted watercolor book illustration, translucent pigment washes, subtle granulation and fine sepia pencil contours, precise expressive facial anatomy, restrained late-19th-century palette. Natural adult proportions, recognizable faces, no caricature, no anime, no 3D, no photographic collage. Consistent costume and identity throughout the collection. Create ONE WIDE 16:9 landscape watercolor theatre background, no border, full bleed, no people or human silhouettes, no text, no labels, no modern objects. Evocative 1870s Russian wooden country manor in a leafy park, pale timber facade, modest porch with columns, birches and garden path, open foreground. An artistic editorial setting for Ostrovsky writing, not a fictional scene with book characters. Fixed eye-level perspective and carefully readable geometry, suitable for overlaying puppet characters. EVENING version of the supplied DAY background: preserve the EXACT same camera, architecture, furniture, landscape, object positions and framing. Change ONLY lighting to gentle twilight, blue-violet shadows and warm light in the existing windows and lanterns. Do not add or remove architecture, people or objects. Keep all essential staging details inside a centered 16:9 safe area. Output a landscape composition, ideally 1792x1008 or 1536x864; if canvas is 1536x1024 the central 1536x864 will be used without scaling.",
+    "refs": [
+      "D:/GIT/bookgraph/wiki/places/images/Щелыково.hist.day.png"
+    ],
+    "transparent": false,
+    "deps": [
+      "p188"
+    ]
+  }
+]

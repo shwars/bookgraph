@@ -1,0 +1,71 @@
+{
+  "reason": "Исходные квадратные скобки вокруг ссылки создавали тройные скобки при импорте; исправлена только отображаемая Markdown-ссылка. Оригинал, text, atom_index, ID, порядок и хеши атомов неизменны.",
+  "changes": [
+    {
+      "unit_id": "section-08",
+      "block_id": "b0016",
+      "old_markdown": "Робинзон (показывая на кофейную). Voila[[[source/bespridannica/notes#^note1|1]]]!",
+      "new_markdown": "Робинзон (показывая на кофейную). Voila[[source/bespridannica/notes#^note1|1]]!"
+    },
+    {
+      "unit_id": "section-08",
+      "block_id": "b0042",
+      "old_markdown": "Паратов. Отец моей невесты важный чиновный господин; старик строгий: он слышать не может о цыганах, о кутежах и о прочем; даже не любит, кто много курит табаку. Тут уж надевай фрак и parlez francais![[[source/bespridannica/notes#^note2|2]]] Вот я теперь и практикуюсь с Робинзоном. Только он, для важности, что ли, уж не знаю, зовет меня «ля-Серж», а не просто «Серж». Умора!",
+      "new_markdown": "Паратов. Отец моей невесты важный чиновный господин; старик строгий: он слышать не может о цыганах, о кутежах и о прочем; даже не любит, кто много курит табаку. Тут уж надевай фрак и parlez francais![[source/bespridannica/notes#^note2|2]] Вот я теперь и практикуюсь с Робинзоном. Только он, для важности, что ли, уж не знаю, зовет меня «ля-Серж», а не просто «Серж». Умора!"
+    },
+    {
+      "unit_id": "section-09",
+      "block_id": "b0002",
+      "old_markdown": "Паратов (Робинзону). Que faites-vous la? Venez![[[source/bespridannica/notes#^note3|3]]]",
+      "new_markdown": "Паратов (Робинзону). Que faites-vous la? Venez![[source/bespridannica/notes#^note3|3]]"
+    },
+    {
+      "unit_id": "section-09",
+      "block_id": "b0003",
+      "old_markdown": "Робинзон (с важностью). Comment?[[[source/bespridannica/notes#^note4|4]]]",
+      "new_markdown": "Робинзон (с важностью). Comment?[[source/bespridannica/notes#^note4|4]]"
+    },
+    {
+      "unit_id": "section-09",
+      "block_id": "b0042",
+      "old_markdown": "Паратов. Да, господа, жизнь коротка, говорят философы, так надо уметь ею пользоваться. N'est ce pas[[[source/bespridannica/notes#^note5|5]]], Робинзон?",
+      "new_markdown": "Паратов. Да, господа, жизнь коротка, говорят философы, так надо уметь ею пользоваться. N'est ce pas[[source/bespridannica/notes#^note5|5]], Робинзон?"
+    },
+    {
+      "unit_id": "section-14",
+      "block_id": "b0023",
+      "old_markdown": "Голос в окно: «Илья, Илья, ча адарик! ча сегер!»[[[source/bespridannica/notes#^note6|6]]]",
+      "new_markdown": "Голос в окно: «Илья, Илья, ча адарик! ча сегер!»[[source/bespridannica/notes#^note6|6]]"
+    },
+    {
+      "unit_id": "section-14",
+      "block_id": "b0024",
+      "old_markdown": "Палсо? Со туке требе?[[[source/bespridannica/notes#^note7|7]]]",
+      "new_markdown": "Палсо? Со туке требе?[[source/bespridannica/notes#^note7|7]]"
+    },
+    {
+      "unit_id": "section-14",
+      "block_id": "b0026",
+      "old_markdown": "Хохавеса![[[source/bespridannica/notes#^note8|8]]]",
+      "new_markdown": "Хохавеса![[source/bespridannica/notes#^note8|8]]"
+    },
+    {
+      "unit_id": "section-20",
+      "block_id": "b0014",
+      "old_markdown": "Робинзон. Yes. (Йес)[[[source/bespridannica/notes#^note9|9]]].",
+      "new_markdown": "Робинзон. Yes. (Йес)[[source/bespridannica/notes#^note9|9]]."
+    },
+    {
+      "unit_id": "section-20",
+      "block_id": "b0024",
+      "old_markdown": "Робинзон (налив стаканы). If you please (Иф ю плиз)![[[source/bespridannica/notes#^note10|10]]] (Пьют.)",
+      "new_markdown": "Робинзон (налив стаканы). If you please (Иф ю плиз)![[source/bespridannica/notes#^note10|10]] (Пьют.)"
+    },
+    {
+      "unit_id": "section-20",
+      "block_id": "b0031",
+      "old_markdown": "Робинзон. I thank you (Ай сенк ю)[[[source/bespridannica/notes#^note11|11]]].",
+      "new_markdown": "Робинзон. I thank you (Ай сенк ю)[[source/bespridannica/notes#^note11|11]]."
+    }
+  ]
+}

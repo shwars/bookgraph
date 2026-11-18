@@ -1,0 +1,14 @@
+{
+  "id": "p167",
+  "entity": "Заболотье",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-6d28da34-fc15-486e-a5a0-78da4b4ca5aa.png",
+  "atlas": "work\\illustrations\\atlases\\p167.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Заболотье.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

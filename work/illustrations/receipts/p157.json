@@ -1,0 +1,14 @@
+{
+  "id": "p157",
+  "entity": "Бряхимов",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-486b0203-7020-44ec-b9f9-04890d50fd9a.png",
+  "atlas": "work\\illustrations\\atlases\\p157.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Бряхимов.bespridannica.evening.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

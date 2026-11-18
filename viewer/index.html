@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Персонажи, хронология и причинные связи «Бесприданницы» — офлайн-атлас по предоставленному изданию.">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' 'unsafe-inline' file:; img-src 'self' file: data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+<title>Бесприданница · Атлас книги</title>
+<link rel="stylesheet" href="styles.css">
+<script defer src="vendor/d3.min.js"></script>
+<script defer src="vendor/marked.umd.js"></script>
+<script defer src="vendor/purify.min.js"></script>
+<script defer src="data.js"></script>
+<script defer src="core.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="masthead">
+  <a href="#" class="brand" aria-label="На главную карту"><span class="brand-mark">б.</span><span><span class="eyebrow">АТЛАС КНИГИ</span><strong>Бесприданница</strong><small>Александр Островский · Драма в четырёх действиях</small></span></a>
+  <div class="search-wrap"><label class="sr-only" for="search">Поиск по названиям и алиасам</label><span class="search-icon" aria-hidden="true">⌕</span><input id="search" type="search" autocomplete="off" placeholder="Персонаж, событие, место…" aria-controls="search-results" aria-expanded="false"><kbd>/</kbd><div id="search-results" class="search-results" hidden></div></div>
+  <button id="open-reader" class="text-button">Читать пьесу <span aria-hidden="true">↗</span></button>
+</header>
+<nav class="mode-bar" aria-label="Представление графа">
+  <div class="tabs" role="tablist" aria-label="Режимы"><button role="tab" aria-selected="true" data-mode="characters">Персонажи</button><button role="tab" aria-selected="false" data-mode="timeline">События: хронология</button><button role="tab" aria-selected="false" data-mode="dependencies">События: зависимости</button></div>
+  <span class="edition-note">По тексту предоставленного издания <span class="live-dot"></span> Офлайн</span>
+</nav>
+<main class="workspace" id="workspace">
+  <aside class="filters" aria-label="Фильтры графа">
+    <div class="sidebar-title"><h2>Настроить карту</h2><button id="reset" class="link-button">Сбросить</button></div>
+    <fieldset><legend>Слои книги</legend><label class="check-row"><input type="checkbox" name="layer" value="story" checked><span>Основное действие</span></label><label class="check-row"><input type="checkbox" name="layer" value="mentioned"><span>Упоминания и предыстория</span></label><label class="check-row"><input type="checkbox" name="layer" value="literary"><span>Литературные отсылки</span></label><label class="check-row"><input type="checkbox" name="layer" value="editorial"><span>Редакционный аппарат</span></label></fieldset>
+    <div id="character-filters"><label class="field-label" for="importance">Роль в сюжете</label><select id="importance"><option value="">Все роли</option><option value="main">Главные</option><option value="secondary">Второстепенные</option><option value="episodic">Эпизодические</option></select><label class="field-label" for="relation">Отношения</label><select id="relation"><option value="">Все отношения</option></select></div>
+    <div id="event-filters" hidden><label class="field-label" for="act">Действие</label><select id="act"><option value="">Вся пьеса</option><option value="1">I действие</option><option value="2">II действие</option><option value="3">III действие</option><option value="4">IV действие</option></select><label class="field-label" for="participant">Участник</label><select id="participant"><option value="">Все участники</option></select><label class="field-label" for="place">Локация</label><select id="place"><option value="">Все места</option><option value="__unknown">Место не установлено</option></select><label class="field-label" for="event-status">Статус события</label><select id="event-status"><option value="">Все статусы</option><option value="occurred">Показано в действии</option><option value="reported">Сообщено / пересказано</option><option value="planned">Запланировано</option><option value="disputed">Спорно</option><option value="refuted">Опровергнуто</option><option value="hypothetical">Гипотетическое</option></select><label class="check-row spaced"><input type="checkbox" id="show-before"><span>Показывать «раньше»</span></label><label class="field-label" for="chain">Цепочка выбранного события</label><select id="chain"><option value="">Весь граф</option><option value="ancestors">Предшественники</option><option value="descendants">Последствия</option><option value="both">Обе стороны</option></select><p class="micro">Выберите событие, чтобы проследить цепочку.</p></div>
+    <label class="field-label" for="truth">Достоверность фактов</label><select id="truth"><option value="">Все статусы</option><option value="confirmed">Подтверждено в своём слое</option><option value="claimed">Сообщено персонажем</option><option value="disputed">Спорно</option><option value="refuted">Опровергнуто</option><option value="unknown">Не установлено</option></select>
+    <label class="check-row spaced"><input type="checkbox" id="analysis" checked><span>Аналитические выводы</span></label>
+    <section class="legend" aria-label="Легенда"><h3>Как читать карту</h3><div id="legend-content"></div><p>Сплошная линия — подтверждено. Пунктир — свидетельство или спор. Знак ∴ — аналитический вывод.</p></section>
+    <div class="sidebar-foot"><span>Полное произведение · со спойлерами</span><small id="export-date"></small><button id="about" class="link-button">О данных и проверке</button></div>
+  </aside>
+  <section class="canvas" aria-label="Область графа">
+    <div class="canvas-heading"><div><span class="eyebrow" id="view-kicker">ЛЮДИ И ОТНОШЕНИЯ</span><h1 id="view-title">Карта персонажей</h1><p id="view-description">Кого связывают любовь, родство, деньги и обещания.</p></div><div class="graph-count" id="graph-count" aria-live="polite"></div></div>
+    <svg id="graph" role="group" aria-label="Интерактивный граф персонажей"></svg>
+    <div id="empty" class="empty" hidden><span>Ничего не найдено</span><p>Измените фильтры или верните исходную карту.</p><button id="empty-reset">Сбросить фильтры</button></div>
+    <div class="canvas-bottom"><p id="canvas-hint">Наведите на персонажа · Нажмите, чтобы закрепить карточку</p><div class="zoom-controls"><button id="zoom-out" aria-label="Уменьшить">−</button><span id="zoom-level">100%</span><button id="zoom-in" aria-label="Увеличить">+</button><button id="fit" title="Показать весь граф">Показать всё</button></div></div>
+  </section>
+  <div id="splitter" class="splitter" role="separator" tabindex="0" aria-label="Ширина карточки" aria-orientation="vertical" aria-valuemin="300" aria-valuemax="650" aria-valuenow="360"></div>
+  <aside id="inspector" class="inspector" aria-label="Wiki-карточка"><div class="inspector-toolbar"><span id="panel-label" class="eyebrow">WIKI КНИГИ</span><div><button id="back-card" class="icon-button" title="Предыдущая карточка" aria-label="Предыдущая карточка" hidden>←</button><button id="pin" class="text-button" aria-pressed="false">Закрепить</button><button id="close-panel" class="icon-button" aria-label="Закрыть карточку">×</button></div></div><div id="card-content" class="card-content" aria-live="polite"></div></aside>
+</main>
+<dialog id="document-dialog" aria-labelledby="document-title"><div class="document-header"><button id="document-back" class="text-button">← К карте</button><h2 id="document-title">Текст пьесы</h2><button id="document-close" class="icon-button" aria-label="Закрыть чтение">×</button></div><div class="document-layout"><nav id="toc" aria-label="Оглавление"></nav><article id="document-body" class="prose"></article></div></dialog>
+<div id="toast" role="status" hidden></div>
+<noscript>Для просмотра графа включите JavaScript. Исходные карточки доступны в каталоге wiki.</noscript>
+</body>
+</html>

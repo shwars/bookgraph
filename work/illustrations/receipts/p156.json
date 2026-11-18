@@ -1,0 +1,14 @@
+{
+  "id": "p156",
+  "entity": "Бряхимов",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-89956459-4464-4423-a67e-fe8cd923af60.png",
+  "atlas": "work\\illustrations\\atlases\\p156.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Бряхимов.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

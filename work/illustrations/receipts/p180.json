@@ -1,0 +1,14 @@
+{
+  "id": "p180",
+  "entity": "Остров Робинзона",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-5760c3b6-a61a-4602-a837-86c53afdad91.png",
+  "atlas": "work\\illustrations\\atlases\\p180.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Остров Робинзона.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

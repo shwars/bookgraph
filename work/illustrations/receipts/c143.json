@@ -1,0 +1,14 @@
+{
+  "id": "c143",
+  "entity": "Голос с улицы — зовущий Илью",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-47bbb132-7e8e-4aee-9f1d-74e0878ac120.png",
+  "atlas": "work\\illustrations\\atlases\\c143.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.charsheet.png",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

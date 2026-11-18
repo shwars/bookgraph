@@ -1,0 +1,1449 @@
+{
+  "method": "Alpha-only monotone remap 235..253 -> 0..255; RGB unchanged; no scaling. Generated atlas originals preserved.",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 45448,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 44662,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 44385,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 44521,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 44609,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 44197,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 59139,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 49395,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 43522,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 51745,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 48356,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.face_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 38096,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 28693,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 29164,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 29176,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 28980,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 30138,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.front_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 30051,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 26733,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        253
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 25640,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        253
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 25126,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        253
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 35951,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 29651,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Карандышев.bespridannica.face_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 32278,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 37759,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 38226,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 38264,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 38412,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 38948,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.front_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 37785,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 84239,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 75247,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 74747,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 78608,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 80443,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Паратов.bespridannica.face_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 88858,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 44766,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 45482,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 45000,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 46168,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 48443,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.front_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 47884,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 37419,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 35984,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 27585,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 35291,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 33404,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Харита Огудалова.bespridannica.face_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 31316,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 52168,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 53113,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 52731,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 54075,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 52901,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.front_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 53112,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 77888,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 73342,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 72169,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 82118,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 73722,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Кнуров.bespridannica.face_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 67760,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 32637,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 31052,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 30846,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 32190,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 31528,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.front_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 31587,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_neutral.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 74277,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_happy.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 68672,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_sad.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 70363,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_surprised.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 68862,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_angry.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 72811,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Вожеватов.bespridannica.face_disgusted.png",
+      "size": [
+        512,
+        512
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 66218,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.front_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 202509,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.face_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 263721,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.front_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 181724,
+      "detached_cleanup": {
+        "method": "Remove detached neighboring-cell fragment outside central figure bounds plus 8px margin",
+        "bounds": [
+          162,
+          15,
+          542,
+          1018
+        ]
+      }
+    },
+    {
+      "path": "wiki/protagonists/images/Гаврило.bespridannica.face_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 278363,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.front_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 115726,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Иван.bespridannica.face_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 293259,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.front_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 124595,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.face_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 234797,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.front_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 226279,
+      "detached_cleanup": {
+        "method": "Remove detached neighboring-cell fragment outside central figure bounds plus 8px margin",
+        "bounds": [
+          158,
+          17,
+          546,
+          1019
+        ]
+      }
+    },
+    {
+      "path": "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.face_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 389957,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.front_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 125727,
+      "detached_cleanup": null
+    },
+    {
+      "path": "wiki/protagonists/images/Голос с улицы — зовущий Илью.bespridannica.face_neutral.png",
+      "size": [
+        768,
+        1024
+      ],
+      "original_alpha": [
+        0,
+        254
+      ],
+      "final_alpha": [
+        0,
+        255
+      ],
+      "opaque_pixels": 327694,
+      "detached_cleanup": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "c078-neutral",
+  "entity": "Робинзон",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-d8dac2c6-9cd9-4fc6-8abe-9c1a1efdb2c1.png",
+  "atlas": "work\\illustrations\\atlases\\c078-neutral.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "wiki/protagonists/images/Робинзон.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024
+    }
+  ]
+}

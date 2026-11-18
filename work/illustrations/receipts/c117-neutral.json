@@ -1,0 +1,19 @@
+{
+  "id": "c117-neutral",
+  "entity": "Илья",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-fb519f56-4abe-4a6d-8d1d-8a526117e6d7.png",
+  "atlas": "work\\illustrations\\atlases\\c117-neutral.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.front_neutral.png",
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "path": "wiki/protagonists/images/Илья.bespridannica.face_neutral.png",
+      "width": 768,
+      "height": 1024
+    }
+  ]
+}

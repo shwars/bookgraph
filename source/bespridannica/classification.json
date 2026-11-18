@@ -1,0 +1,262 @@
+{
+  "book_id": "bespridannica",
+  "units": [
+    {
+      "unit_id": "frontmatter",
+      "label": "Автор и название",
+      "classification": "framing"
+    },
+    {
+      "unit_id": "section-02",
+      "label": "Действие 1 — Лица",
+      "classification": "cast"
+    },
+    {
+      "unit_id": "section-03",
+      "label": "Действие 1 — Явление первое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-04",
+      "label": "Действие 1 — Явление второе",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-05",
+      "label": "Действие 1 — Явление третье",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-06",
+      "label": "Действие 1 — Явление четвертое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-07",
+      "label": "Действие 1 — Явление пятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-08",
+      "label": "Действие 1 — Явление шестое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-09",
+      "label": "Действие 1 — Явление седьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-10",
+      "label": "Действие 2 — Лица",
+      "classification": "cast"
+    },
+    {
+      "unit_id": "section-11",
+      "label": "Действие 2 — Явление первое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-12",
+      "label": "Действие 2 — Явление второе",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-13",
+      "label": "Действие 2 — Явление третье",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-14",
+      "label": "Действие 2 — Явление четвертое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-15",
+      "label": "Действие 2 — Явление пятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-16",
+      "label": "Действие 2 — Явление шестое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-17",
+      "label": "Действие 2 — Явление седьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-18",
+      "label": "Действие 2 — Явление восьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-19",
+      "label": "Действие 2 — Явление девятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-20",
+      "label": "Действие 2 — Явление десятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-21",
+      "label": "Действие 2 — Явление одиннадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-22",
+      "label": "Действие 3 — Лица",
+      "classification": "cast"
+    },
+    {
+      "unit_id": "section-23",
+      "label": "Действие 3 — Явление первое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-24",
+      "label": "Действие 3 — Явление второе",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-25",
+      "label": "Действие 3 — Явление третье",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-26",
+      "label": "Действие 3 — Явление четвертое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-27",
+      "label": "Действие 3 — Явление пятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-28",
+      "label": "Действие 3 — Явление шестое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-29",
+      "label": "Действие 3 — Явление седьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-30",
+      "label": "Действие 3 — Явление восьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-31",
+      "label": "Действие 3 — Явление девятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-32",
+      "label": "Действие 3 — Явление десятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-33",
+      "label": "Действие 3 — Явление одиннадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-34",
+      "label": "Действие 3 — Явление двенадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-35",
+      "label": "Действие 3 — Явление тринадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-36",
+      "label": "Действие 3 — Явление четырнадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-37",
+      "label": "Действие 4 — Лица",
+      "classification": "cast"
+    },
+    {
+      "unit_id": "section-38",
+      "label": "Действие 4 — Явление первое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-39",
+      "label": "Действие 4 — Явление второе",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-40",
+      "label": "Действие 4 — Явление третье",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-41",
+      "label": "Действие 4 — Явление четвертое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-42",
+      "label": "Действие 4 — Явление пятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-43",
+      "label": "Действие 4 — Явление шестое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-44",
+      "label": "Действие 4 — Явление седьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-45",
+      "label": "Действие 4 — Явление восьмое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-46",
+      "label": "Действие 4 — Явление девятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-47",
+      "label": "Действие 4 — Явление десятое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-48",
+      "label": "Действие 4 — Явление одиннадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-49",
+      "label": "Действие 4 — Явление двенадцатое",
+      "classification": "canon"
+    },
+    {
+      "unit_id": "section-50",
+      "label": "Комментарии",
+      "classification": "editorial"
+    }
+  ],
+  "notes": {
+    "note6": "authorial-translation",
+    "note7": "authorial-translation",
+    "note8": "authorial-translation",
+    "others": "translation-unspecified"
+  },
+  "fictional_dates": "Год не установлен. Летний праздничный день, от полудня до светлой летней ночи. 16 октября 1878 под текстом — рамка автора."
+}

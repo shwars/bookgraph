@@ -1,0 +1,14 @@
+{
+  "id": "p162",
+  "entity": "Деревня Карандышева",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-fad187ca-54a7-486c-ac45-1f7d5637b175.png",
+  "atlas": "work\\illustrations\\atlases\\p162.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/places/images/Деревня Карандышева.bespridannica.day.png",
+      "width": 1664,
+      "height": 936
+    }
+  ]
+}

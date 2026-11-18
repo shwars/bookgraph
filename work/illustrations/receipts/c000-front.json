@@ -1,0 +1,39 @@
+{
+  "id": "c000-front",
+  "entity": "Лариса Огудалова",
+  "generated_source": "C:\\Users\\dmitr\\.codex\\generated_images\\01a1d196-623c-7b31-8efb-60960a3c4543\\exec-ee71b0e6-36fa-468c-a960-8b5868612881.png",
+  "atlas": "work\\illustrations\\atlases\\c000-front.png",
+  "mode": "built-in image_gen; Pillow crops authorized by user; no upscaling",
+  "files": [
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_neutral.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_happy.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_sad.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_surprised.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_angry.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "path": "wiki/protagonists/images/Лариса Огудалова.bespridannica.front_disgusted.png",
+      "width": 512,
+      "height": 512
+    }
+  ]
+}
