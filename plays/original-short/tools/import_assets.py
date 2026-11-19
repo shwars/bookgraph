@@ -31,6 +31,7 @@ CHARACTERS = {
     "ilya": ("Илья", ["neutral"]),
     "gavrilo": ("Гаврило", ["neutral"]),
     "ivan": ("Иван", ["neutral"]),
+    "evfrosinya": ("Евфросинья Потаповна", ["neutral"]),
 }
 
 # slug -> (wiki entity_id, kind, source filename stem)
@@ -52,6 +53,7 @@ CAST_BLOCK = {
     "Гаврило": "section-02#^b0008",
     "Иван": "section-02#^b0009",
     "Илья": "section-22#^b0010",
+    "Евфросинья Потаповна": "section-22#^b0001",
 }
 
 ARTISTIC = {
@@ -94,6 +96,10 @@ ARTISTIC = {
     "Иван": [
         "Слуга в кофейной; не смешивать с Иваном Петровичем Семёновским из фильма.",
         "Точное описание внешности в тексте отсутствует.",
+    ],
+    "Евфросинья Потаповна": [
+        "Практичная тётка Карандышева, простая домашняя одежда.",
+        "Возраст и черты лица — визуальная интерпретация, не книжное описание.",
     ],
 }
 
@@ -184,6 +190,19 @@ def main() -> None:
                 },
             }
 
+    faces: dict[str, dict[str, str]] = {}
+    for slug, (entity, emotions) in CHARACTERS.items():
+        faces[slug] = {}
+        for emotion in emotions:
+            source = entries[(entity, f"face_{emotion}")]
+            face_dir = PROJECT / "assets" / "faces"
+            face_dir.mkdir(parents=True, exist_ok=True)
+            face_path = face_dir / f"{slug}-{emotion}.png"
+            shutil.copy2(REPO / source["target"], face_path)
+            prompt_name = f"{slug}-face-{emotion}.txt"
+            shutil.copy2(WORK / "prompts" / f"{source['id']}.txt", PROJECT / "assets" / "prompts" / prompt_name)
+            faces[slug][emotion] = f"assets/faces/{slug}-{emotion}.png"
+
     for slug, (entity, kind, filename) in PLACES.items():
         source = entries[(entity, kind)]
         image_path = PROJECT / "assets" / "backgrounds" / f"{slug}.png"
@@ -220,11 +239,16 @@ def main() -> None:
 
     (PROJECT / "tools" / "asset-report.json").write_text(
         json.dumps({"characters": len(CHARACTERS), "sprites": sum(len(v[1]) for v in CHARACTERS.values()),
-                    "backgrounds": len(PLACES), "assets": len(assets)}, ensure_ascii=False, indent=2) + "\n",
+                    "backgrounds": len(PLACES), "assets": len(assets),
+                    "faces": sum(len(v) for v in faces.values())}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    (PROJECT / "tools" / "faces.json").write_text(
+        json.dumps(faces, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
     print(json.dumps({"assets": len(assets), "backgrounds": len(PLACES),
-                      "characters": len(CHARACTERS)}, ensure_ascii=False))
+                      "characters": len(CHARACTERS),
+                      "faces": sum(len(v) for v in faces.values())}, ensure_ascii=False))
 
 
 if __name__ == "__main__":

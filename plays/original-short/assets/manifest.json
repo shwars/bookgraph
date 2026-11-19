@@ -1526,6 +1526,44 @@
         972
       ]
     },
+    "evfrosinya-neutral": {
+      "file": "assets/characters/evfrosinya/neutral.png",
+      "kind": "character",
+      "anchor": [
+        0.5,
+        1
+      ],
+      "head_anchor": [
+        0.5,
+        0.04
+      ],
+      "sheet": "assets/characters/sheets/evfrosinya/sheet.png",
+      "sheet_metadata": "assets/characters/sheets/evfrosinya/sheet.json",
+      "sheet_origin": {
+        "entity_id": "Евфросинья Потаповна",
+        "profile": "zhestokiy-romans-watercolor-v1",
+        "version": 1,
+        "path": "wiki/protagonists/images/Евфросинья Потаповна.bespridannica.charsheet.png"
+      },
+      "provenance": {
+        "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+        "prompt_file": "assets/prompts/evfrosinya-neutral.txt",
+        "references": [
+          "assets/characters/sheets/evfrosinya/sheet.png"
+        ]
+      },
+      "size": [
+        768,
+        1024
+      ],
+      "sha256": "1ddf5a0ec485f0c77c314726d1a37eb666318d3c38c5eab48a06897b591fce38",
+      "bounds": [
+        166,
+        25,
+        538,
+        1011
+      ]
+    },
     "boulevard-day": {
       "file": "assets/backgrounds/boulevard-day.png",
       "kind": "background",

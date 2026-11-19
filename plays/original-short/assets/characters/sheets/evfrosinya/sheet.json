@@ -1,0 +1,19 @@
+{
+  "entity_id": "Евфросинья Потаповна",
+  "profile": "zhestokiy-romans-watercolor-v1",
+  "version": 1,
+  "image": "sheet.png",
+  "sources": [
+    "wiki/protagonists/Евфросинья Потаповна.bespridannica.md",
+    "source/bespridannica/bychapter/section-22#^b0001"
+  ],
+  "generator": "Codex built-in image_gen (GPT Images); atlas cut and alpha cleanup with Pillow",
+  "prompt_file": "prompt.txt",
+  "reference_files": [
+    "assets/references/c039-Лариса Огудалова.bespridannica.charsheet.png"
+  ],
+  "artistic_choices": [
+    "Практичная тётка Карандышева, простая домашняя одежда.",
+    "Возраст и черты лица — визуальная интерпретация, не книжное описание."
+  ]
+}

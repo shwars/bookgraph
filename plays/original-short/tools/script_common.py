@@ -12,6 +12,7 @@ CHARACTERS = {
     "ilya": {"name": "Илья", "entity_id": "Илья", "color": "#8b5a3c"},
     "gavrilo": {"name": "Гаврило", "entity_id": "Гаврило", "color": "#6b5b45"},
     "ivan": {"name": "Иван", "entity_id": "Иван", "color": "#6f6252"},
+    "evfrosinya": {"name": "Евфросинья Потаповна", "entity_id": "Евфросинья Потаповна", "color": "#7c5f55"},
     "narrator": {"name": "Рассказчик", "color": "#6b5947"},
 }
 
@@ -19,7 +20,7 @@ CHARACTERS = {
 HEIGHTS = {
     "larisa": 320, "harita": 322, "paratov": 342, "karandyshev": 330,
     "knurov": 338, "vozhevatov": 328, "robinson": 326, "ilya": 324,
-    "gavrilo": 330, "ivan": 318,
+    "gavrilo": 330, "ivan": 318, "evfrosinya": 316,
 }
 
 
@@ -36,8 +37,12 @@ def cue(cid: str, speaker: str, text: str, sources: list[str], adaptation: str,
 
 def actor(aid: str, x: float, pose: str = "neutral", z: int = 2,
           enter_cue: str | None = None, exit_cue: str | None = None,
+          reenter_cue: str | None = None,
           poses: list[tuple[str, float, str]] | None = None,
           gestures: list[tuple[str, str, float, float]] | None = None,
+          moves: list[tuple[str, float, float, float | None]] | None = None,
           y: float = 0.94) -> dict:
     return {"id": aid, "x": x, "pose": pose, "z": z, "enter_cue": enter_cue,
-            "exit_cue": exit_cue, "poses": poses or [], "gestures": gestures or [], "y": y}
+            "exit_cue": exit_cue, "reenter_cue": reenter_cue,
+            "poses": poses or [], "gestures": gestures or [],
+            "moves": moves or [], "y": y}

@@ -149,7 +149,10 @@
       let x = state.x * WIDTH + gesture.dx * HEIGHT / 680, y = state.y * HEIGHT + gesture.dy * HEIGHT / 680, angle = gesture.angle;
       if (!reduced) {
         if (state.moving) { y -= Math.abs(Math.sin(local * 9)) * 6 * HEIGHT / 680; angle += Math.sin(local * 9) * 1.2; }
-        else angle += Math.sin(local * 1.8 + item.z) * .4;
+        else {
+          angle += Math.sin(local * 1.8 + item.z) * .4;
+          y += Math.sin(local * 1.7 + item.z * 2.3 + state.x * 4) * 1.6 * HEIGHT / 680;
+        }
         if (cue?.speaker === item.id) angle += Math.sin(local * 5) * .9;
       }
       actors.set(item.id, { item, state, x, y, angle });
@@ -161,8 +164,26 @@
                    y: state.y * HEIGHT + (parent?.y || 0), angle: 0 });
     }
     items.sort((a, b) => a.item.z - b.item.z);
+    let closeup = null;
+    const segment = (scene.closeups || []).find(s => local >= s.start && local < s.end);
+    if (segment) {
+      const cast = segment.cast.filter(slug => {
+        const actor = actors.get(slug);
+        return actor && actor.state.visible;
+      });
+      if (cast.length) {
+        let speaker = cue && cast.includes(cue.speaker) ? cue.speaker : null;
+        if (!speaker) {
+          for (let i = scene.cues.length - 1; i >= 0; i--) {
+            const previous = scene.cues[i];
+            if (previous.at <= local && cast.includes(previous.speaker)) { speaker = previous.speaker; break; }
+          }
+        }
+        closeup = { ...segment, cast, speaker: speaker || cast[0] };
+      }
+    }
     const curtain = Math.min(smooth(local / curtain_seconds), smooth((scene.duration - local) / curtain_seconds));
-    return { index, scene, local, cue, actors, items, curtain };
+    return { index, scene, local, cue, actors, items, curtain, closeup };
   }
   return { Playback, validateStory, itemState, gestureOffset, stageState, smooth, clamp, formatTime, WIDTH, HEIGHT, CPS };
 });

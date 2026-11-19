@@ -26,6 +26,7 @@
     ilya: 'цыган, музыкант',
     gavrilo: 'содержатель кофейной',
     ivan: 'слуга в кофейной',
+    evfrosinya: 'тётка Карандышева',
   };
 
   function buildCast(story, manifest) {
@@ -178,7 +179,10 @@
       const { story, manifest } = SpriteTheaterData;
       configure(story, manifest);
       playback = new SpriteEngine.Playback(story);
-      const images = {}, total = Object.keys(manifest.assets).length + 1;
+      const images = {};
+      const faceEntries = Object.entries(story.faces || {}).flatMap(([slug, emotions]) =>
+        Object.entries(emotions).map(([emotion, file]) => [`faces:${slug}:${emotion}`, file]));
+      const total = Object.keys(manifest.assets).length + faceEntries.length + 1;
       let loaded = 0;
       dom['load-progress'].max = total;
       const progress = () => {
@@ -186,11 +190,12 @@
         loaded++; dom['load-progress'].value = loaded;
         dom['load-status'].textContent = `Готовим сцену: ${loaded} из ${total}`;
       };
-      const imageLoads = Object.entries(manifest.assets).map(([id, asset]) => new Promise((resolve, reject) => {
+      const allImages = [...Object.entries(manifest.assets).map(([id, asset]) => [id, asset.file]), ...faceEntries];
+      const imageLoads = allImages.map(([id, file]) => new Promise((resolve, reject) => {
         const image = new Image();
         image.onload = () => { images[id] = image; progress(); resolve(); };
         image.onerror = () => reject(new Error(`Не загрузилось изображение «${id}». Проверьте, что папка assets находится рядом с index.html.`));
-        image.src = asset.file;
+        image.src = file;
       }));
       const fontLoad = loadFonts().then(progress);
       await Promise.all([...imageLoads, fontLoad]);
@@ -242,8 +247,11 @@
     }
   }
 
-  function updateDialogue(frame, heads) {
+  function updateDialogue(frame, result) {
     const cue = frame.cue, stageWidth = dom.stage.clientWidth;
+    const closeup = Boolean(result?.closeup);
+    dom.dialogue.classList.toggle('is-closeup', closeup);
+    const heads = result?.heads || new Map();
     // The curtain covers dialogue at the opening and close, just as in pygame.
     const show = cue && frame.curtain > .9 && !playback.ended;
     dom.dialogue.hidden = !show;
@@ -279,6 +287,15 @@
     if (!dom.player.classList.contains('has-caption')) {
       const playerBox = dom.player.getBoundingClientRect(), stageBox = dom.stage.getBoundingClientRect();
       const scale = stageWidth / playback.story.stage.width;
+      if (closeup) {
+        const width = Math.max(255, Math.min(stageWidth - 48, 720 * scale));
+        dom.dialogue.style.width = `${width}px`;
+        dom.dialogue.style.left = `${stageBox.left - playerBox.left + (stageWidth - width) / 2}px`;
+        dom.dialogue.style.top = `${stageBox.top - playerBox.top + playback.story.stage.height * .70 * scale}px`;
+        dom['bubble-tail'].style.display = 'none';
+        return;
+      }
+      dom['bubble-tail'].style.display = '';
       const head = heads.get(cue.speaker);
       const visibleHeads = [...heads.values()].filter(h => h.x > 0 && h.x < playback.story.stage.width);
       const ceiling = Math.min(...visibleHeads.map(h => h.y), playback.story.stage.height);
@@ -294,8 +311,8 @@
   function draw() {
     if (!ready) return;
     const frame = SpriteEngine.stageState(playback, reduceMotion.matches);
-    const heads = renderer.draw(frame);
-    updateOverlay(); updateDialogue(frame, heads);
+    const result = renderer.draw(frame);
+    updateOverlay(); updateDialogue(frame, result);
     dom['scene-title'].textContent = frame.scene.title;
     dom['scene-counter'].textContent = `Сцена ${frame.index + 1} из ${playback.story.scenes.length}`;
     dom['time-label'].textContent = `${SpriteEngine.formatTime(playback.time)} / ${SpriteEngine.formatTime(playback.total)}`;
@@ -399,6 +416,7 @@
     else if (key === 'arrowright') { event.preventDefault(); action(() => { playback.started = true; playback.nextCue(reduceMotion.matches); }); }
     else if (key === 'r' || key === 'к') action(() => playback.restart());
     else if (/^[1-9]$/.test(key)) action(() => playback.selectScene(Number(key) - 1));
+    else if (key === '0') action(() => playback.selectScene(9));
   });
   document.addEventListener('visibilitychange', () => {
     if (!ready) return;

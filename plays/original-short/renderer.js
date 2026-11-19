@@ -10,6 +10,7 @@
       if (!this.ctx) throw new Error('Браузер не поддерживает Canvas 2D.');
       this.manifest = manifest;
       this.images = images;
+      this.storyFaces = story.faces || {};
       this.curtain = document.createElement('canvas');
       this.curtain.width = W / 2; this.curtain.height = H;
       const ctx = this.curtain.getContext('2d');
@@ -48,6 +49,60 @@
       return { x: x + hx * Math.cos(angle) - hy * Math.sin(angle),
                y: y + hx * Math.sin(angle) + hy * Math.cos(angle) };
     }
+    faceImage(slug, emotion) {
+      return this.images[`faces:${slug}:${emotion}`]
+        || this.images[`faces:${slug}:neutral`]
+        || this.images[`faces:${slug}:${Object.keys(this.storyFaces[slug] || {})[0]}`];
+    }
+    drawPortrait(slug, emotion, cx, cy, size, dim) {
+      const image = this.faceImage(slug, emotion);
+      if (!image) return null;
+      const ctx = this.ctx;
+      ctx.save();
+      ctx.globalAlpha = dim ? .55 : 1;
+      // Soft oval vignette instead of a rectangular portrait card.
+      ctx.beginPath();
+      ctx.ellipse(cx, cy, size * .5, size * .58, 0, 0, Math.PI * 2);
+      ctx.clip();
+      ctx.drawImage(image, cx - size / 2, cy - size * .58, size, size * 1.16);
+      ctx.restore();
+      ctx.save();
+      ctx.globalAlpha = dim ? .5 : .95;
+      ctx.strokeStyle = this.theme.gold || '#bf9652';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.ellipse(cx, cy, size * .5, size * .58, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.restore();
+      return { x: cx, y: cy - size * .3 };
+    }
+    drawCloseup(frame) {
+      const block = frame.closeup;
+      if (!block?.cast?.length || frame.curtain < .9 || frame.ended) return null;
+      const cast = block.cast;
+      const W = this.width, H = this.height, ctx = this.ctx;
+      // Paper wash: the room stays readable but recedes behind the faces.
+      ctx.save();
+      ctx.fillStyle = 'rgba(244, 234, 214, .74)';
+      ctx.fillRect(0, 0, W, H);
+      ctx.restore();
+      const size = cast.length > 1 ? H * .60 : H * .64;
+      const gap = size * .16;
+      const total = cast.length * size + (cast.length - 1) * gap;
+      let left = (W - total) / 2;
+      const speaker = block.speaker;
+      const anchors = new Map();
+      cast.forEach((slug, index) => {
+        const actor = frame.actors.get(slug);
+        const emotion = (actor?.state.asset || `${slug}-neutral`).split('-').pop();
+        const dim = slug !== speaker;
+        const cx = left + size / 2 + index * (size + gap);
+        const cy = H * .34;
+        const anchor = this.drawPortrait(slug, emotion, cx, cy, dim ? size * .92 : size, dim);
+        if (anchor && actor) anchors.set(slug, anchor);
+      });
+      return anchors;
+    }
     draw(frame) {
       const W = this.width, H = this.height;
       const ctx = this.ctx;
@@ -58,16 +113,23 @@
       const sw = W / scale, sh = H / scale;
       ctx.drawImage(bg, (bg.naturalWidth - sw) / 2, bg.naturalHeight - sh, sw, sh, 0, 0, W, H);
       const heads = new Map();
-      for (const item of frame.items) {
-        const head = this.drawCutout(item);
-        if (head && frame.actors.has(item.item.id)) heads.set(item.item.id, head);
+      const closeupMode = Boolean(frame.closeup && frame.curtain >= .9 && !frame.ended);
+      if (!closeupMode) {
+        for (const item of frame.items) {
+          const head = this.drawCutout(item);
+          if (head && frame.actors.has(item.item.id)) heads.set(item.item.id, head);
+        }
       }
+      const closeup = this.drawCloseup(frame);
+      if (closeup) for (const [slug, anchor] of closeup) heads.set(slug, anchor);
       const travel = W / 2 * frame.curtain;
       ctx.drawImage(this.curtain, -travel, 0, W / 2, H);
       ctx.save(); ctx.translate(W + travel, 0); ctx.scale(-1, 1); ctx.drawImage(this.curtain, 0, 0, W / 2, H); ctx.restore();
       ctx.fillStyle = this.theme.curtain || '#591823'; ctx.fillRect(0, 0, W, 12);
       ctx.fillStyle = this.theme.gold || '#bf9652'; ctx.fillRect(0, 12, W, 2);
-      return heads;
+      const result = { heads };
+      if (closeup) result.closeup = true;
+      return result;
     }
   }
   root.SpriteRenderer = Renderer;

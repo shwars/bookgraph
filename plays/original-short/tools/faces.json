@@ -1,0 +1,65 @@
+{
+  "larisa": {
+    "neutral": "assets/faces/larisa-neutral.png",
+    "happy": "assets/faces/larisa-happy.png",
+    "sad": "assets/faces/larisa-sad.png",
+    "surprised": "assets/faces/larisa-surprised.png",
+    "angry": "assets/faces/larisa-angry.png",
+    "disgusted": "assets/faces/larisa-disgusted.png"
+  },
+  "harita": {
+    "neutral": "assets/faces/harita-neutral.png",
+    "happy": "assets/faces/harita-happy.png",
+    "sad": "assets/faces/harita-sad.png",
+    "surprised": "assets/faces/harita-surprised.png",
+    "angry": "assets/faces/harita-angry.png",
+    "disgusted": "assets/faces/harita-disgusted.png"
+  },
+  "paratov": {
+    "neutral": "assets/faces/paratov-neutral.png",
+    "happy": "assets/faces/paratov-happy.png",
+    "sad": "assets/faces/paratov-sad.png",
+    "surprised": "assets/faces/paratov-surprised.png",
+    "angry": "assets/faces/paratov-angry.png",
+    "disgusted": "assets/faces/paratov-disgusted.png"
+  },
+  "karandyshev": {
+    "neutral": "assets/faces/karandyshev-neutral.png",
+    "happy": "assets/faces/karandyshev-happy.png",
+    "sad": "assets/faces/karandyshev-sad.png",
+    "surprised": "assets/faces/karandyshev-surprised.png",
+    "angry": "assets/faces/karandyshev-angry.png",
+    "disgusted": "assets/faces/karandyshev-disgusted.png"
+  },
+  "knurov": {
+    "neutral": "assets/faces/knurov-neutral.png",
+    "happy": "assets/faces/knurov-happy.png",
+    "sad": "assets/faces/knurov-sad.png",
+    "surprised": "assets/faces/knurov-surprised.png",
+    "angry": "assets/faces/knurov-angry.png",
+    "disgusted": "assets/faces/knurov-disgusted.png"
+  },
+  "vozhevatov": {
+    "neutral": "assets/faces/vozhevatov-neutral.png",
+    "happy": "assets/faces/vozhevatov-happy.png",
+    "sad": "assets/faces/vozhevatov-sad.png",
+    "surprised": "assets/faces/vozhevatov-surprised.png",
+    "angry": "assets/faces/vozhevatov-angry.png",
+    "disgusted": "assets/faces/vozhevatov-disgusted.png"
+  },
+  "robinson": {
+    "neutral": "assets/faces/robinson-neutral.png"
+  },
+  "ilya": {
+    "neutral": "assets/faces/ilya-neutral.png"
+  },
+  "gavrilo": {
+    "neutral": "assets/faces/gavrilo-neutral.png"
+  },
+  "ivan": {
+    "neutral": "assets/faces/ivan-neutral.png"
+  },
+  "evfrosinya": {
+    "neutral": "assets/faces/evfrosinya-neutral.png"
+  }
+}

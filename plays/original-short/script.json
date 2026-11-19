@@ -72,18 +72,89 @@
       "entity_id": "Иван",
       "color": "#6f6252"
     },
+    "evfrosinya": {
+      "name": "Евфросинья Потаповна",
+      "entity_id": "Евфросинья Потаповна",
+      "color": "#7c5f55"
+    },
     "narrator": {
       "name": "Рассказчик",
       "color": "#6b5947"
     }
   },
+  "faces": {
+    "larisa": {
+      "neutral": "assets/faces/larisa-neutral.png",
+      "happy": "assets/faces/larisa-happy.png",
+      "sad": "assets/faces/larisa-sad.png",
+      "surprised": "assets/faces/larisa-surprised.png",
+      "angry": "assets/faces/larisa-angry.png",
+      "disgusted": "assets/faces/larisa-disgusted.png"
+    },
+    "harita": {
+      "neutral": "assets/faces/harita-neutral.png",
+      "happy": "assets/faces/harita-happy.png",
+      "sad": "assets/faces/harita-sad.png",
+      "surprised": "assets/faces/harita-surprised.png",
+      "angry": "assets/faces/harita-angry.png",
+      "disgusted": "assets/faces/harita-disgusted.png"
+    },
+    "paratov": {
+      "neutral": "assets/faces/paratov-neutral.png",
+      "happy": "assets/faces/paratov-happy.png",
+      "sad": "assets/faces/paratov-sad.png",
+      "surprised": "assets/faces/paratov-surprised.png",
+      "angry": "assets/faces/paratov-angry.png",
+      "disgusted": "assets/faces/paratov-disgusted.png"
+    },
+    "karandyshev": {
+      "neutral": "assets/faces/karandyshev-neutral.png",
+      "happy": "assets/faces/karandyshev-happy.png",
+      "sad": "assets/faces/karandyshev-sad.png",
+      "surprised": "assets/faces/karandyshev-surprised.png",
+      "angry": "assets/faces/karandyshev-angry.png",
+      "disgusted": "assets/faces/karandyshev-disgusted.png"
+    },
+    "knurov": {
+      "neutral": "assets/faces/knurov-neutral.png",
+      "happy": "assets/faces/knurov-happy.png",
+      "sad": "assets/faces/knurov-sad.png",
+      "surprised": "assets/faces/knurov-surprised.png",
+      "angry": "assets/faces/knurov-angry.png",
+      "disgusted": "assets/faces/knurov-disgusted.png"
+    },
+    "vozhevatov": {
+      "neutral": "assets/faces/vozhevatov-neutral.png",
+      "happy": "assets/faces/vozhevatov-happy.png",
+      "sad": "assets/faces/vozhevatov-sad.png",
+      "surprised": "assets/faces/vozhevatov-surprised.png",
+      "angry": "assets/faces/vozhevatov-angry.png",
+      "disgusted": "assets/faces/vozhevatov-disgusted.png"
+    },
+    "robinson": {
+      "neutral": "assets/faces/robinson-neutral.png"
+    },
+    "ilya": {
+      "neutral": "assets/faces/ilya-neutral.png"
+    },
+    "gavrilo": {
+      "neutral": "assets/faces/gavrilo-neutral.png"
+    },
+    "ivan": {
+      "neutral": "assets/faces/ivan-neutral.png"
+    },
+    "evfrosinya": {
+      "neutral": "assets/faces/evfrosinya-neutral.png"
+    }
+  },
   "adaptation_notes": [
-    "Сокращённая сценическая версия четырёх действий. Сохранены ключевые сюжетные и цитатные реплики; экспозиция, комические линии и часть монологов сокращены.",
-    "Текст героев взят из предоставленного издания. В длинных репликах сделаны купюры; они отмечены в поле adaptation у каждой реплики.",
+    "Сокращённая сценическая версия четырёх действий. Диалоги сохранены целыми обменами: если оставлен вопрос, оставлен и ответ; комические и фоновые линии сокращены целыми блоками.",
+    "Текст героев взят из предоставленного издания. В длинных монологах сделаны купюры; они отмечены в поле adaptation у каждой реплики.",
     "Связки рассказчика пересказывают ремарки и места действия. Новых фактов они не добавляют; источники указаны у каждой связки.",
     "Визуальный стиль — акварель по фильму «Жестокий романс» (1984). Это художественное оформление, а не каноническое описание внешности.",
     "Ключевые предметы — монета, кольцо, пистолет — не выносятся отдельными куклами: на них указывают жестом и словом. Выстрел обозначен ремаркой и жестом.",
     "Спектакль идёт без звука. Цыганский хор в финале обозначен ремаркой; пушечный выстрел и выстрел Карандышева — сценическими знаками.",
+    "Важные диалоги идут в портретном режиме: крупные лица говорящего и слушающего, полные фигурки приглушены. Портреты — те же акварельные образы, не новые факты.",
     "Источники: source/bespridannica/bychapter/section-XX#^bYYYY. Полная таблица сцен и купюр — в coverage.md; издание и хеш — в README.md."
   ],
   "scenes": [
@@ -103,10 +174,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.22,
               "y": 0.94,
               "asset": "knurov-neutral"
+            },
+            {
+              "at": 7.4,
+              "x": 0.2
+            },
+            {
+              "at": 29.5,
+              "x": 0.27
+            },
+            {
+              "at": 58.9,
+              "x": 0.31
             }
           ],
           "gestures": []
@@ -118,10 +201,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.42,
               "y": 0.94,
               "asset": "vozhevatov-neutral"
+            },
+            {
+              "at": 7.4,
+              "x": 0.4
+            },
+            {
+              "at": 29.5,
+              "x": 0.47
+            },
+            {
+              "at": 58.9,
+              "x": 0.52
             }
           ],
           "gestures": []
@@ -133,7 +228,7 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.72,
               "y": 0.94,
               "asset": "gavrilo-neutral"
@@ -148,7 +243,7 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.88,
               "y": 0.94,
               "asset": "ivan-neutral"
@@ -225,6 +320,17 @@
           "duration": 4.5
         },
         {
+          "id": "s1-07",
+          "speaker": "knurov",
+          "text": "Бесприданницы-то и находят женихов хороших.",
+          "sources": [
+            "source/bespridannica/bychapter/section-04#^b0072"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 25.7,
+          "duration": 3.2
+        },
+        {
           "id": "s1-08",
           "speaker": "vozhevatov",
           "text": "Не то время. Прежде женихов-то много было, так и на бесприданниц хватало; а теперь женихов-то в самый обрез: сколько приданых, столько и женихов, лишних нет – бесприданницам-то и недостает.",
@@ -232,7 +338,7 @@
             "source/bespridannica/bychapter/section-04#^b0073"
           ],
           "adaptation": "Реплика сохранена полностью.",
-          "at": 25.7,
+          "at": 29.5,
           "duration": 8.4
         },
         {
@@ -243,7 +349,7 @@
             "source/bespridannica/bychapter/section-04#^b0123"
           ],
           "adaptation": "Фрагмент большой реплики Вожеватова; слова Ларисы внутри пересказа.",
-          "at": 34.7,
+          "at": 38.5,
           "duration": 7.1
         },
         {
@@ -254,8 +360,19 @@
             "source/bespridannica/bychapter/section-04#^b0134"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 42.4,
+          "at": 46.2,
           "duration": 2.9
+        },
+        {
+          "id": "s1-11",
+          "speaker": "vozhevatov",
+          "text": "Что вы очень жалостливы стали?",
+          "sources": [
+            "source/bespridannica/bychapter/section-04#^b0135"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 49.7,
+          "duration": 2.7
         },
         {
           "id": "s1-12",
@@ -265,7 +382,7 @@
             "source/bespridannica/bychapter/section-04#^b0136"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 45.9,
+          "at": 53.0,
           "duration": 5.3
         },
         {
@@ -276,7 +393,7 @@
             "source/bespridannica/bychapter/section-06#^b0057"
           ],
           "adaptation": "Пересказ ремарки; звук заменен сценическим знаком.",
-          "at": 51.8,
+          "at": 58.9,
           "duration": 2.9
         },
         {
@@ -287,11 +404,44 @@
             "source/bespridannica/bychapter/section-07#^b0002"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 55.3,
+          "at": 62.4,
           "duration": 3.5
+        },
+        {
+          "id": "s1-15",
+          "speaker": "gavrilo",
+          "text": "Я говорил, что он. Уж я знаю: видно сокола по полету.",
+          "sources": [
+            "source/bespridannica/bychapter/section-07#^b0003"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 66.5,
+          "duration": 3.5
+        },
+        {
+          "id": "s1-15a",
+          "speaker": "ivan",
+          "text": "Коляска пустая в гору едет, значит господа пешком идут. Да вот они!",
+          "sources": [
+            "source/bespridannica/bychapter/section-07#^b0004"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 70.6,
+          "duration": 4.0
+        },
+        {
+          "id": "s1-15b",
+          "speaker": "gavrilo",
+          "text": "Милости просим. Чем только их попотчевать-то, не сообразишь.",
+          "sources": [
+            "source/bespridannica/bychapter/section-07#^b0005"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 75.2,
+          "duration": 3.8
         }
       ],
-      "duration": 61.6
+      "duration": 81.8
     },
     {
       "id": "arrival",
@@ -305,8 +455,8 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.16,
+              "at": 0.0,
+              "x": 0.12,
               "y": 0.94,
               "asset": "knurov-neutral"
             }
@@ -320,8 +470,8 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.36,
+              "at": 0.0,
+              "x": 0.3,
               "y": 0.94,
               "asset": "vozhevatov-neutral"
             }
@@ -335,18 +485,18 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
-              "x": 1.18,
+              "at": 0.0,
+              "x": -0.18,
               "y": 0.94,
               "asset": "paratov-neutral"
             },
             {
               "at": 2.6,
-              "x": 1.18
+              "x": -0.18
             },
             {
               "at": 4.4,
-              "x": 0.58
+              "x": 0.48
             }
           ],
           "gestures": []
@@ -358,7 +508,7 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "robinson-neutral"
@@ -369,7 +519,22 @@
             },
             {
               "at": 4.4,
-              "x": 0.78
+              "x": 0.64
+            }
+          ],
+          "gestures": []
+        },
+        {
+          "id": "gavrilo",
+          "asset": "gavrilo-neutral",
+          "height": 330,
+          "z": 2,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": 0.8,
+              "y": 0.94,
+              "asset": "gavrilo-neutral"
             }
           ],
           "gestures": []
@@ -381,8 +546,8 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.92,
+              "at": 0.0,
+              "x": 0.94,
               "y": 0.94,
               "asset": "ivan-neutral"
             }
@@ -403,6 +568,28 @@
           "duration": 3.2
         },
         {
+          "id": "s2-02",
+          "speaker": "paratov",
+          "text": "Да что ты! Я с воды, на Волге-то не пыльно.",
+          "sources": [
+            "source/bespridannica/bychapter/section-08#^b0002"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 6.8,
+          "duration": 3.2
+        },
+        {
+          "id": "s2-03",
+          "speaker": "paratov",
+          "text": "Ну, хорошо, спасибо! На!",
+          "sources": [
+            "source/bespridannica/bychapter/section-08#^b0004"
+          ],
+          "adaptation": "Реплика сохранена; рубль обозначен жестом.",
+          "at": 10.6,
+          "duration": 2.5
+        },
+        {
           "id": "s2-04",
           "speaker": "paratov",
           "text": "Так вы меня, Василий Данилыч, с «Самолетом» ждали?",
@@ -410,7 +597,7 @@
             "source/bespridannica/bychapter/section-08#^b0006"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 6.8,
+          "at": 13.7,
           "duration": 3.4
         },
         {
@@ -421,7 +608,7 @@
             "source/bespridannica/bychapter/section-08#^b0007"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 10.8,
+          "at": 17.7,
           "duration": 4.8
         },
         {
@@ -432,7 +619,7 @@
             "source/bespridannica/bychapter/section-08#^b0008"
           ],
           "adaptation": "Начало реплики; рассказ о голландском машинисте сокращен.",
-          "at": 16.2,
+          "at": 23.1,
           "duration": 2.5
         },
         {
@@ -443,8 +630,30 @@
             "source/bespridannica/bychapter/section-08#^b0008"
           ],
           "adaptation": "Фрагмент реплики; представление сохранено.",
-          "at": 19.3,
+          "at": 26.2,
           "duration": 5.5
+        },
+        {
+          "id": "s2-08",
+          "speaker": "vozhevatov",
+          "text": "А как их по имени и отчеству?",
+          "sources": [
+            "source/bespridannica/bychapter/section-08#^b0010"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 32.3,
+          "duration": 2.7
+        },
+        {
+          "id": "s2-09",
+          "speaker": "paratov",
+          "text": "Так, просто, Робинзон, без имени и отчества.",
+          "sources": [
+            "source/bespridannica/bychapter/section-08#^b0011"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 35.6,
+          "duration": 3.2
         },
         {
           "id": "s2-10",
@@ -454,7 +663,7 @@
             "source/bespridannica/bychapter/section-08#^b0014"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 25.4,
+          "at": 39.4,
           "duration": 2.7
         },
         {
@@ -465,7 +674,7 @@
             "source/bespridannica/bychapter/section-08#^b0015"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 28.7,
+          "at": 42.7,
           "duration": 2.9
         },
         {
@@ -476,7 +685,7 @@
             "source/bespridannica/bychapter/section-08#^b0021"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 32.2,
+          "at": 46.2,
           "duration": 3.6
         },
         {
@@ -487,7 +696,7 @@
             "source/bespridannica/bychapter/section-08#^b0023"
           ],
           "adaptation": "Рассказ сокращен; сохранены начало, высадка на остров и объяснение имени. Одна длинная реплика разделена на две для читаемости.",
-          "at": 36.4,
+          "at": 50.4,
           "duration": 7.0
         },
         {
@@ -498,7 +707,7 @@
             "source/bespridannica/bychapter/section-08#^b0023"
           ],
           "adaptation": "Рассказ сокращен; сохранены начало, высадка на остров и объяснение имени. Одна длинная реплика разделена на две для читаемости.",
-          "at": 43.9,
+          "at": 57.9,
           "duration": 4.6
         },
         {
@@ -509,7 +718,7 @@
             "source/bespridannica/bychapter/section-08#^b0038"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 49.1,
+          "at": 63.1,
           "duration": 4.8
         },
         {
@@ -520,8 +729,19 @@
             "source/bespridannica/bychapter/section-08#^b0038"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 54.5,
+          "at": 68.5,
           "duration": 6.0
+        },
+        {
+          "id": "s2-15a",
+          "speaker": "vozhevatov",
+          "text": "Приданое хорошее.",
+          "sources": [
+            "source/bespridannica/bychapter/section-08#^b0039"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 75.1,
+          "duration": 2.5
         },
         {
           "id": "s2-16",
@@ -531,7 +751,7 @@
             "source/bespridannica/bychapter/section-08#^b0040"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 61.1,
+          "at": 78.2,
           "duration": 7.4
         },
         {
@@ -542,7 +762,7 @@
             "source/bespridannica/bychapter/section-09#^b0036"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 69.1,
+          "at": 86.2,
           "duration": 3.7
         },
         {
@@ -553,7 +773,7 @@
             "source/bespridannica/bychapter/section-09#^b0037"
           ],
           "adaptation": "Реплика сокращена; сохранены признание вины и решение навестить Огудаловых.",
-          "at": 73.4,
+          "at": 90.5,
           "duration": 9.1
         },
         {
@@ -564,7 +784,7 @@
             "source/bespridannica/bychapter/section-09#^b0037"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 83.1,
+          "at": 100.2,
           "duration": 4.0
         },
         {
@@ -575,11 +795,11 @@
             "source/bespridannica/bychapter/section-09#^b0045"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 87.7,
+          "at": 104.8,
           "duration": 3.5
         }
       ],
-      "duration": 94.0
+      "duration": 111.1
     },
     {
       "id": "ideal",
@@ -587,43 +807,13 @@
       "background": "boulevard-day",
       "actors": [
         {
-          "id": "knurov",
-          "asset": "knurov-neutral",
-          "height": 338,
-          "z": 2,
-          "keyframes": [
-            {
-              "at": 0,
-              "x": 0.1,
-              "y": 0.94,
-              "asset": "knurov-neutral"
-            }
-          ],
-          "gestures": []
-        },
-        {
-          "id": "vozhevatov",
-          "asset": "vozhevatov-neutral",
-          "height": 328,
-          "z": 2,
-          "keyframes": [
-            {
-              "at": 0,
-              "x": 0.88,
-              "y": 0.94,
-              "asset": "vozhevatov-neutral"
-            }
-          ],
-          "gestures": []
-        },
-        {
           "id": "larisa",
           "asset": "larisa-neutral",
           "height": 320,
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.38,
               "y": 0.94,
               "asset": "larisa-neutral"
@@ -633,23 +823,48 @@
               "asset": "larisa-sad"
             },
             {
-              "at": 48.4,
+              "at": 45.5,
+              "x": 0.32
+            },
+            {
+              "at": 85.4,
+              "x": 0.27
+            },
+            {
+              "at": 90.3,
               "asset": "larisa-happy"
             },
             {
-              "at": 105.5,
+              "at": 194.5,
+              "x": 0.23
+            },
+            {
+              "at": 194.6,
               "asset": "larisa-sad"
             },
             {
-              "at": 117.9,
+              "at": 206.9,
               "asset": "larisa-surprised"
+            },
+            {
+              "at": 218.1,
+              "asset": "larisa-sad"
+            },
+            {
+              "at": 250.4,
+              "x": -0.18
             }
           ],
           "gestures": [
             {
               "kind": "recoil",
-              "at": 118.0,
+              "at": 207.0,
               "duration": 1.4
+            },
+            {
+              "kind": "recoil",
+              "at": 231.0,
+              "duration": 1.2
             }
           ]
         },
@@ -660,14 +875,34 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.62,
               "y": 0.94,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 23.1,
+              "at": 45.5,
+              "x": 0.52
+            },
+            {
+              "at": 60.1,
               "asset": "karandyshev-angry"
+            },
+            {
+              "at": 85.4,
+              "asset": "karandyshev-sad"
+            },
+            {
+              "at": 118.1,
+              "x": 0.44
+            },
+            {
+              "at": 218.1,
+              "x": 0.55
+            },
+            {
+              "at": 250.4,
+              "x": 1.18
             }
           ],
           "gestures": []
@@ -683,7 +918,131 @@
           ],
           "adaptation": "Реплика сохранена.",
           "at": 3.0,
-          "duration": 4.9
+          "duration": 4.9,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-02",
+          "speaker": "karandyshev",
+          "text": "Вы за Волгу смотрели? А что с вами Вожеватов говорил?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0003"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 8.5,
+          "duration": 3.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03",
+          "speaker": "larisa",
+          "text": "Ничего, так, – пустяки какие-то. Меня так и манит за Волгу, в лес… Уедемте, уедемте отсюда!",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0004"
+          ],
+          "adaptation": "Реплика сохранена; ремарка «задумчиво» снята.",
+          "at": 12.6,
+          "duration": 4.9,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03a",
+          "speaker": "karandyshev",
+          "text": "Вам надо старые привычки бросить. Что за короткость с пустым, глупым мальчиком! Нельзя же терпеть того, что у вас до сих пор было.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 18.1,
+          "duration": 6.3,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03b",
+          "speaker": "larisa",
+          "text": "У нас ничего дурного не было.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0010"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 25.0,
+          "duration": 2.7,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03c",
+          "speaker": "karandyshev",
+          "text": "Был цыганский табор-с – вот что было.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0011"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 28.3,
+          "duration": 3.0,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03d",
+          "speaker": "karandyshev",
+          "text": "Чем же вы обиделись, помилуйте!",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 31.9,
+          "duration": 2.8,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03e",
+          "speaker": "larisa",
+          "text": "Что ж, может быть, и цыганский табор; только в нем было, по крайней мере, весело. Сумеете ли вы дать мне что-нибудь лучше этого табора?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0014"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 35.3,
+          "duration": 6.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-03f",
+          "speaker": "karandyshev",
+          "text": "Уж конечно.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0015"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 42.4,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-04-a",
@@ -693,8 +1052,12 @@
             "source/bespridannica/bychapter/section-06#^b0016"
           ],
           "adaptation": "Первая половина большой реплики; середина сокращена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 8.5,
-          "duration": 8.5
+          "at": 45.5,
+          "duration": 8.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-04-b",
@@ -704,8 +1067,12 @@
             "source/bespridannica/bychapter/section-06#^b0016"
           ],
           "adaptation": "Первая половина большой реплики; середина сокращена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 17.5,
-          "duration": 5.0
+          "at": 54.5,
+          "duration": 5.0,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-05-a",
@@ -715,8 +1082,12 @@
             "source/bespridannica/bychapter/section-06#^b0016"
           ],
           "adaptation": "Вторая половина реплики; одна реплика разделена на две для читаемости. Одна длинная реплика разделена на две для читаемости.",
-          "at": 23.1,
-          "duration": 8.4
+          "at": 60.1,
+          "duration": 8.4,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-05-b",
@@ -726,8 +1097,12 @@
             "source/bespridannica/bychapter/section-06#^b0016"
           ],
           "adaptation": "Вторая половина реплики; одна реплика разделена на две для читаемости. Одна длинная реплика разделена на две для читаемости.",
-          "at": 32.0,
-          "duration": 4.7
+          "at": 69.0,
+          "duration": 4.7,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-06",
@@ -737,8 +1112,12 @@
             "source/bespridannica/bychapter/section-06#^b0031"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 37.3,
-          "duration": 2.5
+          "at": 74.3,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-07",
@@ -748,8 +1127,27 @@
             "source/bespridannica/bychapter/section-06#^b0038"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 40.4,
-          "duration": 7.4
+          "at": 77.4,
+          "duration": 7.4,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-08",
+          "speaker": "karandyshev",
+          "text": "Ведь это только слова: нужны доказательства. Вы разберите нас хорошенько!",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0039"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 85.4,
+          "duration": 4.3,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-09-a",
@@ -759,8 +1157,12 @@
             "source/bespridannica/bychapter/section-06#^b0040"
           ],
           "adaptation": "Реплика сохранена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 48.4,
-          "duration": 5.8
+          "at": 90.3,
+          "duration": 5.8,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-09-b",
@@ -770,8 +1172,57 @@
             "source/bespridannica/bychapter/section-06#^b0040"
           ],
           "adaptation": "Реплика сохранена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 54.7,
-          "duration": 5.5
+          "at": 96.6,
+          "duration": 5.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-09c",
+          "speaker": "karandyshev",
+          "text": "Не понимаю-с, не понимаю, что в нем особенного; ничего, ничего не вижу. Смелость какая-то, дерзость… Да это всякий может, если захочет.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0041"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 102.7,
+          "duration": 6.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-09d",
+          "speaker": "larisa",
+          "text": "Да вы знаете, какая это смелость?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0042"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 109.8,
+          "duration": 2.8,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-09e",
+          "speaker": "karandyshev",
+          "text": "Да какая ж такая, что тут необыкновенного? Стоит только напустить на себя.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0043"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 113.2,
+          "duration": 4.3,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-10-a",
@@ -781,7 +1232,7 @@
             "source/bespridannica/bychapter/section-06#^b0044"
           ],
           "adaptation": "Реплика сохранена полностью. Одна длинная реплика разделена на две для читаемости.",
-          "at": 60.8,
+          "at": 118.1,
           "duration": 8.7
         },
         {
@@ -792,8 +1243,19 @@
             "source/bespridannica/bychapter/section-06#^b0044"
           ],
           "adaptation": "Реплика сохранена полностью. Одна длинная реплика разделена на две для читаемости.",
-          "at": 70.0,
+          "at": 127.3,
           "duration": 7.7
+        },
+        {
+          "id": "s3-10c",
+          "speaker": "karandyshev",
+          "text": "И он стрелял?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0045"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 135.6,
+          "duration": 2.5
         },
         {
           "id": "s3-11",
@@ -803,7 +1265,7 @@
             "source/bespridannica/bychapter/section-06#^b0046"
           ],
           "adaptation": "Первая часть рассказа о выбитой монете.",
-          "at": 78.3,
+          "at": 138.7,
           "duration": 8.0
         },
         {
@@ -814,8 +1276,52 @@
             "source/bespridannica/bychapter/section-06#^b0046"
           ],
           "adaptation": "Вторая часть рассказа; монета не выносится отдельным предметом.",
-          "at": 86.9,
+          "at": 147.3,
           "duration": 8.7
+        },
+        {
+          "id": "s3-12a",
+          "speaker": "karandyshev",
+          "text": "И вы послушали его?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0047"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 156.6,
+          "duration": 2.5
+        },
+        {
+          "id": "s3-12b",
+          "speaker": "larisa",
+          "text": "Да разве можно его не послушать?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0048"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 159.7,
+          "duration": 2.8
+        },
+        {
+          "id": "s3-12c",
+          "speaker": "karandyshev",
+          "text": "Разве уж вы были так уверены в нем?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0049"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 163.1,
+          "duration": 2.9
+        },
+        {
+          "id": "s3-12d",
+          "speaker": "larisa",
+          "text": "Что вы! Да разве можно быть в нем неуверенной?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0050"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 166.6,
+          "duration": 3.3
         },
         {
           "id": "s3-13",
@@ -825,7 +1331,7 @@
             "source/bespridannica/bychapter/section-06#^b0051"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 96.2,
+          "at": 170.5,
           "duration": 2.8
         },
         {
@@ -836,8 +1342,30 @@
             "source/bespridannica/bychapter/section-06#^b0052"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 99.6,
+          "at": 173.9,
           "duration": 5.3
+        },
+        {
+          "id": "s3-14a",
+          "speaker": "karandyshev",
+          "text": "Ну, положим, Паратов имеет какие-нибудь достоинства, по крайней мере, в глазах ваших; а что такое этот купчик Вожеватов, этот ваш Вася?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0053"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 179.8,
+          "duration": 6.5
+        },
+        {
+          "id": "s3-14b",
+          "speaker": "larisa",
+          "text": "Вы не ревновать ли? Нет, уж вы эти глупости оставьте! Это пошло, я не переношу этого, я вам заранее говорю. Не бойтесь, я не люблю и не полюблю никого.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0054"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 186.9,
+          "duration": 7.0
         },
         {
           "id": "s3-15",
@@ -847,7 +1375,7 @@
             "source/bespridannica/bychapter/section-06#^b0055"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 105.5,
+          "at": 194.5,
           "duration": 2.5
         },
         {
@@ -858,7 +1386,7 @@
             "source/bespridannica/bychapter/section-06#^b0056"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 108.6,
+          "at": 197.6,
           "duration": 8.7
         },
         {
@@ -869,8 +1397,68 @@
             "source/bespridannica/bychapter/section-06#^b0057"
           ],
           "adaptation": "Ремарка; выстрел обозначен жестом и знаком, без звука.",
-          "at": 117.9,
+          "at": 206.9,
           "duration": 2.6
+        },
+        {
+          "id": "s3-17a",
+          "speaker": "larisa",
+          "text": "Что это?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0058"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 210.1,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-17b",
+          "speaker": "karandyshev",
+          "text": "Какой-нибудь купец-самодур слезает с своей баржи, так в честь его салютуют.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0059"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 213.2,
+          "duration": 4.3,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-18",
+          "speaker": "larisa",
+          "text": "Ах, как я испугалась!",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0060"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 218.1,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s3-18a",
+          "speaker": "karandyshev",
+          "text": "Чего, помилуйте?",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0061"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 221.2,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-19",
@@ -880,8 +1468,12 @@
             "source/bespridannica/bychapter/section-06#^b0062"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 121.1,
-          "duration": 5.9
+          "at": 224.3,
+          "duration": 5.9,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s3-20",
@@ -891,44 +1483,81 @@
             "source/bespridannica/bychapter/section-06#^b0063"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 127.6,
-          "duration": 6.0
+          "at": 230.8,
+          "duration": 6.0,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
-          "id": "s3-22",
-          "speaker": "knurov",
-          "text": "Жаль бедную Ларису Дмитриевну! Жаль.",
+          "id": "s3-20a",
+          "speaker": "larisa",
+          "text": "Пойдемте домой, пора!",
           "sources": [
-            "source/bespridannica/bychapter/section-04#^b0134"
-          ],
-          "adaptation": "Реплика перенесена в конец сцены, где она стоит в оригинале после ухода Ларисы.",
-          "at": 134.2,
-          "duration": 2.9
-        },
-        {
-          "id": "s3-23",
-          "speaker": "vozhevatov",
-          "text": "Что вы очень жалостливы стали?",
-          "sources": [
-            "source/bespridannica/bychapter/section-04#^b0135"
+            "source/bespridannica/bychapter/section-06#^b0064"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 137.7,
-          "duration": 2.7
+          "at": 237.4,
+          "duration": 2.5
         },
         {
-          "id": "s3-24",
-          "speaker": "knurov",
-          "text": "Да разве вы не видите, что эта женщина создана для роскоши? Дорогой бриллиант дорогой и оправы требует.",
+          "id": "s3-20b",
+          "speaker": "karandyshev",
+          "text": "Да и мне нужно, у меня ведь обед.",
           "sources": [
-            "source/bespridannica/bychapter/section-04#^b0136"
+            "source/bespridannica/bychapter/section-06#^b0065"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 141.0,
-          "duration": 5.3
+          "at": 240.5,
+          "duration": 2.8
+        },
+        {
+          "id": "s3-20c",
+          "speaker": "larisa",
+          "text": "Подождите немного. … Ай, ай! держите меня!",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0066"
+          ],
+          "adaptation": "Реплика сохранена; ремарка у решетки снята.",
+          "at": 243.9,
+          "duration": 3.1
+        },
+        {
+          "id": "s3-21",
+          "speaker": "narrator",
+          "text": "Лариса и Карандышев уходят.",
+          "sources": [
+            "source/bespridannica/bychapter/section-06#^b0067"
+          ],
+          "adaptation": "Пересказ ремарки.",
+          "at": 247.6,
+          "duration": 2.6
         }
       ],
-      "duration": 149.2
+      "duration": 253.0,
+      "closeups": [
+        {
+          "from": "s3-01",
+          "to": "s3-09e",
+          "start": 3.0,
+          "end": 118.1,
+          "cast": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "from": "s3-17",
+          "to": "s3-20",
+          "start": 206.9,
+          "end": 237.4,
+          "cast": [
+            "larisa",
+            "karandyshev"
+          ]
+        }
+      ]
     },
     {
       "id": "efir",
@@ -942,14 +1571,26 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.34,
               "y": 0.94,
               "asset": "harita-neutral"
             },
             {
-              "at": 47.3,
+              "at": 21.5,
+              "x": 0.3
+            },
+            {
+              "at": 56.8,
+              "x": 0.38
+            },
+            {
+              "at": 72.3,
               "asset": "harita-happy"
+            },
+            {
+              "at": 99.4,
+              "x": 0.46
             }
           ],
           "gestures": []
@@ -961,10 +1602,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.62,
               "y": 0.94,
               "asset": "knurov-neutral"
+            },
+            {
+              "at": 31.0,
+              "x": 0.56
+            },
+            {
+              "at": 50.8,
+              "x": 0.5
+            },
+            {
+              "at": 75.6,
+              "x": 1.18
             }
           ],
           "gestures": []
@@ -976,25 +1629,25 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "larisa-neutral"
             },
             {
-              "at": 46.9,
+              "at": 71.9,
               "x": 1.18
             },
             {
-              "at": 48.7,
-              "x": 0.84
-            },
-            {
-              "at": 48.9,
+              "at": 72.7,
               "asset": "larisa-sad"
             },
             {
-              "at": 55.2,
+              "at": 73.7,
+              "x": 0.84
+            },
+            {
+              "at": 99.4,
               "asset": "larisa-sad"
             }
           ],
@@ -1014,6 +1667,66 @@
           "duration": 3.5
         },
         {
+          "id": "s4-01a",
+          "speaker": "knurov",
+          "text": "Так выдаете замуж Ларису Дмитриевну?",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0012"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 7.1,
+          "duration": 2.9,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
+          "id": "s4-01b",
+          "speaker": "harita",
+          "text": "Да, замуж, Мокий Парменыч.",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 10.6,
+          "duration": 2.6,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
+          "id": "s4-01c",
+          "speaker": "knurov",
+          "text": "Нашелся жених, который берет без денег?",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0014"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 13.8,
+          "duration": 3.0,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
+          "id": "s4-01d",
+          "speaker": "harita",
+          "text": "Без денег, Мокий Парменыч, где ж нам взять денег-то.",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0015"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 17.4,
+          "duration": 3.5,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
           "id": "s4-02",
           "speaker": "knurov",
           "text": "В Ларисе Дмитриевне земного, этого житейского, нет. Ну, понимаете, тривиального, что нужно для бедной семейной жизни.",
@@ -1021,8 +1734,27 @@
             "source/bespridannica/bychapter/section-12#^b0026"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 7.1,
-          "duration": 5.8
+          "at": 21.5,
+          "duration": 5.8,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
+          "id": "s4-03",
+          "speaker": "harita",
+          "text": "Ничего нет, ничего.",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0027"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 27.9,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-04",
@@ -1032,8 +1764,12 @@
             "source/bespridannica/bychapter/section-12#^b0028"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 13.5,
-          "duration": 2.5
+          "at": 31.0,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-05",
@@ -1043,8 +1779,12 @@
             "source/bespridannica/bychapter/section-12#^b0029"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 16.6,
-          "duration": 2.5
+          "at": 34.1,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-06",
@@ -1054,8 +1794,12 @@
             "source/bespridannica/bychapter/section-12#^b0030"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 19.7,
-          "duration": 2.5
+          "at": 37.2,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-07",
@@ -1065,8 +1809,12 @@
             "source/bespridannica/bychapter/section-12#^b0031"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 22.8,
-          "duration": 2.6
+          "at": 40.3,
+          "duration": 2.6,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-08",
@@ -1076,8 +1824,27 @@
             "source/bespridannica/bychapter/section-12#^b0032"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 26.0,
-          "duration": 3.6
+          "at": 43.5,
+          "duration": 3.6,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
+          "id": "s4-09",
+          "speaker": "harita",
+          "text": "Нет, где же!",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0033"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 47.7,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-10",
@@ -1087,8 +1854,12 @@
             "source/bespridannica/bychapter/section-12#^b0034"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 30.2,
-          "duration": 5.4
+          "at": 50.8,
+          "duration": 5.4,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-11",
@@ -1098,8 +1869,27 @@
             "source/bespridannica/bychapter/section-12#^b0042"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 36.2,
-          "duration": 3.1
+          "at": 56.8,
+          "duration": 3.1,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
+        },
+        {
+          "id": "s4-11a",
+          "speaker": "harita",
+          "text": "Я очень рада, Мокий Парменыч, что вы так расположены к нам.",
+          "sources": [
+            "source/bespridannica/bychapter/section-12#^b0043"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 60.5,
+          "duration": 3.8,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-12",
@@ -1110,8 +1900,12 @@
             "source/bespridannica/bychapter/section-12#^b0054"
           ],
           "adaptation": "Соединены две части разговора о гардеробе; середина сокращена.",
-          "at": 39.9,
-          "duration": 6.8
+          "at": 64.9,
+          "duration": 6.8,
+          "closeup": [
+            "knurov",
+            "harita"
+          ]
         },
         {
           "id": "s4-13",
@@ -1121,8 +1915,63 @@
             "source/bespridannica/bychapter/section-12#^b0062"
           ],
           "adaptation": "Пересказ ремарки; выход Кнурова и вход Ларисы обозначены движением.",
-          "at": 47.3,
+          "at": 72.3,
           "duration": 3.1
+        },
+        {
+          "id": "s4-13a",
+          "speaker": "harita",
+          "text": "Ты поблагодари Васю, так шепни ему на ухо: «благодарю, мол». И Кнурову тоже.",
+          "sources": [
+            "source/bespridannica/bychapter/section-13#^b0005"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 76.0,
+          "duration": 4.4
+        },
+        {
+          "id": "s4-13b",
+          "speaker": "larisa",
+          "text": "А Кнурову за что?",
+          "sources": [
+            "source/bespridannica/bychapter/section-13#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 81.0,
+          "duration": 2.5
+        },
+        {
+          "id": "s4-13c",
+          "speaker": "harita",
+          "text": "Уж так надо, я знаю, за что.",
+          "sources": [
+            "source/bespridannica/bychapter/section-13#^b0007"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 84.1,
+          "duration": 2.6
+        },
+        {
+          "id": "s4-13d",
+          "speaker": "larisa",
+          "text": "Ах, мама, все-то у тебя секреты да хитрости.",
+          "sources": [
+            "source/bespridannica/bychapter/section-13#^b0008"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 87.3,
+          "duration": 3.2
+        },
+        {
+          "id": "s4-13e",
+          "speaker": "harita",
+          "text": "Ну, ну, хитрости! Без хитрости на свете не проживешь.",
+          "sources": [
+            "source/bespridannica/bychapter/section-13#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 91.1,
+          "duration": 3.5
         },
         {
           "id": "s4-14",
@@ -1132,7 +1981,7 @@
             "source/bespridannica/bychapter/section-13#^b0019"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 51.0,
+          "at": 95.2,
           "duration": 3.6
         },
         {
@@ -1143,7 +1992,7 @@
             "source/bespridannica/bychapter/section-13#^b0027"
           ],
           "adaptation": "Реплика сокращена; сохранены уход от прежней жизни и решение уехать.",
-          "at": 55.2,
+          "at": 99.4,
           "duration": 6.7
         },
         {
@@ -1154,7 +2003,7 @@
             "source/bespridannica/bychapter/section-13#^b0036"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 62.5,
+          "at": 106.7,
           "duration": 5.4
         },
         {
@@ -1165,7 +2014,7 @@
             "source/bespridannica/bychapter/section-15#^b0004"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 68.5,
+          "at": 112.7,
           "duration": 5.5
         },
         {
@@ -1176,7 +2025,7 @@
             "source/bespridannica/bychapter/section-15#^b0007"
           ],
           "adaptation": "В источнике «спять лгать»; для сцены опечатка исправлена на «опять».",
-          "at": 74.6,
+          "at": 118.8,
           "duration": 2.8
         },
         {
@@ -1187,11 +2036,23 @@
             "source/bespridannica/bychapter/section-15#^b0008"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 78.0,
+          "at": 122.2,
           "duration": 4.4
         }
       ],
-      "duration": 85.2
+      "duration": 129.4,
+      "closeups": [
+        {
+          "from": "s4-01a",
+          "to": "s4-12",
+          "start": 7.1,
+          "end": 72.3,
+          "cast": [
+            "knurov",
+            "harita"
+          ]
+        }
+      ]
     },
     {
       "id": "half-million",
@@ -1205,10 +2066,30 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.16,
               "y": 0.94,
               "asset": "harita-neutral"
+            },
+            {
+              "at": 6.1,
+              "x": 0.2
+            },
+            {
+              "at": 20.1,
+              "x": 0.24
+            },
+            {
+              "at": 59.8,
+              "x": -0.18
+            },
+            {
+              "at": 264.1,
+              "x": -0.18
+            },
+            {
+              "at": 265.9,
+              "x": 0.16
             }
           ],
           "gestures": []
@@ -1220,7 +2101,7 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": -0.18,
               "y": 0.94,
               "asset": "paratov-neutral"
@@ -1232,9 +2113,36 @@
             {
               "at": 7.5,
               "x": 0.38
+            },
+            {
+              "at": 12.7,
+              "x": 0.3
+            },
+            {
+              "at": 63.3,
+              "x": 0.44
+            },
+            {
+              "at": 114.6,
+              "x": 0.38
+            },
+            {
+              "at": 273.3,
+              "x": 0.48
             }
           ],
-          "gestures": []
+          "gestures": [
+            {
+              "kind": "bow",
+              "at": 6.3,
+              "duration": 1.2
+            },
+            {
+              "kind": "lift",
+              "at": 41.0,
+              "duration": 1.4
+            }
+          ]
         },
         {
           "id": "larisa",
@@ -1243,25 +2151,51 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "larisa-neutral"
             },
             {
-              "at": 33.6,
+              "at": 59.8,
               "x": 1.18
             },
             {
-              "at": 35.4,
+              "at": 60.2,
+              "asset": "larisa-sad"
+            },
+            {
+              "at": 61.6,
               "x": 0.6
             },
             {
-              "at": 105.4,
+              "at": 63.3,
+              "x": 0.56
+            },
+            {
+              "at": 114.6,
+              "x": 0.62
+            },
+            {
+              "at": 155.9,
+              "asset": "larisa-happy"
+            },
+            {
+              "at": 210.1,
               "asset": "larisa-sad"
+            },
+            {
+              "at": 228.6,
+              "x": 0.54
             }
           ],
-          "gestures": []
+          "gestures": [
+            {
+              "kind": "recoil",
+              "at": 111.7,
+              "duration": 1.4
+            }
+          ]
         },
         {
           "id": "karandyshev",
@@ -1270,26 +2204,34 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 128.1,
+              "at": 264.1,
               "x": 1.18
             },
             {
-              "at": 129.9,
-              "x": 0.84
-            },
-            {
-              "at": 130.1,
+              "at": 264.5,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 147.9,
+              "at": 265.9,
+              "x": 0.84
+            },
+            {
+              "at": 300.6,
+              "x": 0.72
+            },
+            {
+              "at": 300.7,
               "asset": "karandyshev-angry"
+            },
+            {
+              "at": 337.8,
+              "x": 0.64
             }
           ],
           "gestures": []
@@ -1319,6 +2261,39 @@
           "duration": 2.5
         },
         {
+          "id": "s5-03",
+          "speaker": "harita",
+          "text": "Ах, Сергей Сергеич! Ах, родной мой!",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0003"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 9.2,
+          "duration": 2.9
+        },
+        {
+          "id": "s5-04",
+          "speaker": "paratov",
+          "text": "Нарочно сюда, и первый визит к вам, тетенька.",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 12.7,
+          "duration": 3.3
+        },
+        {
+          "id": "s5-05",
+          "speaker": "harita",
+          "text": "Что это вы тогда так вдруг исчезли?",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 16.6,
+          "duration": 2.9
+        },
+        {
           "id": "s5-06",
           "speaker": "paratov",
           "text": "Неприятную телеграмму получил, тетенька. … Управители мои и управляющие свели без меня домок мой в ореховую скорлупку-с.",
@@ -1327,8 +2302,19 @@
             "source/bespridannica/bychapter/section-17#^b0012"
           ],
           "adaptation": "Соединены начало и конец объяснения; середина сокращена.",
-          "at": 9.2,
+          "at": 20.1,
           "duration": 5.9
+        },
+        {
+          "id": "s5-07",
+          "speaker": "harita",
+          "text": "На чем же вы выиграть хотите? Новые обороты завели?",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0017"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 26.6,
+          "duration": 3.5
         },
         {
           "id": "s5-08",
@@ -1338,7 +2324,7 @@
             "source/bespridannica/bychapter/section-17#^b0018"
           ],
           "adaptation": "Реплика сокращена; ключевая формула сохранена.",
-          "at": 15.7,
+          "at": 30.7,
           "duration": 4.8
         },
         {
@@ -1349,7 +2335,7 @@
             "source/bespridannica/bychapter/section-17#^b0019"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 21.1,
+          "at": 36.1,
           "duration": 4.1
         },
         {
@@ -1360,8 +2346,30 @@
             "source/bespridannica/bychapter/section-17#^b0020"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 25.8,
+          "at": 40.8,
           "duration": 2.5
+        },
+        {
+          "id": "s5-11",
+          "speaker": "harita",
+          "text": "Порядочно.",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0021"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 43.9,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-12",
+          "speaker": "paratov",
+          "text": "Дешевле, тетенька, нельзя-с, расчету нет, себе дороже, сами знаете.",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0022"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 47.0,
+          "duration": 4.0
         },
         {
           "id": "s5-13",
@@ -1371,8 +2379,30 @@
             "source/bespridannica/bychapter/section-17#^b0034"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 28.9,
+          "at": 51.6,
           "duration": 4.5
+        },
+        {
+          "id": "s5-14",
+          "speaker": "narrator",
+          "text": "Харита Игнатьевна уходит за Ларисой.",
+          "sources": [
+            "source/bespridannica/bychapter/section-17#^b0039"
+          ],
+          "adaptation": "Пересказ ремарки.",
+          "at": 56.7,
+          "duration": 2.9
+        },
+        {
+          "id": "s5-15",
+          "speaker": "paratov",
+          "text": "Не ожидали?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0002"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 60.2,
+          "duration": 2.5
         },
         {
           "id": "s5-16",
@@ -1382,8 +2412,12 @@
             "source/bespridannica/bychapter/section-18#^b0003"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 34.0,
-          "duration": 4.2
+          "at": 63.3,
+          "duration": 4.2,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-17",
@@ -1393,8 +2427,12 @@
             "source/bespridannica/bychapter/section-18#^b0008"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 38.8,
-          "duration": 2.5
+          "at": 68.1,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-18",
@@ -1404,8 +2442,102 @@
             "source/bespridannica/bychapter/section-18#^b0009"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 41.9,
-          "duration": 2.5
+          "at": 71.2,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-19",
+          "speaker": "paratov",
+          "text": "А позвольте вас спросить: долго вы меня ждали?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0010"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 74.3,
+          "duration": 3.3,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-20",
+          "speaker": "larisa",
+          "text": "Зачем вам знать это?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0011"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 78.2,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-21",
+          "speaker": "paratov",
+          "text": "Мне хочется знать, скоро ли женщина забывает страстно любимого человека…",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0012"
+          ],
+          "adaptation": "Фрагмент реплики; теоретическое рассуждение сокращено.",
+          "at": 81.3,
+          "duration": 4.2,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-22",
+          "speaker": "larisa",
+          "text": "На ваш вопрос я вам не отвечу, Сергей Сергеич; можете думать обо мне, что вам угодно.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 86.1,
+          "duration": 4.7,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-22a",
+          "speaker": "paratov",
+          "text": "Об вас я всегда буду думать с уважением; но женщины вообще, после вашего поступка, много теряют в глазах моих.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0014"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 91.4,
+          "duration": 5.6,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-22b",
+          "speaker": "larisa",
+          "text": "Да какой мой поступок? Вы ничего не знаете,",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0015"
+          ],
+          "adaptation": "Реплика сохранена; многоточие источника передано паузой.",
+          "at": 97.6,
+          "duration": 3.2,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-23",
@@ -1415,8 +2547,12 @@
             "source/bespridannica/bychapter/section-18#^b0016"
           ],
           "adaptation": "Реплика сокращена; ключевая формула сохранена.",
-          "at": 45.0,
-          "duration": 6.4
+          "at": 101.4,
+          "duration": 6.4,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-24",
@@ -1426,8 +2562,12 @@
             "source/bespridannica/bychapter/section-18#^b0017"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 52.0,
-          "duration": 2.5
+          "at": 108.4,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-25",
@@ -1437,7 +2577,55 @@
             "source/bespridannica/bychapter/section-18#^b0018"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 55.1,
+          "at": 111.5,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-26",
+          "speaker": "larisa",
+          "text": "Ах, как вы смеете так обижать меня? Разве вы знаете, что я после вас полюбила кого-нибудь? Вы уверены в этом?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0019"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 114.6,
+          "duration": 5.5
+        },
+        {
+          "id": "s5-27",
+          "speaker": "paratov",
+          "text": "Я не уверен, но полагаю.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0020"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 120.7,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-28",
+          "speaker": "larisa",
+          "text": "Чтобы так жестоко упрекать, надо знать, а не полагать.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0021"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 123.8,
+          "duration": 3.6
+        },
+        {
+          "id": "s5-29",
+          "speaker": "paratov",
+          "text": "Вы выходите замуж?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0022"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 128.0,
           "duration": 2.5
         },
         {
@@ -1448,7 +2636,7 @@
             "source/bespridannica/bychapter/section-18#^b0023"
           ],
           "adaptation": "Реплика сохранена; начало с многоточием. Одна длинная реплика разделена на две для читаемости.",
-          "at": 58.2,
+          "at": 131.1,
           "duration": 8.2
         },
         {
@@ -1459,8 +2647,30 @@
             "source/bespridannica/bychapter/section-18#^b0023"
           ],
           "adaptation": "Реплика сохранена; начало с многоточием. Одна длинная реплика разделена на две для читаемости.",
-          "at": 66.9,
+          "at": 139.8,
           "duration": 4.0
+        },
+        {
+          "id": "s5-30c",
+          "speaker": "paratov",
+          "text": "Лариса, так вы?..",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0024"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 144.4,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-30d",
+          "speaker": "larisa",
+          "text": "Что «я»? Ну, что вы хотели сказать?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0025"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 147.5,
+          "duration": 2.9
         },
         {
           "id": "s5-31",
@@ -1470,8 +2680,27 @@
             "source/bespridannica/bychapter/section-18#^b0026"
           ],
           "adaptation": "Реплика сохранена; пауза-молчание Ларисы обозначена жестом.",
-          "at": 71.5,
-          "duration": 4.3
+          "at": 151.0,
+          "duration": 4.3,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-32",
+          "speaker": "paratov",
+          "text": "Ну, скажите, будьте откровенны!",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0028"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 155.9,
+          "duration": 2.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-33",
@@ -1481,8 +2710,27 @@
             "source/bespridannica/bychapter/section-18#^b0029"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 76.4,
-          "duration": 2.8
+          "at": 159.3,
+          "duration": 2.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-34",
+          "speaker": "larisa",
+          "text": "Вам только и нужно было: вы – человек гордый.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0031"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 162.7,
+          "duration": 3.3,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-35",
@@ -1492,8 +2740,72 @@
             "source/bespridannica/bychapter/section-18#^b0032"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 79.8,
-          "duration": 4.8
+          "at": 166.6,
+          "duration": 4.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-35a",
+          "speaker": "larisa",
+          "text": "Неужели?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0033"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 172.0,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-35b",
+          "speaker": "paratov",
+          "text": "Если бы вы предпочли мне кого-нибудь, вы оскорбили бы меня глубоко, и я нелегко бы простил вам это.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0034"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 175.1,
+          "duration": 5.2,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-35c",
+          "speaker": "larisa",
+          "text": "А теперь?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0035"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 180.9,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-36",
+          "speaker": "paratov",
+          "text": "А теперь я во всю жизнь сохраню самое приятное воспоминание о вас, и мы расстанемся, как лучшие друзья.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0036"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 184.0,
+          "duration": 5.3,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-37",
@@ -1503,8 +2815,12 @@
             "source/bespridannica/bychapter/section-18#^b0037"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 85.2,
-          "duration": 3.8
+          "at": 189.9,
+          "duration": 3.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-38",
@@ -1514,8 +2830,12 @@
             "source/bespridannica/bychapter/section-18#^b0038"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 89.6,
-          "duration": 5.8
+          "at": 194.3,
+          "duration": 5.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-39",
@@ -1525,8 +2845,12 @@
             "source/bespridannica/bychapter/section-18#^b0039"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 96.0,
-          "duration": 2.5
+          "at": 200.7,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-40",
@@ -1536,8 +2860,12 @@
             "source/bespridannica/bychapter/section-18#^b0040"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 99.1,
-          "duration": 2.6
+          "at": 203.8,
+          "duration": 2.6,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-41",
@@ -1547,8 +2875,12 @@
             "source/bespridannica/bychapter/section-18#^b0041"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 102.3,
-          "duration": 2.5
+          "at": 207.0,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s5-42",
@@ -1558,8 +2890,53 @@
             "source/bespridannica/bychapter/section-18#^b0042"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 105.4,
-          "duration": 7.0
+          "at": 210.1,
+          "duration": 7.0,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-42a",
+          "speaker": "larisa",
+          "text": "Кабы любовь-то была равная с обеих сторон, так слез-то бы не было. Бывает это когда-нибудь?",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0043"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 217.7,
+          "duration": 4.9,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-42b",
+          "speaker": "paratov",
+          "text": "Изредка случается. Только уж это какое-то кондитерское пирожное выходит, какое-то безэ.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0044"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 223.2,
+          "duration": 4.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s5-43",
+          "speaker": "larisa",
+          "text": "Сергей Сергеич, я сказала вам то, чего не должна была говорить; я надеюсь, что вы не употребите во зло моей откровенности.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0045"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 228.6,
+          "duration": 6.0
         },
         {
           "id": "s5-44",
@@ -1569,7 +2946,7 @@
             "source/bespridannica/bychapter/section-18#^b0046"
           ],
           "adaptation": "Реплика сокращена; сохранены правила о браке и вопрос о женихе.",
-          "at": 113.0,
+          "at": 235.2,
           "duration": 8.7
         },
         {
@@ -1580,7 +2957,18 @@
             "source/bespridannica/bychapter/section-18#^b0047"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 122.3,
+          "at": 244.5,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-46",
+          "speaker": "paratov",
+          "text": "Немного.",
+          "sources": [
+            "source/bespridannica/bychapter/section-18#^b0048"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 247.6,
           "duration": 2.5
         },
         {
@@ -1591,7 +2979,7 @@
             "source/bespridannica/bychapter/section-18#^b0049"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 125.4,
+          "at": 250.7,
           "duration": 2.5
         },
         {
@@ -1602,7 +2990,7 @@
             "source/bespridannica/bychapter/section-18#^b0050"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 128.5,
+          "at": 253.8,
           "duration": 2.5
         },
         {
@@ -1613,7 +3001,7 @@
             "source/bespridannica/bychapter/section-18#^b0051"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 131.6,
+          "at": 256.9,
           "duration": 2.5
         },
         {
@@ -1624,7 +3012,7 @@
             "source/bespridannica/bychapter/section-18#^b0052"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 134.7,
+          "at": 260.0,
           "duration": 3.9
         },
         {
@@ -1635,8 +3023,19 @@
             "source/bespridannica/bychapter/section-18#^b0053"
           ],
           "adaptation": "Пересказ ремарки; вход обозначен движением.",
-          "at": 139.2,
+          "at": 264.5,
           "duration": 2.7
+        },
+        {
+          "id": "s5-51a",
+          "speaker": "harita",
+          "text": "Позвольте вас познакомить, господа! … Юлий Капитоныч Карандышев. … Сергей Сергеич Паратов.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0002"
+          ],
+          "adaptation": "Реплика сохранена; ремарки-обращения сняты.",
+          "at": 267.8,
+          "duration": 4.9
         },
         {
           "id": "s5-52",
@@ -1646,8 +3045,74 @@
             "source/bespridannica/bychapter/section-19#^b0003"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 142.5,
+          "at": 273.3,
           "duration": 4.8
+        },
+        {
+          "id": "s5-52a",
+          "speaker": "karandyshev",
+          "text": "Очень приятно.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0004"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 278.7,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-52b",
+          "speaker": "harita",
+          "text": "Сергей Сергеич у нас в даме как родной.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0005"
+          ],
+          "adaptation": "Реплика сохранена; опечатка издания не правилась.",
+          "at": 281.8,
+          "duration": 3.0
+        },
+        {
+          "id": "s5-52c",
+          "speaker": "karandyshev",
+          "text": "Очень приятно.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 285.4,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-53",
+          "speaker": "paratov",
+          "text": "Вы не ревнивы?",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0007"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 288.5,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-54",
+          "speaker": "karandyshev",
+          "text": "Я надеюсь, что Лариса Дмитриевна не подаст мне никакого повода быть ревнивым.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0008"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 291.6,
+          "duration": 4.4
+        },
+        {
+          "id": "s5-55",
+          "speaker": "paratov",
+          "text": "Да ведь ревнивые люди ревнуют без всякого повода.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 296.6,
+          "duration": 3.4
         },
         {
           "id": "s5-56",
@@ -1657,8 +3122,30 @@
             "source/bespridannica/bychapter/section-19#^b0021"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 147.9,
+          "at": 300.6,
           "duration": 3.8
+        },
+        {
+          "id": "s5-57",
+          "speaker": "karandyshev",
+          "text": "У бурлаков учиться русскому языку?",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0022"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 305.0,
+          "duration": 2.9
+        },
+        {
+          "id": "s5-58",
+          "speaker": "paratov",
+          "text": "А почему ж у них не учиться?",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0023"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 308.5,
+          "duration": 2.6
         },
         {
           "id": "s5-59",
@@ -1668,8 +3155,30 @@
             "source/bespridannica/bychapter/section-19#^b0024"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 152.3,
+          "at": 311.7,
           "duration": 2.7
+        },
+        {
+          "id": "s5-60",
+          "speaker": "paratov",
+          "text": "Кто это: мы?",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0025"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 315.0,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-61",
+          "speaker": "karandyshev",
+          "text": "Мы, то есть образованные люди, а не бурлаки.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0026"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 318.1,
+          "duration": 3.2
         },
         {
           "id": "s5-62",
@@ -1679,7 +3188,7 @@
             "source/bespridannica/bychapter/section-19#^b0027"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 155.6,
+          "at": 321.9,
           "duration": 4.9
         },
         {
@@ -1690,8 +3199,30 @@
             "source/bespridannica/bychapter/section-19#^b0028"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 161.1,
+          "at": 327.4,
           "duration": 3.3
+        },
+        {
+          "id": "s5-63a",
+          "speaker": "paratov",
+          "text": "Ну, далее, господин Карандышев!",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0029"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 331.3,
+          "duration": 2.8
+        },
+        {
+          "id": "s5-63b",
+          "speaker": "karandyshev",
+          "text": "Все, больше ничего.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0030"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 334.7,
+          "duration": 2.5
         },
         {
           "id": "s5-64",
@@ -1701,8 +3232,63 @@
             "source/bespridannica/bychapter/section-19#^b0031"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 165.0,
+          "at": 337.8,
           "duration": 3.8
+        },
+        {
+          "id": "s5-65",
+          "speaker": "karandyshev",
+          "text": "Мне – извиняться!",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0032"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 342.2,
+          "duration": 2.5
+        },
+        {
+          "id": "s5-66",
+          "speaker": "paratov",
+          "text": "Да, уж нечего делать, надо.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0033"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 345.3,
+          "duration": 2.6
+        },
+        {
+          "id": "s5-67",
+          "speaker": "karandyshev",
+          "text": "Да с какой стати? Это мое убеждение.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0034"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 348.5,
+          "duration": 2.9
+        },
+        {
+          "id": "s5-68",
+          "speaker": "paratov",
+          "text": "Но-но-но-но! Отвилять нельзя.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0035"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 352.0,
+          "duration": 2.7
+        },
+        {
+          "id": "s5-69",
+          "speaker": "harita",
+          "text": "Господа, господа, что вы!",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0036"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 355.3,
+          "duration": 2.5
         },
         {
           "id": "s5-70",
@@ -1712,11 +3298,44 @@
             "source/bespridannica/bychapter/section-19#^b0043"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 169.4,
+          "at": 358.4,
           "duration": 6.0
+        },
+        {
+          "id": "s5-71",
+          "speaker": "harita",
+          "text": "Не возражайте, не возражайте! … Лариса! Вели шампанского подать да налей им по стаканчику – пусть выпьют мировую.",
+          "sources": [
+            "source/bespridannica/bychapter/section-19#^b0045"
+          ],
+          "adaptation": "Реплика сокращена; примирение сохранено.",
+          "at": 365.0,
+          "duration": 5.7
         }
       ],
-      "duration": 178.3
+      "duration": 373.5,
+      "closeups": [
+        {
+          "from": "s5-16",
+          "to": "s5-25",
+          "start": 63.3,
+          "end": 114.6,
+          "cast": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "from": "s5-31",
+          "to": "s5-42b",
+          "start": 151.0,
+          "end": 228.6,
+          "cast": [
+            "paratov",
+            "larisa"
+          ]
+        }
+      ]
     },
     {
       "id": "dinner",
@@ -1730,10 +3349,18 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.16,
+              "at": 0.0,
+              "x": 0.15,
               "y": 0.94,
               "asset": "harita-neutral"
+            },
+            {
+              "at": 15.5,
+              "x": 0.2
+            },
+            {
+              "at": 118.0,
+              "x": 0.26
             }
           ],
           "gestures": []
@@ -1745,29 +3372,47 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.33,
+              "at": 0.0,
+              "x": 0.28,
               "y": 0.94,
               "asset": "larisa-neutral"
             },
             {
-              "at": 6.5,
+              "at": 15.5,
               "asset": "larisa-sad"
             },
             {
-              "at": 80.0,
+              "at": 52.8,
+              "x": 0.34
+            },
+            {
+              "at": 118.0,
+              "x": 0.4
+            },
+            {
+              "at": 118.1,
               "asset": "larisa-angry"
             },
             {
-              "at": 83.7,
+              "at": 121.7,
               "asset": "larisa-happy"
             },
             {
-              "at": 125.2,
+              "at": 219.3,
+              "x": 0.32
+            },
+            {
+              "at": 219.4,
               "asset": "larisa-sad"
             }
           ],
-          "gestures": []
+          "gestures": [
+            {
+              "kind": "recoil",
+              "at": 105.4,
+              "duration": 1.2
+            }
+          ]
         },
         {
           "id": "karandyshev",
@@ -1776,29 +3421,51 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.52,
+              "at": 0.0,
+              "x": 0.42,
               "y": 0.94,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 6.5,
+              "at": 15.5,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 76.2,
+              "at": 52.8,
+              "x": 0.48
+            },
+            {
+              "at": 105.2,
+              "x": 0.54
+            },
+            {
+              "at": 105.3,
               "asset": "karandyshev-angry"
             },
             {
-              "at": 98.6,
+              "at": 180.3,
               "asset": "karandyshev-happy"
             },
             {
-              "at": 131.4,
+              "at": 187.1,
+              "x": 0.46
+            },
+            {
+              "at": 225.5,
+              "x": 0.4
+            },
+            {
+              "at": 225.6,
               "asset": "karandyshev-surprised"
             }
           ],
-          "gestures": []
+          "gestures": [
+            {
+              "kind": "bow",
+              "at": 187.4,
+              "duration": 1.4
+            }
+          ]
         },
         {
           "id": "knurov",
@@ -1807,18 +3474,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": -0.18,
               "y": 0.94,
               "asset": "knurov-neutral"
             },
             {
-              "at": 31.3,
+              "at": 52.4,
               "x": -0.18
             },
             {
-              "at": 33.1,
-              "x": 0.06
+              "at": 54.2,
+              "x": 0.04
+            },
+            {
+              "at": 56.9,
+              "x": 0.1
             }
           ],
           "gestures": []
@@ -1830,29 +3501,37 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "paratov-neutral"
             },
             {
-              "at": 31.3,
+              "at": 52.4,
               "x": 1.18
             },
             {
-              "at": 33.1,
-              "x": 0.68
-            },
-            {
-              "at": 33.3,
+              "at": 52.8,
               "asset": "paratov-neutral"
             },
             {
-              "at": 95.4,
+              "at": 54.2,
+              "x": 0.56
+            },
+            {
+              "at": 76.3,
+              "x": 0.48
+            },
+            {
+              "at": 138.1,
               "asset": "paratov-sad"
             },
             {
-              "at": 120.5,
+              "at": 197.2,
+              "x": 0.56
+            },
+            {
+              "at": 211.5,
               "asset": "paratov-happy"
             }
           ],
@@ -1865,18 +3544,41 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "vozhevatov-neutral"
             },
             {
-              "at": 31.3,
+              "at": 52.4,
               "x": 1.18
             },
             {
-              "at": 33.1,
-              "x": 0.83
+              "at": 54.2,
+              "x": 0.7
+            },
+            {
+              "at": 66.6,
+              "x": 0.64
+            }
+          ],
+          "gestures": []
+        },
+        {
+          "id": "evfrosinya",
+          "asset": "evfrosinya-neutral",
+          "height": 316,
+          "z": 2,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": 0.82,
+              "y": 0.94,
+              "asset": "evfrosinya-neutral"
+            },
+            {
+              "at": 121.7,
+              "x": 0.78
             }
           ],
           "gestures": []
@@ -1888,18 +3590,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "robinson-neutral"
             },
             {
-              "at": 31.3,
+              "at": 52.4,
               "x": 1.18
             },
             {
-              "at": 33.1,
-              "x": 0.95
+              "at": 54.2,
+              "x": 0.94
+            },
+            {
+              "at": 56.9,
+              "x": 0.88
             }
           ],
           "gestures": []
@@ -1918,6 +3624,28 @@
           "duration": 2.9
         },
         {
+          "id": "s6-01a",
+          "speaker": "evfrosinya",
+          "text": "Уж достался мне этот обед; что хлопот, что изъяну!",
+          "sources": [
+            "source/bespridannica/bychapter/section-25#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 6.5,
+          "duration": 3.4
+        },
+        {
+          "id": "s6-01b",
+          "speaker": "harita",
+          "text": "Да об чем с ним разговаривать? Коли он хороший повар, так учить его не надо.",
+          "sources": [
+            "source/bespridannica/bychapter/section-25#^b0007"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 10.5,
+          "duration": 4.4
+        },
+        {
           "id": "s6-02",
           "speaker": "harita",
           "text": "Да разве ты не замечаешь? Его нарочно подпаивают.",
@@ -1925,7 +3653,7 @@
             "source/bespridannica/bychapter/section-24#^b0007"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 6.5,
+          "at": 15.5,
           "duration": 3.4
         },
         {
@@ -1936,8 +3664,30 @@
             "source/bespridannica/bychapter/section-24#^b0008"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 10.5,
+          "at": 19.5,
           "duration": 2.9
+        },
+        {
+          "id": "s6-04",
+          "speaker": "harita",
+          "text": "Как остановить! Он – не малолетний, пора без няньки жить.",
+          "sources": [
+            "source/bespridannica/bychapter/section-24#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 23.0,
+          "duration": 3.7
+        },
+        {
+          "id": "s6-05",
+          "speaker": "larisa",
+          "text": "Да ведь он не глуп, как же он не видит этого!",
+          "sources": [
+            "source/bespridannica/bychapter/section-24#^b0010"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 27.3,
+          "duration": 3.3
         },
         {
           "id": "s6-06",
@@ -1947,8 +3697,19 @@
             "source/bespridannica/bychapter/section-24#^b0011"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 14.0,
+          "at": 31.2,
           "duration": 6.1
+        },
+        {
+          "id": "s6-07",
+          "speaker": "larisa",
+          "text": "Ах! Я боюсь, всего боюсь. Зачем они это делают?",
+          "sources": [
+            "source/bespridannica/bychapter/section-24#^b0012"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 37.9,
+          "duration": 3.3
         },
         {
           "id": "s6-08",
@@ -1958,7 +3719,7 @@
             "source/bespridannica/bychapter/section-24#^b0013"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 20.7,
+          "at": 41.8,
           "duration": 2.9
         },
         {
@@ -1969,7 +3730,7 @@
             "source/bespridannica/bychapter/section-24#^b0014"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 24.2,
+          "at": 45.3,
           "duration": 2.6
         },
         {
@@ -1980,7 +3741,7 @@
             "source/bespridannica/bychapter/section-24#^b0016"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 27.4,
+          "at": 48.5,
           "duration": 3.7
         },
         {
@@ -1991,7 +3752,7 @@
             "source/bespridannica/bychapter/section-25#^b0016"
           ],
           "adaptation": "Пересказ ремарки; выход обозначен движением.",
-          "at": 31.7,
+          "at": 52.8,
           "duration": 3.5
         },
         {
@@ -2002,8 +3763,19 @@
             "source/bespridannica/bychapter/section-26#^b0004"
           ],
           "adaptation": "Реплика сохранена; середина сокращена.",
-          "at": 35.8,
+          "at": 56.9,
           "duration": 4.4
+        },
+        {
+          "id": "s6-13",
+          "speaker": "paratov",
+          "text": "Мы не спорим. Надо ему отдать справедливость: он действительно глуп.",
+          "sources": [
+            "source/bespridannica/bychapter/section-26#^b0005"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 61.9,
+          "duration": 4.1
         },
         {
           "id": "s6-14",
@@ -2013,7 +3785,7 @@
             "source/bespridannica/bychapter/section-26#^b0007"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 40.8,
+          "at": 66.6,
           "duration": 2.6
         },
         {
@@ -2024,7 +3796,7 @@
             "source/bespridannica/bychapter/section-26#^b0008"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 44.0,
+          "at": 69.8,
           "duration": 5.9
         },
         {
@@ -2035,8 +3807,19 @@
             "source/bespridannica/bychapter/section-28#^b0010"
           ],
           "adaptation": "Пересказ ремарки; пистолет уже висит на фоне кабинета.",
-          "at": 50.5,
+          "at": 76.3,
           "duration": 2.8
+        },
+        {
+          "id": "s6-16a",
+          "speaker": "karandyshev",
+          "text": "Ах, осторожнее, он заряжен.",
+          "sources": [
+            "source/bespridannica/bychapter/section-28#^b0012"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 79.7,
+          "duration": 2.6
         },
         {
           "id": "s6-17",
@@ -2047,7 +3830,7 @@
             "source/bespridannica/bychapter/section-28#^b0013"
           ],
           "adaptation": "Реплика сокращена; ключевое пророчество сохранено.",
-          "at": 53.9,
+          "at": 82.9,
           "duration": 4.7
         },
         {
@@ -2058,7 +3841,7 @@
             "source/bespridannica/bychapter/section-28#^b0014"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 59.2,
+          "at": 88.2,
           "duration": 3.3
         },
         {
@@ -2069,7 +3852,7 @@
             "source/bespridannica/bychapter/section-28#^b0016"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 63.1,
+          "at": 92.1,
           "duration": 4.3
         },
         {
@@ -2080,7 +3863,7 @@
             "source/bespridannica/bychapter/section-33#^b0020"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 68.0,
+          "at": 97.0,
           "duration": 7.6
         },
         {
@@ -2090,9 +3873,31 @@
           "sources": [
             "source/bespridannica/bychapter/section-33#^b0029"
           ],
-          "adaptation": "Реплика сохранена; предыдущий спор сокращен.",
-          "at": 76.2,
+          "adaptation": "Реплика сохранена.",
+          "at": 105.2,
           "duration": 3.2
+        },
+        {
+          "id": "s6-21a",
+          "speaker": "harita",
+          "text": "Что вы! Запрещайте тогда, когда будете иметь право, а теперь еще погодите запрещать, рано.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0030"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 109.0,
+          "duration": 4.9
+        },
+        {
+          "id": "s6-21b",
+          "speaker": "karandyshev",
+          "text": "Нет, нет! Я положительно запрещаю.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0031"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 114.5,
+          "duration": 2.9
         },
         {
           "id": "s6-22",
@@ -2102,7 +3907,7 @@
             "source/bespridannica/bychapter/section-33#^b0032"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 80.0,
+          "at": 118.0,
           "duration": 3.1
         },
         {
@@ -2116,7 +3921,7 @@
             "source/bespridannica/bychapter/section-33#^b0041"
           ],
           "adaptation": "Первая строфа романса; строки соединены в одну реплику.",
-          "at": 83.7,
+          "at": 121.7,
           "duration": 5.3
         },
         {
@@ -2130,8 +3935,19 @@
             "source/bespridannica/bychapter/section-33#^b0046"
           ],
           "adaptation": "Вторая строфа романса; строки соединены в одну реплику.",
-          "at": 89.6,
+          "at": 127.6,
           "duration": 5.2
+        },
+        {
+          "id": "s6-25",
+          "speaker": "knurov",
+          "text": "Велико наслаждение видеть вас, а еще больше наслаждения слушать вас.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0048"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 133.4,
+          "duration": 4.1
         },
         {
           "id": "s6-26",
@@ -2141,8 +3957,107 @@
             "source/bespridannica/bychapter/section-33#^b0049"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 95.4,
+          "at": 138.1,
           "duration": 2.6
+        },
+        {
+          "id": "s6-25a",
+          "speaker": "vozhevatov",
+          "text": "Послушать да и умереть – вот оно что! … А вы хотели лишить нас этого удовольствия.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0050"
+          ],
+          "adaptation": "Реплика сохранена; ремарка-обращение снята.",
+          "at": 141.3,
+          "duration": 4.6
+        },
+        {
+          "id": "s6-25b",
+          "speaker": "karandyshev",
+          "text": "Я, господа, не меньше вашего восхищаюсь пением Ларисы Дмитриевны. Мы сейчас выпьем шампанского за ее здоровье.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0051"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 146.5,
+          "duration": 5.6
+        },
+        {
+          "id": "s6-25c",
+          "speaker": "vozhevatov",
+          "text": "Умную речь приятно и слышать.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0052"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 152.7,
+          "duration": 2.7
+        },
+        {
+          "id": "s6-26a",
+          "speaker": "karandyshev",
+          "text": "Подайте шампанского!",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0053"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 156.0,
+          "duration": 2.5
+        },
+        {
+          "id": "s6-26b",
+          "speaker": "harita",
+          "text": "Потише! Что вы кричите!",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0054"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 159.1,
+          "duration": 2.5
+        },
+        {
+          "id": "s6-26c",
+          "speaker": "karandyshev",
+          "text": "Помилуйте, я у себя дома. Я знаю, что делаю. … Подайте шампанского!",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0055"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 162.2,
+          "duration": 4.0
+        },
+        {
+          "id": "s6-26d",
+          "speaker": "evfrosinya",
+          "text": "Какого тебе еще шампанского? Поминутно то того, то другого.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0057"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 166.8,
+          "duration": 3.8
+        },
+        {
+          "id": "s6-26e",
+          "speaker": "karandyshev",
+          "text": "Не мешайтесь не в свое дело! Исполняйте, что вам приказывают!",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0058"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 171.2,
+          "duration": 3.8
+        },
+        {
+          "id": "s6-26f",
+          "speaker": "evfrosinya",
+          "text": "Так поди сам! А уж я ноги отходила; я еще, может быть, не евши с утра.",
+          "sources": [
+            "source/bespridannica/bychapter/section-33#^b0059"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 175.6,
+          "duration": 4.1
         },
         {
           "id": "s6-27",
@@ -2152,7 +4067,7 @@
             "source/bespridannica/bychapter/section-35#^b0003"
           ],
           "adaptation": "Начало тоста; середина сокращена.",
-          "at": 98.6,
+          "at": 180.3,
           "duration": 6.2
         },
         {
@@ -2163,8 +4078,41 @@
             "source/bespridannica/bychapter/section-35#^b0006"
           ],
           "adaptation": "Ключевая часть тоста; повторы сокращены.",
-          "at": 105.4,
+          "at": 187.1,
           "duration": 6.4
+        },
+        {
+          "id": "s6-28a",
+          "speaker": "karandyshev",
+          "text": "И выбрала…",
+          "sources": [
+            "source/bespridannica/bychapter/section-35#^b0008"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 194.1,
+          "duration": 2.5
+        },
+        {
+          "id": "s6-29",
+          "speaker": "paratov",
+          "text": "Браво, браво!",
+          "sources": [
+            "source/bespridannica/bychapter/section-35#^b0007"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 197.2,
+          "duration": 2.5
+        },
+        {
+          "id": "s6-29a",
+          "speaker": "paratov",
+          "text": "Вас! Браво! браво!",
+          "sources": [
+            "source/bespridannica/bychapter/section-35#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 200.3,
+          "duration": 2.5
         },
         {
           "id": "s6-30",
@@ -2174,7 +4122,7 @@
             "source/bespridannica/bychapter/section-35#^b0011"
           ],
           "adaptation": "Тост сокращен; публичное торжество сохранено.",
-          "at": 112.4,
+          "at": 203.4,
           "duration": 7.5
         },
         {
@@ -2185,8 +4133,19 @@
             "source/bespridannica/bychapter/section-35#^b0017"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 120.5,
+          "at": 211.5,
           "duration": 4.1
+        },
+        {
+          "id": "s6-32",
+          "speaker": "narrator",
+          "text": "Подают шампанское.",
+          "sources": [
+            "source/bespridannica/bychapter/section-35#^b0002"
+          ],
+          "adaptation": "Пересказ ремарки; бокалы обозначены жестом.",
+          "at": 216.2,
+          "duration": 2.5
         },
         {
           "id": "s6-33",
@@ -2196,7 +4155,7 @@
             "source/bespridannica/bychapter/section-35#^b0034"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 125.2,
+          "at": 219.3,
           "duration": 2.5
         },
         {
@@ -2207,7 +4166,7 @@
             "source/bespridannica/bychapter/section-35#^b0035"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 128.3,
+          "at": 222.4,
           "duration": 2.5
         },
         {
@@ -2218,8 +4177,19 @@
             "source/bespridannica/bychapter/section-35#^b0036"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 131.4,
+          "at": 225.5,
           "duration": 3.4
+        },
+        {
+          "id": "s6-36",
+          "speaker": "harita",
+          "text": "Бог с тобой! Что ты!",
+          "sources": [
+            "source/bespridannica/bychapter/section-35#^b0037"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 229.5,
+          "duration": 2.5
         },
         {
           "id": "s6-37",
@@ -2229,11 +4199,11 @@
             "source/bespridannica/bychapter/section-35#^b0038"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 135.4,
+          "at": 232.6,
           "duration": 2.8
         }
       ],
-      "duration": 141.1
+      "duration": 238.2
     },
     {
       "id": "funny-man",
@@ -2247,21 +4217,43 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.38,
+              "at": 0.0,
+              "x": 0.32,
               "y": 0.94,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 34.5,
+              "at": 39.1,
+              "x": 0.44
+            },
+            {
+              "at": 57.1,
+              "x": 0.52
+            },
+            {
+              "at": 57.2,
               "asset": "karandyshev-sad"
             },
             {
-              "at": 63.6,
+              "at": 89.3,
+              "x": 0.6
+            },
+            {
+              "at": 89.4,
               "asset": "karandyshev-angry"
+            },
+            {
+              "at": 113.7,
+              "x": -0.18
             }
           ],
-          "gestures": []
+          "gestures": [
+            {
+              "kind": "tangle",
+              "at": 57.4,
+              "duration": 2.4
+            }
+          ]
         },
         {
           "id": "harita",
@@ -2270,10 +4262,59 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.68,
+              "at": 0.0,
+              "x": 1.18,
               "y": 0.94,
               "asset": "harita-neutral"
+            },
+            {
+              "at": 38.7,
+              "x": 1.18
+            },
+            {
+              "at": 40.5,
+              "x": 0.74
+            },
+            {
+              "at": 43.6,
+              "x": 0.66
+            },
+            {
+              "at": 89.3,
+              "x": 0.74
+            }
+          ],
+          "gestures": [
+            {
+              "kind": "recoil",
+              "at": 89.5,
+              "duration": 1.2
+            }
+          ]
+        },
+        {
+          "id": "evfrosinya",
+          "asset": "evfrosinya-neutral",
+          "height": 316,
+          "z": 2,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": 1.18,
+              "y": 0.94,
+              "asset": "evfrosinya-neutral"
+            },
+            {
+              "at": 6.6,
+              "x": 1.18
+            },
+            {
+              "at": 8.4,
+              "x": 0.76
+            },
+            {
+              "at": 53.9,
+              "x": 0.82
             }
           ],
           "gestures": []
@@ -2285,10 +4326,14 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.88,
+              "at": 0.0,
+              "x": 0.92,
               "y": 0.94,
               "asset": "ivan-neutral"
+            },
+            {
+              "at": 22.9,
+              "x": 0.88
             }
           ],
           "gestures": []
@@ -2307,6 +4352,28 @@
           "duration": 3.4
         },
         {
+          "id": "s7-01a",
+          "speaker": "evfrosinya",
+          "text": "Никакой у меня твоей Ларисы Дмитриевны нет.",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0003"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 7.0,
+          "duration": 3.2
+        },
+        {
+          "id": "s7-01b",
+          "speaker": "karandyshev",
+          "text": "Однако что ж это такое, в самом деле! Иван, куда девались все господа и Лариса Дмитриевна?",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0004"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 10.8,
+          "duration": 4.9
+        },
+        {
           "id": "s7-02",
           "speaker": "ivan",
           "text": "Лариса Дмитриевна, надо полагать, с господами вместе уехали… Потому как господа за Волгу сбирались, вроде как пикник у них.",
@@ -2314,8 +4381,19 @@
             "source/bespridannica/bychapter/section-36#^b0005"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 7.0,
+          "at": 16.3,
           "duration": 6.0
+        },
+        {
+          "id": "s7-03",
+          "speaker": "karandyshev",
+          "text": "Как за Волгу?",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 22.9,
+          "duration": 2.5
         },
         {
           "id": "s7-04",
@@ -2325,8 +4403,30 @@
             "source/bespridannica/bychapter/section-36#^b0007"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 13.6,
+          "at": 26.0,
           "duration": 5.5
+        },
+        {
+          "id": "s7-04a",
+          "speaker": "karandyshev",
+          "text": "Ах, что же это, что же это!",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0008"
+          ],
+          "adaptation": "Реплика сохранена; ремарка «садится» снята.",
+          "at": 32.1,
+          "duration": 2.6
+        },
+        {
+          "id": "s7-04b",
+          "speaker": "ivan",
+          "text": "И цыгане, и музыка с ними – все как следует.",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 35.3,
+          "duration": 3.2
         },
         {
           "id": "s7-05",
@@ -2336,7 +4436,7 @@
             "source/bespridannica/bychapter/section-36#^b0010"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 19.7,
+          "at": 39.1,
           "duration": 3.9
         },
         {
@@ -2347,7 +4447,7 @@
             "source/bespridannica/bychapter/section-36#^b0011"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 24.2,
+          "at": 43.6,
           "duration": 4.1
         },
         {
@@ -2358,8 +4458,19 @@
             "source/bespridannica/bychapter/section-36#^b0012"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 28.9,
+          "at": 48.3,
           "duration": 5.0
+        },
+        {
+          "id": "s7-08",
+          "speaker": "harita",
+          "text": "Рано было торжествовать-то!",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 53.9,
+          "duration": 2.6
         },
         {
           "id": "s7-09",
@@ -2369,8 +4480,11 @@
             "source/bespridannica/bychapter/section-36#^b0014"
           ],
           "adaptation": "Первая часть монолога.",
-          "at": 34.5,
-          "duration": 5.7
+          "at": 57.1,
+          "duration": 5.7,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-10-a",
@@ -2380,8 +4494,11 @@
             "source/bespridannica/bychapter/section-36#^b0014"
           ],
           "adaptation": "Вторая часть монолога; одна реплика разделена на две. Одна длинная реплика разделена на две для читаемости.",
-          "at": 40.8,
-          "duration": 6.5
+          "at": 63.4,
+          "duration": 6.5,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-10-b",
@@ -2391,19 +4508,25 @@
             "source/bespridannica/bychapter/section-36#^b0014"
           ],
           "adaptation": "Вторая часть монолога; одна реплика разделена на две. Одна длинная реплика разделена на две для читаемости.",
-          "at": 47.8,
-          "duration": 6.1
+          "at": 70.4,
+          "duration": 6.1,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-11",
-          "speaker": "harita",
+          "speaker": "evfrosinya",
           "text": "Да полно ты, перестань! Не о чем сокрушаться-то!",
           "sources": [
             "source/bespridannica/bychapter/section-36#^b0015"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 54.5,
-          "duration": 3.4
+          "at": 77.1,
+          "duration": 3.4,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-12",
@@ -2413,8 +4536,25 @@
             "source/bespridannica/bychapter/section-36#^b0016"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 58.5,
-          "duration": 4.5
+          "at": 81.1,
+          "duration": 4.5,
+          "closeup": [
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s7-13",
+          "speaker": "harita",
+          "text": "Я ничего не знаю.",
+          "sources": [
+            "source/bespridannica/bychapter/section-36#^b0017"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 86.2,
+          "duration": 2.5,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-14-a",
@@ -2424,8 +4564,11 @@
             "source/bespridannica/bychapter/section-36#^b0018"
           ],
           "adaptation": "Первая часть монолога; середина сокращена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 63.6,
-          "duration": 6.1
+          "at": 89.3,
+          "duration": 6.1,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-14-b",
@@ -2435,8 +4578,11 @@
             "source/bespridannica/bychapter/section-36#^b0018"
           ],
           "adaptation": "Первая часть монолога; середина сокращена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 70.2,
-          "duration": 5.6
+          "at": 95.9,
+          "duration": 5.6,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-15",
@@ -2446,8 +4592,11 @@
             "source/bespridannica/bychapter/section-36#^b0018"
           ],
           "adaptation": "Вторая часть монолога.",
-          "at": 76.4,
-          "duration": 7.5
+          "at": 102.1,
+          "duration": 7.5,
+          "closeup": [
+            "karandyshev"
+          ]
         },
         {
           "id": "s7-16",
@@ -2457,7 +4606,7 @@
             "source/bespridannica/bychapter/section-36#^b0018"
           ],
           "adaptation": "Пересказ ремарки; пистолет обозначен жестом.",
-          "at": 84.5,
+          "at": 110.2,
           "duration": 3.3
         },
         {
@@ -2468,7 +4617,7 @@
             "source/bespridannica/bychapter/section-36#^b0019"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 88.4,
+          "at": 114.1,
           "duration": 2.5
         },
         {
@@ -2479,7 +4628,7 @@
             "source/bespridannica/bychapter/section-36#^b0020"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 91.5,
+          "at": 117.2,
           "duration": 2.5
         },
         {
@@ -2490,11 +4639,22 @@
             "source/bespridannica/bychapter/section-36#^b0021"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 94.6,
+          "at": 120.3,
           "duration": 3.1
         }
       ],
-      "duration": 100.5
+      "duration": 126.2,
+      "closeups": [
+        {
+          "from": "s7-09",
+          "to": "s7-15",
+          "start": 57.1,
+          "end": 110.2,
+          "cast": [
+            "karandyshev"
+          ]
+        }
+      ]
     },
     {
       "id": "coin-toss",
@@ -2512,10 +4672,18 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.14,
+              "at": 0.0,
+              "x": 0.18,
               "y": 0.94,
               "asset": "knurov-neutral"
+            },
+            {
+              "at": 7.0,
+              "x": 0.22
+            },
+            {
+              "at": 41.3,
+              "x": 0.28
             }
           ],
           "gestures": []
@@ -2527,79 +4695,26 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
-              "x": 0.32,
+              "at": 0.0,
+              "x": 0.38,
               "y": 0.94,
               "asset": "vozhevatov-neutral"
-            }
-          ],
-          "gestures": []
-        },
-        {
-          "id": "paratov",
-          "asset": "paratov-neutral",
-          "height": 342,
-          "z": 3,
-          "keyframes": [
-            {
-              "at": 0,
-              "x": 1.18,
-              "y": 0.94,
-              "asset": "paratov-neutral"
             },
             {
-              "at": 29.2,
-              "x": 1.18
+              "at": 7.0,
+              "x": 0.42
             },
             {
-              "at": 31.0,
-              "x": 0.56
-            }
-          ],
-          "gestures": []
-        },
-        {
-          "id": "larisa",
-          "asset": "larisa-neutral",
-          "height": 320,
-          "z": 3,
-          "keyframes": [
-            {
-              "at": 0,
-              "x": 1.18,
-              "y": 0.94,
-              "asset": "larisa-neutral"
+              "at": 48.4,
+              "x": 0.48
             },
             {
-              "at": 29.2,
-              "x": 1.18
+              "at": 59.9,
+              "asset": "vozhevatov-neutral"
             },
             {
-              "at": 31.0,
-              "x": 0.74
-            },
-            {
-              "at": 31.2,
-              "asset": "larisa-sad"
-            },
-            {
-              "at": 151.4,
-              "asset": "larisa-sad"
-            }
-          ],
-          "gestures": []
-        },
-        {
-          "id": "robinson",
-          "asset": "robinson-neutral",
-          "height": 326,
-          "z": 2,
-          "keyframes": [
-            {
-              "at": 0,
-              "x": 0.92,
-              "y": 0.94,
-              "asset": "robinson-neutral"
+              "at": 64.6,
+              "asset": "vozhevatov-happy"
             }
           ],
           "gestures": []
@@ -2626,7 +4741,71 @@
           ],
           "adaptation": "Реплика сохранена.",
           "at": 7.0,
-          "duration": 2.6
+          "duration": 2.6,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-03",
+          "speaker": "vozhevatov",
+          "text": "Похоже.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0003"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 10.2,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-04",
+          "speaker": "knurov",
+          "text": "Я уж у Ларисы Дмитриевны слезки видел.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0004"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 13.3,
+          "duration": 3.0,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-05",
+          "speaker": "vozhevatov",
+          "text": "Да ведь у них дешевы.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0005"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 16.9,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-06",
+          "speaker": "knurov",
+          "text": "Как хотите, а положение ее незавидное.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 20.0,
+          "duration": 3.0,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
         },
         {
           "id": "s8-07",
@@ -2636,8 +4815,72 @@
             "source/bespridannica/bychapter/section-42#^b0010"
           ],
           "adaptation": "Реплика сокращена; вывод сохранен.",
-          "at": 10.2,
-          "duration": 7.3
+          "at": 23.6,
+          "duration": 7.3,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-08",
+          "speaker": "vozhevatov",
+          "text": "Мудреного нет; Сергей Сергеич ни над чем не задумается: человек смелый.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 31.5,
+          "duration": 4.2,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-09",
+          "speaker": "knurov",
+          "text": "Да ведь как ни смел, а миллионную невесту на Ларису Дмитриевну не променяет.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0014"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 36.3,
+          "duration": 4.4,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-10",
+          "speaker": "vozhevatov",
+          "text": "Еще бы! что за расчет!",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0015"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 41.3,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-11",
+          "speaker": "vozhevatov",
+          "text": "Что делать-то! мы не виноваты, наше дело сторона.",
+          "sources": [
+            "source/bespridannica/bychapter/section-42#^b0017"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 44.4,
+          "duration": 3.4,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
         },
         {
           "id": "s8-12",
@@ -2647,8 +4890,12 @@
             "source/bespridannica/bychapter/section-43#^b0037"
           ],
           "adaptation": "Реплика сохранена; монета обозначена жестом.",
-          "at": 18.1,
-          "duration": 3.0
+          "at": 48.4,
+          "duration": 3.0,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
         },
         {
           "id": "s8-13",
@@ -2658,8 +4905,12 @@
             "source/bespridannica/bychapter/section-43#^b0038"
           ],
           "adaptation": "Реплика сохранена; ремарка «в раздумье» снята.",
-          "at": 21.7,
-          "duration": 2.5
+          "at": 52.0,
+          "duration": 2.5,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
         },
         {
           "id": "s8-14",
@@ -2669,8 +4920,273 @@
             "source/bespridannica/bychapter/section-43#^b0039"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 24.8,
-          "duration": 4.2
+          "at": 55.1,
+          "duration": 4.2,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-15",
+          "speaker": "knurov",
+          "text": "Только, Василий Данилыч, давши слово, держись; а не давши, крепись! …",
+          "sources": [
+            "source/bespridannica/bychapter/section-43#^b0040"
+          ],
+          "adaptation": "Реплика сокращена; условие сделки сохранено.",
+          "at": 59.9,
+          "duration": 4.1,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        },
+        {
+          "id": "s8-16",
+          "speaker": "vozhevatov",
+          "text": "Вы меня обижаете. Я сам знаю, что такое купеческое слово. Ведь я с вами дело имею, а не с Робинзоном.",
+          "sources": [
+            "source/bespridannica/bychapter/section-43#^b0041"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 64.6,
+          "duration": 5.3,
+          "closeup": [
+            "knurov",
+            "vozhevatov"
+          ]
+        }
+      ],
+      "duration": 72.7,
+      "closeups": [
+        {
+          "from": "s8-02",
+          "to": "s8-16",
+          "start": 7.0,
+          "end": 72.7,
+          "cast": [
+            "knurov",
+            "vozhevatov"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "title": "Обручение",
+      "background": "boulevard-evening",
+      "actors": [
+        {
+          "id": "paratov",
+          "asset": "paratov-neutral",
+          "height": 342,
+          "z": 3,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": 1.18,
+              "y": 0.94,
+              "asset": "paratov-neutral"
+            },
+            {
+              "at": 2.6,
+              "x": 1.18
+            },
+            {
+              "at": 4.4,
+              "x": 0.58
+            },
+            {
+              "at": 13.3,
+              "x": 0.52
+            },
+            {
+              "at": 81.4,
+              "x": 0.58
+            },
+            {
+              "at": 151.5,
+              "x": 0.5
+            },
+            {
+              "at": 161.1,
+              "x": 1.18
+            }
+          ],
+          "gestures": [
+            {
+              "kind": "recoil",
+              "at": 139.3,
+              "duration": 1.2
+            }
+          ]
+        },
+        {
+          "id": "larisa",
+          "asset": "larisa-neutral",
+          "height": 320,
+          "z": 3,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": 1.18,
+              "y": 0.94,
+              "asset": "larisa-neutral"
+            },
+            {
+              "at": 2.6,
+              "x": 1.18
+            },
+            {
+              "at": 3.0,
+              "x": 0.7
+            },
+            {
+              "at": 3.1,
+              "asset": "larisa-sad"
+            },
+            {
+              "at": 4.4,
+              "x": 0.76
+            },
+            {
+              "at": 72.1,
+              "x": 0.64
+            },
+            {
+              "at": 132.0,
+              "asset": "larisa-surprised"
+            },
+            {
+              "at": 151.5,
+              "x": 0.58
+            },
+            {
+              "at": 174.2,
+              "asset": "larisa-surprised"
+            },
+            {
+              "at": 188.0,
+              "asset": "larisa-sad"
+            }
+          ],
+          "gestures": [
+            {
+              "kind": "recoil",
+              "at": 129.1,
+              "duration": 1.4
+            }
+          ]
+        },
+        {
+          "id": "knurov",
+          "asset": "knurov-neutral",
+          "height": 338,
+          "z": 2,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": -0.18,
+              "y": 0.94,
+              "asset": "knurov-neutral"
+            },
+            {
+              "at": 156.8,
+              "x": -0.18
+            },
+            {
+              "at": 158.6,
+              "x": 0.12
+            },
+            {
+              "at": 200.5,
+              "x": 0.2
+            }
+          ],
+          "gestures": []
+        },
+        {
+          "id": "vozhevatov",
+          "asset": "vozhevatov-neutral",
+          "height": 328,
+          "z": 2,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": -0.18,
+              "y": 0.94,
+              "asset": "vozhevatov-neutral"
+            },
+            {
+              "at": 156.8,
+              "x": -0.18
+            },
+            {
+              "at": 158.6,
+              "x": 0.3
+            },
+            {
+              "at": 161.5,
+              "x": 0.36
+            }
+          ],
+          "gestures": []
+        },
+        {
+          "id": "robinson",
+          "asset": "robinson-neutral",
+          "height": 326,
+          "z": 2,
+          "keyframes": [
+            {
+              "at": 0.0,
+              "x": 1.18,
+              "y": 0.94,
+              "asset": "robinson-neutral"
+            },
+            {
+              "at": 156.8,
+              "x": 1.18
+            },
+            {
+              "at": 158.6,
+              "x": 0.9
+            }
+          ],
+          "gestures": []
+        }
+      ],
+      "cues": [
+        {
+          "id": "s8-18",
+          "speaker": "larisa",
+          "text": "Ах, как я устала. Я теряю силы, я насилу взошла на гору.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0002"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 3.0,
+          "duration": 3.6,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-19",
+          "speaker": "paratov",
+          "text": "Позвольте теперь поблагодарить вас за удовольствие – нет, этого мало, – за счастие, которое вы нам доставили.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0011"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 7.2,
+          "duration": 5.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-20",
@@ -2680,8 +5196,27 @@
             "source/bespridannica/bychapter/section-44#^b0012"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 29.6,
-          "duration": 5.2
+          "at": 13.3,
+          "duration": 5.2,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-21",
+          "speaker": "paratov",
+          "text": "Прежде всего, Лариса Дмитриевна, вам нужно ехать домой. Поговорить обстоятельно мы еще успеем завтра.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 19.1,
+          "duration": 5.3,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-22",
@@ -2691,8 +5226,12 @@
             "source/bespridannica/bychapter/section-44#^b0014"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 35.4,
-          "duration": 2.5
+          "at": 25.0,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-23",
@@ -2702,8 +5241,27 @@
             "source/bespridannica/bychapter/section-44#^b0020"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 38.5,
-          "duration": 8.8
+          "at": 28.1,
+          "duration": 8.8,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-24",
+          "speaker": "paratov",
+          "text": "Какая экзальтация! Вам можно жить и должно. Кто откажет вам в любви, в уважении! Да тот же ваш жених: он будет радехонек, если вы опять его приласкаете.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0021"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 37.5,
+          "duration": 7.1,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-25-a",
@@ -2713,8 +5271,12 @@
             "source/bespridannica/bychapter/section-44#^b0022"
           ],
           "adaptation": "Реплика сохранена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 47.9,
-          "duration": 7.6
+          "at": 45.2,
+          "duration": 7.6,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-25-b",
@@ -2724,8 +5286,12 @@
             "source/bespridannica/bychapter/section-44#^b0022"
           ],
           "adaptation": "Реплика сохранена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 56.0,
-          "duration": 4.2
+          "at": 53.3,
+          "duration": 4.2,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-26-a",
@@ -2735,8 +5301,12 @@
             "source/bespridannica/bychapter/section-44#^b0024"
           ],
           "adaptation": "Реплика сокращена; сохранены год страдания и право на его слово. Одна длинная реплика разделена на две для читаемости.",
-          "at": 60.8,
-          "duration": 6.9
+          "at": 58.1,
+          "duration": 6.9,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-26-b",
@@ -2746,8 +5316,27 @@
             "source/bespridannica/bychapter/section-44#^b0024"
           ],
           "adaptation": "Реплика сокращена; сохранены год страдания и право на его слово. Одна длинная реплика разделена на две для читаемости.",
-          "at": 68.2,
-          "duration": 6.0
+          "at": 65.5,
+          "duration": 6.0,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-27",
+          "speaker": "larisa",
+          "text": "Нет, сегодня, сейчас.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0026"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 72.1,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-28",
@@ -2757,8 +5346,12 @@
             "source/bespridannica/bychapter/section-44#^b0027"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 74.8,
-          "duration": 2.5
+          "at": 75.2,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-29",
@@ -2768,8 +5361,12 @@
             "source/bespridannica/bychapter/section-44#^b0028"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 77.9,
-          "duration": 2.5
+          "at": 78.3,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-30",
@@ -2779,8 +5376,23 @@
             "source/bespridannica/bychapter/section-44#^b0030"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 81.0,
-          "duration": 4.4
+          "at": 81.4,
+          "duration": 4.4,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-31",
+          "speaker": "larisa",
+          "text": "Допускаю. Я сама способна увлечься.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0031"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 86.4,
+          "duration": 2.9
         },
         {
           "id": "s8-32",
@@ -2790,8 +5402,19 @@
             "source/bespridannica/bychapter/section-44#^b0032"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 86.0,
+          "at": 89.9,
           "duration": 9.3
+        },
+        {
+          "id": "s8-33",
+          "speaker": "larisa",
+          "text": "Ну, что же! И хорошо, что он забудет.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0033"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 99.8,
+          "duration": 3.0
         },
         {
           "id": "s8-34-a",
@@ -2801,7 +5424,7 @@
             "source/bespridannica/bychapter/section-44#^b0034"
           ],
           "adaptation": "Реплика сохранена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 95.9,
+          "at": 103.4,
           "duration": 4.5
         },
         {
@@ -2812,7 +5435,7 @@
             "source/bespridannica/bychapter/section-44#^b0034"
           ],
           "adaptation": "Реплика сохранена. Одна длинная реплика разделена на две для читаемости.",
-          "at": 100.9,
+          "at": 108.4,
           "duration": 6.8
         },
         {
@@ -2823,7 +5446,7 @@
             "source/bespridannica/bychapter/section-44#^b0035"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 108.3,
+          "at": 115.8,
           "duration": 2.6
         },
         {
@@ -2834,7 +5457,7 @@
             "source/bespridannica/bychapter/section-44#^b0036"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 111.5,
+          "at": 119.0,
           "duration": 2.5
         },
         {
@@ -2845,7 +5468,7 @@
             "source/bespridannica/bychapter/section-44#^b0037"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 114.6,
+          "at": 122.1,
           "duration": 6.2
         },
         {
@@ -2856,8 +5479,27 @@
             "source/bespridannica/bychapter/section-44#^b0038"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 121.4,
-          "duration": 2.5
+          "at": 128.9,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-39",
+          "speaker": "larisa",
+          "text": "Ах!",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0039"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 132.0,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-40",
@@ -2867,8 +5509,12 @@
             "source/bespridannica/bychapter/section-44#^b0040"
           ],
           "adaptation": "Реплика сохранена; кольцо обозначено жестом.",
-          "at": 124.5,
-          "duration": 3.4
+          "at": 135.1,
+          "duration": 3.4,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-41",
@@ -2878,8 +5524,42 @@
             "source/bespridannica/bychapter/section-44#^b0041"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 128.5,
-          "duration": 3.0
+          "at": 139.1,
+          "duration": 3.0,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-41a",
+          "speaker": "paratov",
+          "text": "Разве я в состоянии был помнить что-нибудь! Я видел вас, и ничего более для меня не существовало.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0042"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 142.7,
+          "duration": 5.1,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-41b",
+          "speaker": "larisa",
+          "text": "Поглядите на меня!",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0043"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 148.4,
+          "duration": 2.5,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
         },
         {
           "id": "s8-42",
@@ -2889,8 +5569,23 @@
             "source/bespridannica/bychapter/section-44#^b0045"
           ],
           "adaptation": "Реплика сохранена; истерический смех обозначен жестом.",
-          "at": 132.1,
-          "duration": 5.1
+          "at": 151.5,
+          "duration": 5.1,
+          "closeup": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "id": "s8-43",
+          "speaker": "narrator",
+          "text": "Кнуров, Вожеватов и Робинзон выходят на крыльцо кофейной.",
+          "sources": [
+            "source/bespridannica/bychapter/section-44#^b0046"
+          ],
+          "adaptation": "Пересказ ремарки.",
+          "at": 157.2,
+          "duration": 3.7
         },
         {
           "id": "s8-44",
@@ -2900,8 +5595,19 @@
             "source/bespridannica/bychapter/section-45#^b0013"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 137.8,
+          "at": 161.5,
           "duration": 2.5
+        },
+        {
+          "id": "s8-45",
+          "speaker": "vozhevatov",
+          "text": "Лариса Дмитриевна, голубушка моя! Что делать-то? Ничего не поделаешь.",
+          "sources": [
+            "source/bespridannica/bychapter/section-45#^b0014"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 164.6,
+          "duration": 4.1
         },
         {
           "id": "s8-46",
@@ -2911,8 +5617,19 @@
             "source/bespridannica/bychapter/section-45#^b0015"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 140.9,
+          "at": 169.3,
           "duration": 4.3
+        },
+        {
+          "id": "s8-47",
+          "speaker": "vozhevatov",
+          "text": "Лариса Дмитриевна, уважаю я вас и рад бы… я ничего не могу. Верьте моему слову!",
+          "sources": [
+            "source/bespridannica/bychapter/section-45#^b0016"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 174.2,
+          "duration": 4.5
         },
         {
           "id": "s8-48",
@@ -2922,8 +5639,19 @@
             "source/bespridannica/bychapter/section-45#^b0017"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 145.8,
+          "at": 179.3,
           "duration": 5.0
+        },
+        {
+          "id": "s8-49",
+          "speaker": "vozhevatov",
+          "text": "Не могу, ничего не могу.",
+          "sources": [
+            "source/bespridannica/bychapter/section-45#^b0018"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 184.9,
+          "duration": 2.5
         },
         {
           "id": "s8-50",
@@ -2933,7 +5661,7 @@
             "source/bespridannica/bychapter/section-45#^b0019"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 151.4,
+          "at": 188.0,
           "duration": 2.5
         },
         {
@@ -2944,8 +5672,19 @@
             "source/bespridannica/bychapter/section-45#^b0020"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 154.5,
+          "at": 191.1,
           "duration": 2.6
+        },
+        {
+          "id": "s8-52",
+          "speaker": "larisa",
+          "text": "Какие?",
+          "sources": [
+            "source/bespridannica/bychapter/section-45#^b0021"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 194.3,
+          "duration": 2.5
         },
         {
           "id": "s8-53",
@@ -2955,7 +5694,7 @@
             "source/bespridannica/bychapter/section-45#^b0022"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 157.7,
+          "at": 197.4,
           "duration": 2.5
         },
         {
@@ -2966,7 +5705,7 @@
             "source/bespridannica/bychapter/section-45#^b0023"
           ],
           "adaptation": "Реплика сокращена; предложение сохранено.",
-          "at": 160.8,
+          "at": 200.5,
           "duration": 5.4
         },
         {
@@ -2977,7 +5716,7 @@
             "source/bespridannica/bychapter/section-45#^b0025"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 166.8,
+          "at": 206.5,
           "duration": 2.9
         },
         {
@@ -2988,7 +5727,7 @@
             "source/bespridannica/bychapter/section-45#^b0027"
           ],
           "adaptation": "Реплика сокращена; обещание содержания сохранено.",
-          "at": 170.3,
+          "at": 210.0,
           "duration": 8.3
         },
         {
@@ -2999,11 +5738,44 @@
             "source/bespridannica/bychapter/section-45#^b0029"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 179.2,
+          "at": 218.9,
           "duration": 4.1
+        },
+        {
+          "id": "s8-58",
+          "speaker": "knurov",
+          "text": "Вы расстроены, я не смею торопить вас ответом. Подумайте! … Для меня невозможного мало.",
+          "sources": [
+            "source/bespridannica/bychapter/section-45#^b0031"
+          ],
+          "adaptation": "Реплика сокращена; предложение остаться в силе сохранено.",
+          "at": 223.6,
+          "duration": 4.8
         }
       ],
-      "duration": 186.1
+      "duration": 231.2,
+      "closeups": [
+        {
+          "from": "s8-18",
+          "to": "s8-30",
+          "start": 3.0,
+          "end": 86.4,
+          "cast": [
+            "paratov",
+            "larisa"
+          ]
+        },
+        {
+          "from": "s8-38",
+          "to": "s8-42",
+          "start": 128.9,
+          "end": 157.2,
+          "cast": [
+            "paratov",
+            "larisa"
+          ]
+        }
+      ]
     },
     {
       "id": "thing",
@@ -3017,28 +5789,58 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 0.38,
               "y": 0.94,
               "asset": "larisa-neutral"
             },
             {
               "at": 6.4,
+              "x": 0.46
+            },
+            {
+              "at": 6.5,
               "asset": "larisa-sad"
             },
             {
-              "at": 127.1,
+              "at": 60.2,
+              "x": 0.54
+            },
+            {
+              "at": 113.8,
+              "asset": "larisa-angry"
+            },
+            {
+              "at": 126.7,
+              "x": 0.62
+            },
+            {
+              "at": 237.2,
               "asset": "larisa-surprised"
             },
             {
-              "at": 136.5,
+              "at": 246.6,
               "asset": "larisa-sad"
+            },
+            {
+              "at": 253.1,
+              "x": 0.52
             }
           ],
           "gestures": [
             {
               "kind": "recoil",
-              "at": 127.2,
+              "at": 74.1,
+              "duration": 1.2
+            },
+            {
+              "kind": "tangle",
+              "at": 114.0,
+              "duration": 2.2
+            },
+            {
+              "kind": "recoil",
+              "at": 237.3,
               "duration": 1.6
             }
           ]
@@ -3050,25 +5852,51 @@
           "z": 3,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "karandyshev-neutral"
             },
             {
-              "at": 26.6,
+              "at": 59.8,
               "x": 1.18
             },
             {
-              "at": 28.4,
+              "at": 60.2,
+              "x": 0.58
+            },
+            {
+              "at": 61.6,
               "x": 0.62
             },
             {
-              "at": 127.1,
+              "at": 91.3,
+              "asset": "karandyshev-angry"
+            },
+            {
+              "at": 107.6,
+              "x": 0.64
+            },
+            {
+              "at": 156.8,
+              "x": 0.56
+            },
+            {
+              "at": 233.9,
+              "x": 0.62
+            },
+            {
+              "at": 237.2,
               "asset": "karandyshev-surprised"
             }
           ],
-          "gestures": []
+          "gestures": [
+            {
+              "kind": "recoil",
+              "at": 234.1,
+              "duration": 1.6
+            }
+          ]
         },
         {
           "id": "paratov",
@@ -3077,18 +5905,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": -0.18,
               "y": 0.94,
               "asset": "paratov-neutral"
             },
             {
-              "at": 142.6,
+              "at": 252.7,
               "x": -0.18
             },
             {
-              "at": 144.4,
+              "at": 254.5,
               "x": 0.16
+            },
+            {
+              "at": 268.0,
+              "x": 0.34
             }
           ],
           "gestures": []
@@ -3100,18 +5932,22 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": -0.18,
               "y": 0.94,
               "asset": "knurov-neutral"
             },
             {
-              "at": 142.6,
+              "at": 252.7,
               "x": -0.18
             },
             {
-              "at": 144.4,
+              "at": 254.5,
               "x": 0.06
+            },
+            {
+              "at": 268.0,
+              "x": 0.22
             }
           ],
           "gestures": []
@@ -3123,18 +5959,26 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "vozhevatov-neutral"
             },
             {
-              "at": 142.6,
+              "at": 252.7,
               "x": 1.18
             },
             {
-              "at": 144.4,
+              "at": 254.5,
               "x": 0.86
+            },
+            {
+              "at": 257.4,
+              "x": 0.74
+            },
+            {
+              "at": 268.0,
+              "x": 0.66
             }
           ],
           "gestures": []
@@ -3146,17 +5990,29 @@
           "z": 2,
           "keyframes": [
             {
-              "at": 0,
+              "at": 0.0,
               "x": 1.18,
               "y": 0.94,
               "asset": "robinson-neutral"
             },
             {
-              "at": 142.6,
+              "at": 59.8,
               "x": 1.18
             },
             {
-              "at": 144.4,
+              "at": 61.6,
+              "x": 0.94
+            },
+            {
+              "at": 73.5,
+              "x": 1.18
+            },
+            {
+              "at": 252.7,
+              "x": 1.18
+            },
+            {
+              "at": 254.5,
               "x": 0.94
             }
           ],
@@ -3184,7 +6040,24 @@
           ],
           "adaptation": "Начало монолога; ремарки сняты.",
           "at": 6.4,
-          "duration": 6.2
+          "duration": 6.2,
+          "closeup": [
+            "larisa"
+          ]
+        },
+        {
+          "id": "s9-03",
+          "speaker": "larisa",
+          "text": "Вот хорошо бы броситься! Нет, зачем бросаться!.. Стоять у решетки и смотреть вниз, закружится голова и упадешь… Да, это лучше… в беспамятстве, ни боли… ничего не будешь чувствовать!",
+          "sources": [
+            "source/bespridannica/bychapter/section-46#^b0002"
+          ],
+          "adaptation": "Продолжение монолога; середина сокращена.",
+          "at": 13.2,
+          "duration": 8.1,
+          "closeup": [
+            "larisa"
+          ]
         },
         {
           "id": "s9-04",
@@ -3194,8 +6067,53 @@
             "source/bespridannica/bychapter/section-46#^b0002"
           ],
           "adaptation": "Продолжение монолога; ключевая фраза о жизни сохранена.",
-          "at": 13.2,
-          "duration": 7.8
+          "at": 21.9,
+          "duration": 7.8,
+          "closeup": [
+            "larisa"
+          ]
+        },
+        {
+          "id": "s9-05-a",
+          "speaker": "larisa",
+          "text": "А ведь есть люди, для которых это легко. Видно, уж тем совсем жить нельзя; их ничто не прельщает, им ничто не мило, ничего не жалко. Ах, что я!..",
+          "sources": [
+            "source/bespridannica/bychapter/section-46#^b0002"
+          ],
+          "adaptation": "Продолжение монолога; вопрос о решимости сохранен. Одна длинная реплика разделена на две для читаемости.",
+          "at": 30.3,
+          "duration": 6.8,
+          "closeup": [
+            "larisa"
+          ]
+        },
+        {
+          "id": "s9-05-b",
+          "speaker": "larisa",
+          "text": "Да ведь и мне ничто не мило, и мне жить нельзя, и мне жить незачем! Что ж я не решаюсь? Что меня держит над этой пропастью? Что мешает?",
+          "sources": [
+            "source/bespridannica/bychapter/section-46#^b0002"
+          ],
+          "adaptation": "Продолжение монолога; вопрос о решимости сохранен. Одна длинная реплика разделена на две для читаемости.",
+          "at": 37.6,
+          "duration": 6.5,
+          "closeup": [
+            "larisa"
+          ]
+        },
+        {
+          "id": "s9-06",
+          "speaker": "larisa",
+          "text": "Ах, нет, нет… Не Кнуров… роскошь, блеск… нет, нет… я далека от суеты… Разврат… ох, нет… Просто решимости не имею. Жалкая слабость: жить, хоть как-нибудь, да жить… когда нельзя жить и не нужно. Какая я жалкая, несчастная.",
+          "sources": [
+            "source/bespridannica/bychapter/section-46#^b0002"
+          ],
+          "adaptation": "Продолжение монолога; отказ от соблазнов и признание слабости.",
+          "at": 44.7,
+          "duration": 9.5,
+          "closeup": [
+            "larisa"
+          ]
         },
         {
           "id": "s9-07",
@@ -3205,8 +6123,11 @@
             "source/bespridannica/bychapter/section-46#^b0002"
           ],
           "adaptation": "Ключевая фраза монолога; выделена в отдельную реплику.",
-          "at": 21.6,
-          "duration": 4.8
+          "at": 54.8,
+          "duration": 4.8,
+          "closeup": [
+            "larisa"
+          ]
         },
         {
           "id": "s9-08",
@@ -3216,8 +6137,85 @@
             "source/bespridannica/bychapter/section-46#^b0003"
           ],
           "adaptation": "Пересказ ремарки; Робинзон остаётся за сценой, его реплики сокращены. Вход обозначен движением.",
-          "at": 27.0,
+          "at": 60.2,
           "duration": 2.5
+        },
+        {
+          "id": "s9-09",
+          "speaker": "karandyshev",
+          "text": "При нашем объяснении посторонних не должно быть; вы будете лишний. Оставьте нас!",
+          "sources": [
+            "source/bespridannica/bychapter/section-47#^b0008"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 63.3,
+          "duration": 4.5
+        },
+        {
+          "id": "s9-10",
+          "speaker": "robinson",
+          "text": "С величайшим удовольствием. Я скажу, что вам сдал Ларису Дмитриевну. Честь имею кланяться!",
+          "sources": [
+            "source/bespridannica/bychapter/section-47#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 68.4,
+          "duration": 4.9
+        },
+        {
+          "id": "s9-11",
+          "speaker": "larisa",
+          "text": "Как вы мне противны, кабы вы знали! Зачем вы здесь?",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0002"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 73.9,
+          "duration": 3.5
+        },
+        {
+          "id": "s9-12",
+          "speaker": "karandyshev",
+          "text": "Где же быть мне?",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0003"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 78.0,
+          "duration": 2.5
+        },
+        {
+          "id": "s9-13",
+          "speaker": "larisa",
+          "text": "Не знаю. Где хотите, только не там, где я.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0004"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 81.1,
+          "duration": 3.1
+        },
+        {
+          "id": "s9-14",
+          "speaker": "karandyshev",
+          "text": "Вы ошибаетесь, я всегда должен быть при вас, чтобы оберегать вас. И теперь я здесь, чтобы отмстить за ваше оскорбление.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0005"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 84.8,
+          "duration": 5.9
+        },
+        {
+          "id": "s9-15",
+          "speaker": "larisa",
+          "text": "Для меня самое тяжкое оскорбление – это ваше покровительство; ни от кого и никаких других оскорблений мне не было.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0006"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 91.3,
+          "duration": 5.7
         },
         {
           "id": "s9-16",
@@ -3227,7 +6225,7 @@
             "source/bespridannica/bychapter/section-48#^b0007"
           ],
           "adaptation": "Первая часть реплики; ключевое сравнение с вещью.",
-          "at": 30.1,
+          "at": 97.6,
           "duration": 9.4
         },
         {
@@ -3238,7 +6236,7 @@
             "source/bespridannica/bychapter/section-48#^b0007"
           ],
           "adaptation": "Вторая часть реплики.",
-          "at": 40.1,
+          "at": 107.6,
           "duration": 5.6
         },
         {
@@ -3249,8 +6247,27 @@
             "source/bespridannica/bychapter/section-48#^b0008"
           ],
           "adaptation": "Реплика сохранена; ключевое самоопределение.",
-          "at": 46.3,
-          "duration": 8.1
+          "at": 113.8,
+          "duration": 8.1,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-19",
+          "speaker": "karandyshev",
+          "text": "Оставить вас? Как я вас оставлю, на кого я вас оставлю?",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0009"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 122.5,
+          "duration": 3.6,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-20",
@@ -3260,8 +6277,12 @@
             "source/bespridannica/bychapter/section-48#^b0010"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 55.0,
-          "duration": 3.5
+          "at": 126.7,
+          "duration": 3.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-21",
@@ -3271,8 +6292,12 @@
             "source/bespridannica/bychapter/section-48#^b0011"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 59.1,
-          "duration": 2.5
+          "at": 130.8,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-22",
@@ -3282,8 +6307,27 @@
             "source/bespridannica/bychapter/section-48#^b0012"
           ],
           "adaptation": "В источнике «веши»; для сцены опечатка исправлена. Реплика сохранена.",
-          "at": 62.2,
-          "duration": 4.6
+          "at": 133.9,
+          "duration": 4.6,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-23",
+          "speaker": "karandyshev",
+          "text": "Что вы говорите! мог ли я ожидать от вас таких бесстыдных слов?",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0013"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 139.1,
+          "duration": 3.9,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-24",
@@ -3293,8 +6337,57 @@
             "source/bespridannica/bychapter/section-48#^b0014"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 67.4,
-          "duration": 6.3
+          "at": 143.6,
+          "duration": 6.3,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-25",
+          "speaker": "karandyshev",
+          "text": "Что вы, что вы, опомнитесь!",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0015"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 150.5,
+          "duration": 2.6,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-26",
+          "speaker": "larisa",
+          "text": "Ну, так я сама пойду.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0016"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 153.7,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-27",
+          "speaker": "karandyshev",
+          "text": "Лариса Дмитриевна! Остановитесь! Я вас прощаю, я все прощаю.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0017"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 156.8,
+          "duration": 3.8,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-28",
@@ -3304,8 +6397,19 @@
             "source/bespridannica/bychapter/section-48#^b0018"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 74.3,
+          "at": 161.2,
           "duration": 6.0
+        },
+        {
+          "id": "s9-29",
+          "speaker": "karandyshev",
+          "text": "Уедемте, уедемте сейчас из этого города, я на все согласен.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0019"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 167.8,
+          "duration": 3.8
         },
         {
           "id": "s9-30",
@@ -3315,8 +6419,19 @@
             "source/bespridannica/bychapter/section-48#^b0020"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 80.9,
+          "at": 172.2,
           "duration": 6.5
+        },
+        {
+          "id": "s9-30a",
+          "speaker": "karandyshev",
+          "text": "Ну, я вас умоляю, осчастливьте меня.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0021"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 179.3,
+          "duration": 2.9
         },
         {
           "id": "s9-31",
@@ -3326,8 +6441,30 @@
             "source/bespridannica/bychapter/section-48#^b0022"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 88.0,
+          "at": 182.8,
           "duration": 4.5
+        },
+        {
+          "id": "s9-32",
+          "speaker": "karandyshev",
+          "text": "Я готов на всякую жертву, готов терпеть всякое унижение для вас.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0023"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 187.9,
+          "duration": 3.9
+        },
+        {
+          "id": "s9-33",
+          "speaker": "larisa",
+          "text": "Подите, вы слишком мелки, слишком ничтожны для меня.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0024"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 192.4,
+          "duration": 3.5
         },
         {
           "id": "s9-34",
@@ -3337,7 +6474,7 @@
             "source/bespridannica/bychapter/section-48#^b0025"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 93.1,
+          "at": 196.5,
           "duration": 3.9
         },
         {
@@ -3348,7 +6485,7 @@
             "source/bespridannica/bychapter/section-48#^b0026"
           ],
           "adaptation": "Первая часть монолога; ключевая тема любви. Одна длинная реплика разделена на две для читаемости.",
-          "at": 97.6,
+          "at": 201.0,
           "duration": 4.4
         },
         {
@@ -3359,7 +6496,7 @@
             "source/bespridannica/bychapter/section-48#^b0026"
           ],
           "adaptation": "Первая часть монолога; ключевая тема любви. Одна длинная реплика разделена на две для читаемости.",
-          "at": 102.5,
+          "at": 205.9,
           "duration": 6.9
         },
         {
@@ -3370,8 +6507,27 @@
             "source/bespridannica/bychapter/section-48#^b0026"
           ],
           "adaptation": "Вторая часть монолога; решение искать золота.",
-          "at": 110.0,
-          "duration": 6.9
+          "at": 213.4,
+          "duration": 6.9,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-37",
+          "speaker": "karandyshev",
+          "text": "О, не раскайтесь! Вы должны быть моей.",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0027"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 220.9,
+          "duration": 3.0,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-38",
@@ -3381,8 +6537,27 @@
             "source/bespridannica/bychapter/section-48#^b0028"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 117.5,
-          "duration": 2.6
+          "at": 224.5,
+          "duration": 2.6,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "id": "s9-39a",
+          "speaker": "karandyshev",
+          "text": "Не моей?",
+          "sources": [
+            "source/bespridannica/bychapter/section-48#^b0029"
+          ],
+          "adaptation": "Реплика сохранена.",
+          "at": 227.7,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-39b",
@@ -3392,8 +6567,12 @@
             "source/bespridannica/bychapter/section-48#^b0030"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 120.7,
-          "duration": 2.5
+          "at": 230.8,
+          "duration": 2.5,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-39c",
@@ -3403,8 +6582,12 @@
             "source/bespridannica/bychapter/section-48#^b0031"
           ],
           "adaptation": "Реплика сохранена; выстрел обозначен жестом.",
-          "at": 123.8,
-          "duration": 2.7
+          "at": 233.9,
+          "duration": 2.7,
+          "closeup": [
+            "larisa",
+            "karandyshev"
+          ]
         },
         {
           "id": "s9-39d",
@@ -3414,7 +6597,7 @@
             "source/bespridannica/bychapter/section-48#^b0031"
           ],
           "adaptation": "Ремарка; звук заменен знаком и жестом.",
-          "at": 127.1,
+          "at": 237.2,
           "duration": 2.5
         },
         {
@@ -3425,7 +6608,7 @@
             "source/bespridannica/bychapter/section-48#^b0032"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 130.2,
+          "at": 240.3,
           "duration": 2.5
         },
         {
@@ -3436,7 +6619,7 @@
             "source/bespridannica/bychapter/section-48#^b0033"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 133.3,
+          "at": 243.4,
           "duration": 2.6
         },
         {
@@ -3447,7 +6630,7 @@
             "source/bespridannica/bychapter/section-48#^b0034"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 136.5,
+          "at": 246.6,
           "duration": 5.9
         },
         {
@@ -3458,8 +6641,19 @@
             "source/bespridannica/bychapter/section-48#^b0035"
           ],
           "adaptation": "Пересказ ремарки; Гаврило и Иван остаются за сценой, выход группы обозначен движением.",
-          "at": 143.0,
+          "at": 253.1,
           "duration": 3.7
+        },
+        {
+          "id": "s9-44",
+          "speaker": "narrator",
+          "text": "Все: что такое, что такое?",
+          "sources": [
+            "source/bespridannica/bychapter/section-49#^b0002"
+          ],
+          "adaptation": "Общая реплика; в сцене участвуют вышедшие из кофейной.",
+          "at": 257.4,
+          "duration": 2.6
         },
         {
           "id": "s9-45",
@@ -3469,7 +6663,7 @@
             "source/bespridannica/bychapter/section-49#^b0003"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 147.3,
+          "at": 260.6,
           "duration": 3.4
         },
         {
@@ -3480,7 +6674,7 @@
             "source/bespridannica/bychapter/section-49#^b0004"
           ],
           "adaptation": "Пересказ ремарки; хор остается за сценой, без звука.",
-          "at": 151.3,
+          "at": 264.6,
           "duration": 2.8
         },
         {
@@ -3491,7 +6685,7 @@
             "source/bespridannica/bychapter/section-49#^b0005"
           ],
           "adaptation": "Реплика сохранена.",
-          "at": 154.7,
+          "at": 268.0,
           "duration": 2.9
         },
         {
@@ -3502,7 +6696,7 @@
             "source/bespridannica/bychapter/section-49#^b0006"
           ],
           "adaptation": "Первая часть последней реплики.",
-          "at": 158.2,
+          "at": 271.5,
           "duration": 6.1
         },
         {
@@ -3513,7 +6707,7 @@
             "source/bespridannica/bychapter/section-49#^b0006"
           ],
           "adaptation": "Вторая часть последней реплики; прощание сохранено.",
-          "at": 164.9,
+          "at": 278.2,
           "duration": 5.0
         },
         {
@@ -3524,11 +6718,42 @@
             "source/bespridannica/bychapter/section-49#^b0007"
           ],
           "adaptation": "Пересказ ремарки; финальный хор обозначен надписью.",
-          "at": 170.5,
+          "at": 283.8,
           "duration": 2.5
         }
       ],
-      "duration": 175.8
+      "duration": 289.1,
+      "closeups": [
+        {
+          "from": "s9-02",
+          "to": "s9-07",
+          "start": 6.4,
+          "end": 60.2,
+          "cast": [
+            "larisa"
+          ]
+        },
+        {
+          "from": "s9-18",
+          "to": "s9-27",
+          "start": 113.8,
+          "end": 161.2,
+          "cast": [
+            "larisa",
+            "karandyshev"
+          ]
+        },
+        {
+          "from": "s9-36",
+          "to": "s9-39d",
+          "start": 213.4,
+          "end": 240.3,
+          "cast": [
+            "larisa",
+            "karandyshev"
+          ]
+        }
+      ]
     }
   ]
 }

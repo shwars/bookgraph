@@ -12,41 +12,14 @@ PROJECT = HERE.parent
 sys.path.insert(0, str(HERE))
 
 from script_common import CHARACTERS, HEIGHTS  # noqa: E402
-import scenes_a, scenes_d, scenes_e, scenes_f, scenes_g, scenes_h, scenes_i  # noqa: E402
+import scenes_a, scenes_d, scenes_e, scenes_f, scenes_g, scenes_h_split, scenes_i  # noqa: E402
 
 RAW_SCENES = scenes_a.SCENES + [
     scenes_d.SCENE, scenes_e.SCENE, scenes_f.SCENE,
-    scenes_g.SCENE, scenes_h.SCENE, scenes_i.SCENE,
+    scenes_g.SCENE, *scenes_h_split.SCENES, scenes_i.SCENE,
 ]
 
-DROPS = {
-    "boulevard-morning": {"s1-07", "s1-11", "s1-15"},
-    "arrival": {"s2-02", "s2-03", "s2-08", "s2-09"},
-    "ideal": {"s3-02", "s3-03", "s3-08", "s3-18", "s3-21"},
-    "efir": {"s4-03", "s4-09"},
-    "half-million": {
-        "s5-03", "s5-04", "s5-05", "s5-07", "s5-11", "s5-12",
-        "s5-14", "s5-15", "s5-19", "s5-20", "s5-21", "s5-22",
-        "s5-26", "s5-27", "s5-28", "s5-29", "s5-32", "s5-34", "s5-36",
-        "s5-43", "s5-46", "s5-53", "s5-54", "s5-55",
-        "s5-57", "s5-58", "s5-60", "s5-61", "s5-65", "s5-66", "s5-67", "s5-68",
-        "s5-69", "s5-71",
-    },
-    "dinner": {"s6-04", "s6-05", "s6-07", "s6-13", "s6-25", "s6-29", "s6-32", "s6-36"},
-    "funny-man": {"s7-03", "s7-08", "s7-13"},
-    "coin-toss": {
-        "s8-03", "s8-04", "s8-05", "s8-06", "s8-08", "s8-09", "s8-10", "s8-11",
-        "s8-15", "s8-16", "s8-17", "s8-18", "s8-19", "s8-21", "s8-24", "s8-27",
-        "s8-31", "s8-33", "s8-39", "s8-43", "s8-45", "s8-47", "s8-49",
-        "s8-52", "s8-58",
-    },
-    "thing": {
-        "s9-03", "s9-05", "s9-06", "s9-09", "s9-10", "s9-11", "s9-12", "s9-13",
-        "s9-14", "s9-15", "s9-19", "s9-23", "s9-25", "s9-26", "s9-27", "s9-29",
-        "s9-32", "s9-33", "s9-37", "s9-39a", "s9-44",
-    },
-}
-
+DROPS = {}
 CPS = 28.0
 FIRST_CUE = 3.0
 TAIL = 2.8
@@ -117,29 +90,45 @@ def build_actors(scene: dict) -> list[dict]:
         aid = spec["id"]
         start_x = -0.18 if spec["x"] <= 0.5 else 1.18
         keyframes = []
+
+        def add(at: float, **values) -> None:
+            at = max(0.0, round(at, 1))
+            while any(abs(frame["at"] - at) < 0.05 for frame in keyframes):
+                at = round(at + 0.1, 1)
+            keyframes.append({"at": at, **values})
+
+        add(0, x=start_x if spec.get("enter_cue") else spec["x"],
+            y=spec["y"], asset=f"{aid}-{spec['pose']}")
         enter = None
-        if spec.get("enter_cue"):
+        if spec.get("enter_cue") and spec["enter_cue"] in by_id:
             enter = by_id[spec["enter_cue"]]["at"] - 0.4
-            keyframes.append({"at": 0, "x": start_x, "y": spec["y"],
-                              "asset": f"{aid}-{spec['pose']}"})
-            keyframes.append({"at": round(enter, 1), "x": start_x})
-            keyframes.append({"at": round(enter + 1.8, 1), "x": spec["x"]})
-        else:
-            keyframes.append({"at": 0, "x": spec["x"], "y": spec["y"],
-                              "asset": f"{aid}-{spec['pose']}"})
+            add(enter, x=start_x)
+            add(enter + 1.8, x=spec["x"])
+        if spec.get("exit_cue") and spec["exit_cue"] in by_id:
+            exit_cue = by_id[spec["exit_cue"]]
+            add(exit_cue["at"] + exit_cue["duration"] + 0.2, x=start_x)
+        if spec.get("reenter_cue") and spec["reenter_cue"] in by_id:
+            reenter = by_id[spec["reenter_cue"]]["at"] - 0.4
+            add(reenter, x=start_x)
+            add(reenter + 1.8, x=spec["x"])
+        for cue_id, offset, x_value, y_value in spec["moves"]:
+            if cue_id not in by_id:
+                continue
+            values = {"x": x_value}
+            if y_value is not None:
+                values["y"] = y_value
+            add(by_id[cue_id]["at"] + offset, **values)
         for cue_id, offset, emotion in spec["poses"]:
             if cue_id not in by_id:
                 continue
-            at = round(by_id[cue_id]["at"] + offset, 1)
-            if at <= keyframes[-1]["at"]:
-                at = round(keyframes[-1]["at"] + 0.2, 1)
-            keyframes.append({"at": at, "asset": f"{aid}-{emotion}"})
+            add(by_id[cue_id]["at"] + offset, asset=f"{aid}-{emotion}")
         gestures = []
         for kind, cue_id, offset, duration in spec["gestures"]:
             if cue_id not in by_id:
                 continue
             gestures.append({"kind": kind, "at": round(by_id[cue_id]["at"] + offset, 1),
                              "duration": duration})
+        keyframes.sort(key=lambda frame: frame["at"])
         out.append({
             "id": aid,
             "asset": f"{aid}-{spec['pose']}",
@@ -170,13 +159,76 @@ def main() -> None:
         raw["cues"], mapping = split_cues(raw["cues"])
         if mapping:
             for spec in raw["actors"]:
-                if spec.get("enter_cue") in mapping:
-                    spec["enter_cue"] = mapping[spec["enter_cue"]]
+                for key in ("enter_cue", "exit_cue", "reenter_cue"):
+                    if spec.get(key) in mapping:
+                        spec[key] = mapping[spec[key]]
                 spec["poses"] = [(mapping.get(cid, cid), off, emo)
                                  for cid, off, emo in spec["poses"]]
                 spec["gestures"] = [(kind, mapping.get(cid, cid), off, dur)
                                     for kind, cid, off, dur in spec["gestures"]]
+                spec["moves"] = [(mapping.get(cid, cid), off, xv, yv)
+                                 for cid, off, xv, yv in spec["moves"]]
         scenes.append(build_scene(raw))
+
+    # Close-up blocks are time ranges, not per-cue flags: a narrator line or a
+    # pause between cues must not drop the shot back to the wide stage.
+    closeups = {
+        "ideal": [
+            ("s3-01", "s3-09e", ["larisa", "karandyshev"]),
+            ("s3-17", "s3-20", ["larisa", "karandyshev"]),
+        ],
+        "efir": [
+            ("s4-01a", "s4-12", ["knurov", "harita"]),
+        ],
+        "half-million": [
+            ("s5-16", "s5-25", ["paratov", "larisa"]),
+            ("s5-31", "s5-42b", ["paratov", "larisa"]),
+        ],
+        "funny-man": [
+            ("s7-09", "s7-15", ["karandyshev"]),
+        ],
+        "coin-toss": [
+            ("s8-02", "s8-16", ["knurov", "vozhevatov"]),
+        ],
+        "engagement": [
+            ("s8-18", "s8-30", ["paratov", "larisa"]),
+            ("s8-38", "s8-42", ["paratov", "larisa"]),
+        ],
+        "thing": [
+            ("s9-02", "s9-07", ["larisa"]),
+            ("s9-18", "s9-27", ["larisa", "karandyshev"]),
+            ("s9-36", "s9-39d", ["larisa", "karandyshev"]),
+        ],
+    }
+    for scene in scenes:
+        specs = closeups.get(scene["id"], [])
+        ids = [cue["id"] for cue in scene["cues"]]
+        segments = []
+        for start, end, cast in specs:
+            if start not in ids or end not in ids:
+                continue
+            first, last = ids.index(start), ids.index(end)
+            start_at = scene["cues"][first]["at"]
+            if last + 1 < len(scene["cues"]):
+                end_at = scene["cues"][last + 1]["at"]
+            else:
+                end_at = scene["duration"]
+            segments.append({
+                "from": start,
+                "to": end,
+                "start": round(start_at, 2),
+                "end": round(end_at, 2),
+                "cast": list(cast),
+            })
+            for cue in scene["cues"][first:last + 1]:
+                if cue["speaker"] != "narrator":
+                    cue["closeup"] = list(cast)
+        if segments:
+            scene["closeups"] = segments
+
+    faces_path = HERE / "faces.json"
+    faces = json.loads(faces_path.read_text(encoding="utf-8")) if faces_path.is_file() else {}
+
     story = {
         "version": 1,
         "title": "Бесприданница",
@@ -190,13 +242,15 @@ def main() -> None:
                       "gold": "#bf9652", "curtain": "#6e2433"},
         },
         "characters": CHARACTERS,
+        "faces": faces,
         "adaptation_notes": [
-            "Сокращённая сценическая версия четырёх действий. Сохранены ключевые сюжетные и цитатные реплики; экспозиция, комические линии и часть монологов сокращены.",
-            "Текст героев взят из предоставленного издания. В длинных репликах сделаны купюры; они отмечены в поле adaptation у каждой реплики.",
+            "Сокращённая сценическая версия четырёх действий. Диалоги сохранены целыми обменами: если оставлен вопрос, оставлен и ответ; комические и фоновые линии сокращены целыми блоками.",
+            "Текст героев взят из предоставленного издания. В длинных монологах сделаны купюры; они отмечены в поле adaptation у каждой реплики.",
             "Связки рассказчика пересказывают ремарки и места действия. Новых фактов они не добавляют; источники указаны у каждой связки.",
             "Визуальный стиль — акварель по фильму «Жестокий романс» (1984). Это художественное оформление, а не каноническое описание внешности.",
             "Ключевые предметы — монета, кольцо, пистолет — не выносятся отдельными куклами: на них указывают жестом и словом. Выстрел обозначен ремаркой и жестом.",
             "Спектакль идёт без звука. Цыганский хор в финале обозначен ремаркой; пушечный выстрел и выстрел Карандышева — сценическими знаками.",
+            "Важные диалоги идут в портретном режиме: крупные лица говорящего и слушающего, полные фигурки приглушены. Портреты — те же акварельные образы, не новые факты.",
             "Источники: source/bespridannica/bychapter/section-XX#^bYYYY. Полная таблица сцен и купюр — в coverage.md; издание и хеш — в README.md.",
         ],
         "scenes": scenes,

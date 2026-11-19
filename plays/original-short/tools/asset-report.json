@@ -1,6 +1,7 @@
 {
-  "characters": 10,
-  "sprites": 40,
+  "characters": 11,
+  "sprites": 41,
   "backgrounds": 4,
-  "assets": 44
+  "assets": 45,
+  "faces": 41
 }
